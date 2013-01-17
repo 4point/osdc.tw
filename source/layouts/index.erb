@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+        <title><%= data.page.title || "OSDC 2013" %></title>
+        <%= stylesheet_link_tag "normalize", "all", "jquery.tweet", "jquery.fancybox" %>
+        <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' />
+        <%= javascript_include_tag  "all" %>
+    </head>
+    <body>
+        <div id="top-line"></div>
+
+        <!-- START MENU SECTION -->
+        <div id="menu-bar">
+            <!-- start center-block -->
+            <div class="center-block">
+                <div id="logo">
+                <div id="map_2012">
+                    <a href="#real_map" id="map_link" alt="Map" title="Map"><img id="btn_map" src="images/btn_map.png" alt="" /></a>
+                </div>
+                </div> <!-- logo -->
+            </div> <!-- end .center-block -->
+            <div class="clear"></div>
+        </div> <!-- end #menu-bar -->
+        <div class="clear"></div>   
+
+        <div style="display:none;">
+        <div id="real_map" style="width:910px;height:610px;overflow:auto;">
+            <iframe id="map_iframe" width="900" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src=""></iframe>
+        </div>
+        </div>
+
+        <!-- START CONTENT -->     
+        <div id="content">
+          <%= yield %>
+        </div> <!-- end #content -->
+
+    <div class="center-block">
+        <h4>贊助廠商列表：</h4>
+            <a target="_blank" href="http://tw.yahoo.com/"><img height="40" alt="" src="http://osdc.4point-inc.com/assets/img/sponsors/yahoo.png"></a>
+            <a target="_blank" href="http://www.pixnet.net/"><img height="40" alt="" src="http://osdc.4point-inc.com/assets/img/sponsors/pixnet.png"></a>
+    
+            <a target="_blank" href="http://www.etusolution.com"><img height="40" alt="" src="http://osdc.4point-inc.com/assets/img/sponsors/etu.png"></a>
+    
+            <a target="_blank" href="http://www.godgame.com.tw/"><img height="40" alt="" src="http://osdc.4point-inc.com/assets/img/sponsors/godgame.png"></a>
+            <a target="_blank" href="http://www.openfoundry.org/"><img height="40" alt="" src="http://osdc.4point-inc.com/assets/img/sponsors/ossf.png"></a>
+    
+        </div> <!-- end .center-block -->
+
+        <!-- START FOOTER -->    
+        <div id="footer">
+            <div class="center-block">
+                <!-- To Top Button -->
+                <div id="to-top" title="回頁首"></div>
+                <p style="color: #fff;font-size: 11px; text-align: right;">
+                    Copyright © 2013 OSDC.tw. Designed by <a target="_blank" href="http://4point-inc.com">四點設計</a>
+                     | 協辦：
+                     <a target="_blank" href="http://sitetag.us/">SiteTag</a>
+                </p>
+            </div> <!-- end .center-block -->
+        </div> <!-- end #footer -->  
+        <div id="footer-bottom-line"></div>
+    </body>
+</html>

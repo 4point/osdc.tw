@@ -1,10 +1,125 @@
 ---
-title: Welcome to Middleman
+title: OSDC 2013 | 首頁
 ---
 
-<div class="welcome">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+
+<!-- START .center-block -->
+<div class="center-block">
+
+  <!-- start services blocks -->	
+  <ul id="services">
+    <li class="design">
+      <div class="sup-head">
+        <a href="article-list.html"><h3>News</h3></a>
+      </div>	            	
+      <p>今年的 OSDC 日期是 <span style="color: red;">4/19 ~ 4/20</span> 兩天，地點是<span style="color: red;">中研院人社館</span>，請密切注意我們的消息！ </p>
+      <div class="sup-footer">
+        <a href="article-list.html" class="learn-more">瀏覽新聞</a>
+      </div>
+    </li>
+    <li class="development">
+      <div class="sup-head">            
+        <a><h3>Register</h3></a>
+      </div>	
+      <p>活動報名尚未開始，請留意我們的訊息公告！</p>
+      <div class="sup-footer">
+        <a class="learn-more">活動報名(尚未開始)</a>
+      </div>
+    </li>
+
+    <li class="strategy">
+      <div class="sup-head">            
+        <a><h3>Schedule</h3></a>
+      </div>	
+      <p>敬請期待！</p>
+      <div class="sup-footer">
+        <a class="learn-more">活動時程表</a>
+      </div>
+
+    </li>
+    <li class="support">
+      <div class="sup-head">            
+        <a href="sponsor.html"><h3>Sponsors</h3></a>
+      </div>	            	
+      <p>感謝這些贊助廠商，我們因為您的協助，而能把活動辦得更好！</p>
+      <div class="sup-footer">
+        <a href="sponsor.html" class="learn-more">贊助商</a>
+      </div>
+    </li>            
+  </ul> <!-- end #services -->             
+</div> <!-- end .center-block -->    
+
+<div class="clear"></div>    
+<div class="divider"></div>
+
+<div class="center-block">
+  <div class="rcbe-blocks">
+    <div id="rc-posts">
+      <h3 class="no-margin">最新文章</h3>
+      <span></span>
+      <ul id="rc-post-items">
+
+        <li class="single-item">
+          <div class="date">
+            <span class="number">03</span>
+            <div class="month">Nov</div>
+          </div>
+          <p>
+            <a href="calls-for-talks.html">OSDC.TW 2013 Calls for talks</a>
+          </p>
+          <div class="clear"></div>
+        </li> 
+        <li class="list-divider"></li>
+
+      </ul>
+    </div>
+  </div> <!-- end .rcbe-blocks -->
+
+    <div id="testimonial">
+        <h3 class="no-margin">聽聽看大家怎麼說</h3>
+        <span></span>      
+        <script type="text/javascript">
+        new TWTR.Widget({
+          version: 2,
+          type: 'search',
+          search: '#osdc.tw OR osdc.tw',
+          interval: 6000,
+          title: 'osdc.tw 2013',
+          subject: 'Open Source Developers\' Conference',
+          width: 400,
+          height: 220,
+          theme: {
+            shell: {
+              background: '#39414c',
+              color: '#ffffff'
+            },
+            tweets: {
+              background: '#ffffff',
+              color: '#444444',
+              links: '#1985b5'
+            }
+          },
+          features: {
+            scrollbar: false,
+            loop: true,
+            live: true,
+            hashtags: true,
+            timestamp: true,
+            avatars: true,
+            toptweets: true,
+            behavior: 'default'
+          }
+        }).render().start();
+        </script>
+    </div>
+    <div class="clear"></div>
+</div>   
+
+<div class="clear"></div>    
+
+<div class="center-block">
+  <div class="center-block">
+  </div> <!-- end .center-block -->
+</div>
+<div class="clear"></div>    
