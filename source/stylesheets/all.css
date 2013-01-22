@@ -50,14 +50,14 @@ body {
 */
 
 #logo {
-	background: url('../images/OSDC2012Banner.png') no-repeat left center;
+	background: url('../images/Banner.png') no-repeat left center;
 	float: left;
 	height: 325px;
 	width: 940px;
 }
 
 #logo2 {
-	background: url('../images/OSDC2012Banner2.png') no-repeat left center;
+	background: url('../images/logo.png') no-repeat left center;
 	float: left;
 	height: 177px;
 	width: 492px;
