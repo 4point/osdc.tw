@@ -2782,3 +2782,7 @@ fieldset {
     float: right;
     position:relative;
 }
+
+.sp_thanks img {
+    height: 48px;
+}
