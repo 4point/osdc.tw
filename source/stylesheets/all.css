@@ -71,7 +71,6 @@ body {
 
 .fix-fish-menu { 
 	position:relative; 
-	z-index: 10000; 
 }
 #menu-bar {
 	height:60px;
