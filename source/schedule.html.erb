@@ -154,7 +154,13 @@ Now he is a professor at Department of Business Administration and Information S
 His research interests are Compiler Construction, Domain Specific Languages, Object-Oriented Programming, Software Engineering and Open Source Software.
 </pre>
         </td>
-        <td>ETU</td>
+        <td>ETU | <a class="popup">韓祖棻</a>:<br />Hadoop Cluster HA 的經驗分享
+<pre style="display:none;width:600px;">
+Hadoop HA 是個熱門且重要的議題，目前有諸多設計是以 Namenode HA 為主軸，進而延伸至 Job Tracker 和 HMaster。然而，在實作 Hadoop Cluster HA 時，僅考量Namenode、Job Tracker、和 HMaster 仍然不夠嚴謹，在Production的環境，一個Hadoop Cluster 通常還會需要其他的非Hadoop Ecosystem的服務與之協同運作，如 PostgreSQL、Kerberos、Puppet、 NTP 等，這些服務皆需一併規劃與設計，在 HA 被觸發後，讓 Hadoop Cluster 仍可正確運作。本議程將會介紹 Apache Hadoop、Cloudera、和 Hortonworks 於 Hadoop HA 上的解決方案，以及最新發展，並分享第一手的 Etu Appliance HA 作法。
+
+韓祖棻   現任Etu 技術經理
+</pre>
+</td>
         <td><a class="popup">wycc</a>:<br />讓系統千變萬化的作業環境
 <pre style="display:none;width:600px;">
 對於越來越胖的 Linux 很無力嗎? 我只是要做一些宅宅的事，確要花數十秒才能啟動一個作業系統。過去十年所多人想要幫 Linux 減重，不過就像大家一樣，越減越重。打掉重練才是正途。不過重做一個 Linux 不但花工，而且很可能下場是一樣的。要減要連架構一起改變才有意義。
