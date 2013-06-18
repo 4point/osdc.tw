@@ -27,6 +27,11 @@ jQuery.noConflict() ($) ->
       $(el).siblings('pre').attr('id', "intro_#{i}")
 
     $('.popup').fancybox()
+    $('.fancybox-media').fancybox
+      openEffect: 'none'
+      closeEffect: 'none'
+      helpers: 
+        media: {}
 
 ###
 MAP
