@@ -2,8 +2,13 @@
 %html
 	%head
 		%meta{:charset => "utf-8"}
-		%title= current_page.data.title || "The Middleman"
-		= stylesheet_link_tag "normalize", "all"
+		%title= current_page.data.title + " &mdash; OSDC" || "OSDC"
+		= stylesheet_link_tag "http://fonts.googleapis.com/css?family=Ubuntu"
+		= stylesheet_link_tag "style"
 		= javascript_include_tag  "all"
 	%body{:class => page_classes}
-		= yield
+		= partial 'header'
+		%main#content
+			.wrapper
+				= yield
+		= partial 'footer'
