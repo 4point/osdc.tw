@@ -3,7 +3,7 @@
 ###
 
 activate :blog do |blog|
-	blog.sources = "news/{year}-{month}-{day}-{title}.html"
+	blog.prefix = "news"
 end
 
 ###
@@ -45,6 +45,8 @@ set :markdown, :layout_engine => :haml
 # with_layout :admin do
 #   page "/admin/*"
 # end
+
+page "news/*", :layout => :news
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {

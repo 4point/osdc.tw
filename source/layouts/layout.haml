@@ -10,11 +10,5 @@
 		= partial 'header'
 		%main#content
 			.wrapper
-				- if not current_article.nil?
-					%article.news
-						%time= current_article.date.strftime('%b %e')
-						%h2= current_article.title
-						%main= yield
-				- else
-					= yield
+				= yield
 		= partial 'footer'
