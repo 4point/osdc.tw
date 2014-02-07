@@ -3,12 +3,18 @@
 	%head
 		%meta{:charset => "utf-8"}
 		%title= current_page.data.title + " &mdash; OSDC" || "OSDC"
-		= stylesheet_link_tag "http://fonts.googleapis.com/css?family=Ubuntu"
+		= stylesheet_link_tag "http://fonts.googleapis.com/css?family=Ubuntu:400,700"
 		= stylesheet_link_tag "style"
 		= javascript_include_tag  "all"
 	%body{:class => page_classes}
 		= partial 'header'
 		%main#content
 			.wrapper
-				= yield
+				- if not current_article.nil?
+					%article.news
+						%time= current_article.date.strftime('%b %e')
+						%h2= current_article.title
+						%main= yield
+				- else
+					= yield
 		= partial 'footer'

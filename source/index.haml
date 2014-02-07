@@ -2,5 +2,13 @@
 title: Home
 ---
 
-.welcome
-	OSDC
+%section#news
+	%h2 News
+	- page_articles.each_with_index do |article, i|
+		%article.news
+			%time
+				= article.date.strftime('%b %e')
+			%h3.title
+				= link_to article.title, article
+			%main.content
+				= article.body

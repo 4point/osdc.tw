@@ -1,4 +1,12 @@
 ###
+# Blog
+###
+
+activate :blog do |blog|
+	blog.sources = "news/{year}-{month}-{day}-{title}.html"
+end
+
+###
 # Compass
 ###
 
@@ -9,9 +17,17 @@
 
 ###
 ## Haml
-####
+###
 
-set :haml, { :attr_wrapper => '"' }
+set :haml, { :attr_wrapper => '"', :format => :html5 }
+
+###
+## Markdown
+###
+
+#require 'kramdown'
+set :markdown_engine, :kramdown
+set :markdown, :layout_engine => :haml
 
 ###
 # Page options, layouts, aliases and proxies
@@ -60,7 +76,7 @@ set :images_dir, 'images'
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+   activate :minify_css
 
   # Minify Javascript on build
   # activate :minify_javascript
