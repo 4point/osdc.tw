@@ -1,6 +1,10 @@
 %footer#footer
 	.wrapper
-		%p &copy; 2014 OSDC.tw
+		%p 
+			&copy; 2014 OSDC.tw 
+			%span.maintainer
+				Designed by 
+				= link_to "四點設計", 'http://4point-inc.com/'
 		%ul.archive
 			- data.archive.years.each do |year|
 				%li.year

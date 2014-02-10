@@ -153,6 +153,16 @@ article p a {
 	.wrapper {
 		position: relative;
 	}
+	.maintainer {
+		&::before {
+			display: inline;
+			content: '‧';
+			color: #8e8e8e;
+		}
+		a {
+			text-decoration: underline;
+		}
+	}
 	.archive {
 		position: absolute;
 		right: 0;
