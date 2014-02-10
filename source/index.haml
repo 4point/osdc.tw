@@ -12,3 +12,11 @@ title: Home
 				= link_to article.title, article
 			%main.content
 				= article.body
+%section#twitter
+	%h2 Twitter
+	%a.twitter-timeline{:href => "https://twitter.com/search?q=%23osdc.tw", :data => {'widget-id' => "432792863965868032", 'tweet-limit' => 10, :chrome => "noheader nofooter transparent noscrollbar"}}
+		推文關於"#osdc.tw"
+	%script
+		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+
