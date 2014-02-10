@@ -12,4 +12,10 @@
 		%main#content
 			.wrapper
 				= yield
+			%section#sponsor.wrapper
+				%h2 Sponsors
+				%ul
+					- data.relation.sponsors.each do |link|
+						%li.sponsor
+							= link_to image_tag('sponsors/' + link.id + '.png', :alt => link.title), link.link
 		= partial 'footer'

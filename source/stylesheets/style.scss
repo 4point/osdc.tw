@@ -105,7 +105,7 @@ a {
 
 #content {
 	padding: 1em;
-	.wrapper {
+	.wrapper:first-child {
 		display: flex;
 	}
 	p {
@@ -154,6 +154,21 @@ article p a {
 #twitter {
 	width: 50%;
 	margin-top: -100px;
+}
+
+#sponsor {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		li {
+			display: inline-block;
+			margin: 0 .5em;
+			img {
+				vertical-align: top;
+			}
+		}
+	}
 }
 
 #footer {
