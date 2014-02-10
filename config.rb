@@ -46,6 +46,7 @@ set :markdown, :layout_engine => :haml
 #   page "/admin/*"
 # end
 
+page "/feed.xml", layout: false
 page "news/*", :layout => :news
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
