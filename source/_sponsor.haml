@@ -1,6 +1,6 @@
 - if data.relation.sponsors.select{|sponsor| sponsor.rank == rank}.length > 0
 	%section{:class => rank}
-		%h3 #{rank}
+		%h3 #{rank.capitalize}
 		%ul
 			- data.relation.sponsors.select{|sponsor| sponsor.rank == rank}.each do |link|
 				%li.sponsor
