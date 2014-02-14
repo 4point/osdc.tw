@@ -35,7 +35,7 @@ a {
 	a {
 		display: block;
 		height: 50px;
-		background-image: image-url('logo.svg');
+		background-image: inline-image('logo.svg');
 		text-indent: 100%;
 		overflow: hidden;
 	}
@@ -135,8 +135,6 @@ article p a {
 }
 
 #news {
-	width: 50%;
-	padding-right: 1em;
 	h2 img {
 		width: 1em;
 		height: 1em;
@@ -146,6 +144,11 @@ article p a {
 	h2:hover img {
 		opacity: 1;
 	}
+}
+
+section#news {
+	width: 50%;
+	padding-right: 1em;
 }
 
 .news {

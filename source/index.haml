@@ -7,13 +7,7 @@ title: Home
 		News
 		= link_to image_tag('feed-icon.svg'), '/feed.xml'
 	- page_articles.each_with_index do |article, i|
-		%article.news
-			%time
-				= article.date.strftime('%b %e')
-			%h3.title
-				= link_to article.title, article
-			%main.content
-				= article.body
+		= partial(:news, :locals => {:article => article})
 %section#twitter
 	%h2 Twitter
 	%a.twitter-timeline{:href => "https://twitter.com/search?q=%23osdc.tw", :data => {'widget-id' => "432792863965868032", 'tweet-limit' => 10, :chrome => "noheader nofooter transparent noscrollbar"}}

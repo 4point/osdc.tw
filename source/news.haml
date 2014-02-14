@@ -1,0 +1,10 @@
+---
+title: News
+---
+
+%main#news
+	%h2
+		News
+		= link_to image_tag('feed-icon.svg'), '/feed.xml'
+	- page_articles.each_with_index do |article, i|
+		= partial(:news, :locals => {:article => article})

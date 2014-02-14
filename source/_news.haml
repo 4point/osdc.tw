@@ -1,0 +1,7 @@
+%article.news
+	%time
+		= article.date.strftime('%b %e')
+	%h3.title
+		= link_to article.title, article
+	%main.content
+		= article.body

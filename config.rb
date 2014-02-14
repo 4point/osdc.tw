@@ -47,7 +47,7 @@ set :markdown, :layout_engine => :haml
 # end
 
 page "/feed.xml", layout: false
-page "news/*", :layout => :news
+page "/news/*", :layout => :article
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
@@ -56,6 +56,8 @@ page "news/*", :layout => :news
 ###
 # Helpers
 ###
+
+set :relative_links, true
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
