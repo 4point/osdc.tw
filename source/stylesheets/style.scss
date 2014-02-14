@@ -137,6 +137,15 @@ article p a {
 #news {
 	width: 50%;
 	padding-right: 1em;
+	h2 img {
+		width: 1em;
+		height: 1em;
+		opacity: .3;
+		vertical-align: sub;
+	}
+	h2:hover img {
+		opacity: 1;
+	}
 }
 
 .news {
