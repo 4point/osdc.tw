@@ -149,6 +149,12 @@ article p a {
 	}
 }
 
+.page {
+	& > h2 {
+		text-transform: uppercase;
+	}
+}
+
 section#news {
 	width: 50%;
 	padding-right: 1em;
@@ -218,5 +224,18 @@ section#news {
 			display: inline-block;
 			margin: 0 .5em;
 		}
+	}
+}
+
+#sponsors {
+	h3 {
+		text-transform: uppercase;
+		text-indent: 1em;
+	}
+	ul {
+		list-style-type: none;
+	}
+	li {
+		margin: 1em 0;
 	}
 }
