@@ -231,11 +231,27 @@ section#news {
 	h3 {
 		text-transform: uppercase;
 		text-indent: 1em;
+		margin: 2em 0;
 	}
 	ul {
 		list-style-type: none;
 	}
 	li {
 		margin: 1em 0;
+		display: flex;
+		& > a {
+			display: block;
+			flex-basis: 30%;
+			img {
+				display: block;
+				max-width: 100%;
+			}
+		}
+		article {
+			flex-basis: 70%;
+			p {
+				min-height: 50px;
+			}
+		}
 	}
 }

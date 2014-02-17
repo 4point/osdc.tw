@@ -5,3 +5,6 @@
 			- data.relation.sponsors.select{|sponsor| sponsor.rank == rank}.each do |link|
 				%li.sponsor
 					= link_to image_tag('sponsors/' + link.id + '.png', :alt => link.title), link.link
+					%article
+						%h4= link.title
+						%p= link.intro
