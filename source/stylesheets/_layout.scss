@@ -61,6 +61,7 @@
 		}
 	}
 	#footer {
+		padding-bottom: 240px;
 		p {
 			text-indent: .5em;
 		}
@@ -132,6 +133,7 @@
 		}
 	}
 	#footer {
+		padding-bottom: 120px;
 		.wrapper {
 			padding: 0 1em;
 		}
@@ -203,5 +205,8 @@
 	#twitter {
 		width: 50%;
 		margin-top: -100px;
+	}
+	#footer {
+		padding-bottom: 0;
 	}
 }
