@@ -1,0 +1,9 @@
+---
+title: Schedule
+---
+
+#schedule
+	%h2
+		Schedule
+	= partial(:schedule, :locals => {:date => settings.day1})
+	= partial(:schedule, :locals => {:date => settings.day2})

@@ -7,8 +7,8 @@
 				= link_to 'News', '/news.html'
 			%li.disable
 				= link_to 'Register', '#register'
-			%li.disable
-				= link_to 'Schedule', '#schedule'
+			%li
+				= link_to 'Schedule', '/schedule.html'
 			%li
 				= link_to 'Sponsors', '/sponsors.html'
 		.top
@@ -27,7 +27,7 @@
 		%br
 		Social Science, Academia Sinica
 	%p.title
-		%time 04/11 - 04/12
+		%time #{settings.day1} - #{settings.day2}
 		%span.red Open Source
 		%span.green Developers'
 		%br

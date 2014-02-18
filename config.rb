@@ -1,3 +1,6 @@
+set :day1, '04/11'
+set :day2, '04/12'
+
 ###
 # Blog
 ###
@@ -66,11 +69,37 @@ set :relative_links, true
  activate :livereload
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def program (date)
+    capture_haml do
+      day = date == settings.day1 ? 'day1' : 'day2'
+      data.schedule.send(day).each_with_index do |schedule, index|
+        haml_tag :tr do
+          haml_tag :td, schedule.time
+          case schedule.type
+          when 'lunch'
+            haml_tag :td, '午餐', :class => "lunch", :colspan => 3
+          when 'lightning'
+            haml_tag :td, 'Lightning Talks', :class => "lightning", :colspan => 3
+          when 'keynote'
+            talk = data.program.send(day).find{|talk| talk.time == index}
+            haml_tag :td, :class => "keynote", :colspan => 3 do
+              haml_tag :span, talk.speaker, :class => "speaker"
+              haml_tag :span, talk.title, :class => "title"
+            end
+          when 'track'
+            data.program.send(day).select{|talk| talk.time == index}.each do |talk|
+              haml_tag :td, :class => "talk" do
+                haml_tag :span, talk.speaker, :class => "speaker"
+                haml_tag :span, talk.title, :class => "title"
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+end
 
 set :css_dir, 'stylesheets'
 
