@@ -74,8 +74,8 @@ day1:
     title: 'The Making of CuBeat, Programming-wise'
   - time: 7
     room: 2
-    speaker: 'Kawasaki'
-    title: ''
+    speaker: '高嘉良'
+    title: 'PgREST - PostgreSQL, JavaScript, and REST'
   - time: 8
     room: 0
     speaker: 'Szu-Kai Hsu'
@@ -139,8 +139,8 @@ day2:
     title: 'Introduction to Percona XtraDB Cluster with HAproxy'
   - time: 3
     room: 0
-    speaker: '高嘉良'
-    title: 'PgREST - PostgreSQL, JavaScript, and REST'
+    speaker: 'Kawasaki'
+    title: ''
   - time: 3
     room: 1
     speaker: 'Tzu-ping Chung'
