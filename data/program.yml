@@ -14,15 +14,16 @@ day1:
   - time: 1
     room: 2
     speaker: 'Matthew Wilson'
-    title: 'All Optimization is Premature; Stop it'
+    title: 'A Path to Forking All The Things -
+    progress and next steps toward full-stack trusted/free computing'
   - time: 2
     room: 0
     speaker: 'KKBOX'
     title: ''
   - time: 2
     room: 1
-    speaker: 'Bo-Yi Wu'
-    title: 'Introduction to Percona XtraDB Cluster with HAproxy'
+    speaker: 'Sunny Chan'
+    title: 'Introduction to OpenJDK 8'
   - time: 2
     room: 2
     speaker: 'Chen, Ping-Hsun'
@@ -38,7 +39,7 @@ day1:
   - time: 3
     room: 2
     speaker: '林佑安'
-    title: 'Build a popular open source project (tips and trick)'
+    title: 'Building popular open source project (tips and trick)'
   - time: 5
     room: 0
     speaker: 'Pixnet'
@@ -114,8 +115,8 @@ day2:
     title: 'Rust: a safe, concurrent, practical language'
   - time: 1
     room: 0
-    speaker: 'Kenneth Ho'
-    title: '有 愛 RAII 的 C++'
+    speaker: 'fr3@k'
+    title: '有 <del>愛</del> RAII 的 C++'
   - time: 1
     room: 1
     speaker: 'Fred Chien'
@@ -134,8 +135,8 @@ day2:
     title: 'Data Visualization in D3js - Tips and Tricks'
   - time: 2
     room: 2
-    speaker: ''
-    title: ''
+    speaker: 'Bo-Yi Wu'
+    title: 'Introduction to Percona XtraDB Cluster with HAproxy'
   - time: 3
     room: 0
     speaker: '高嘉良'
