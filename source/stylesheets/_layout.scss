@@ -58,6 +58,7 @@
 		.title {
 			padding-top: 1em;
 			padding-left: 80px;
+			min-height: 40px;
 		}
 	}
 	#footer {
@@ -95,6 +96,56 @@
 				margin: .5em 0;
 				width: 100%;
 			}
+		}
+	}
+	#schedule {
+		table, tbody, td, tr {
+			display: block;
+		}
+		thead {
+			display: none;
+		}
+		td {
+			position: relative;
+		}
+		td:first-child {
+			border-top: 3px solid #6ca0f7;
+			background-color: #312f33;
+		}
+		td::before {
+			position: absolute;
+			display: block;
+			top: 0;
+			right: 0;
+			color: #fff;
+			padding: .5em;
+			opacity: .7;
+		}
+		td.talk {
+			padding-bottom: 1em;
+			.speaker {
+				line-height: 2em;
+			}
+		}
+		td.talk:nth-child(2)::before {
+			content: 'R1';
+			background-color: #99cc33;
+		}
+		td.talk:nth-child(3)::before {
+			content: 'R0';
+			background-color: #eb5448;
+		}
+		td.talk:nth-child(4)::before {
+			content: 'R2';
+			background-color: #3F80EF;
+		}
+		td.keynote::before {
+			content: 'Keynote';
+			background-color: #eb5448;
+		}
+		table + p {
+			width: 100%;
+			text-align: center;
 		}
 	}
 }

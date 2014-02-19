@@ -90,9 +90,13 @@ helpers do
           when 'track'
             [1, 0, 2].each do |room|
               talk = data.program.send(day).find{|talk| talk.time == index and talk.room == room}
-              haml_tag :td, :class => "talk" do
-                haml_tag :span, talk.speaker, :class => "speaker"
-                haml_tag :span, talk.title, :class => "title"
+              if talk.speaker.empty?
+                haml_tag :td, '', :class => "empty"
+              else
+                haml_tag :td, :class => "talk" do
+                  haml_tag :span, talk.speaker, :class => "speaker"
+                  haml_tag :span, talk.title, :class => "title"
+                end
               end
             end
           end
