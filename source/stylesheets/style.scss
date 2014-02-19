@@ -162,7 +162,7 @@ article p a {
 	background-color: $header-background-color;
 	background-image: image-url('bottom.png');
 	background-repeat: no-repeat;
-	background-position: center bottom;
+	background-position: center bottom -30px;
 	min-height: 400px;
 	.wrapper {
 		position: relative;

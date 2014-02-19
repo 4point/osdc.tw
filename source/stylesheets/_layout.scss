@@ -62,7 +62,7 @@
 		}
 	}
 	#footer {
-		padding-bottom: 240px;
+		padding-bottom: 180px;
 		p {
 			text-indent: .5em;
 		}
@@ -212,6 +212,17 @@
 		}
 	}
 }
+
+@media (min-width: 641px) and (max-width: 999px) {
+	#schedule {
+		tbody td:first-child {
+			text-align: left;
+			padding-left: 1em;
+			min-width: 50px;
+		}
+	}
+}
+
 
 @media (min-width: 1000px) {
 	.wrapper {
