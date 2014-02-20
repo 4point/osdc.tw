@@ -14,8 +14,7 @@ day1:
   - time: 1
     room: 2
     speaker: 'Matthew Wilson'
-    title: 'A Path to Forking All The Things -
-    progress and next steps toward full-stack trusted/free computing'
+    title: 'A Path to Forking All The Things - <br>progress and next steps toward full-stack trusted/free computing'
   - time: 2
     room: 0
     speaker: 'KKBOX'
