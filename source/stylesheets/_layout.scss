@@ -152,7 +152,8 @@
 
 @media (min-width: 641px) {
 	.wrapper {
-		width: 600px;
+		width: calc(100% - 40px);
+		padding: 0 20px;
 	}
 	#menu {
 		display: flex;
@@ -214,6 +215,9 @@
 }
 
 @media (min-width: 641px) and (max-width: 999px) {
+	#banner {
+		width: 600px;
+	}
 	#schedule {
 		tbody td:first-child {
 			text-align: left;
@@ -241,6 +245,9 @@
 		margin-left: 115px;
 		li {
 			padding: 0 .8em;
+		}
+		li:first-child {
+			text-align: right;
 		}
 	}
 	#banner {
