@@ -6,7 +6,7 @@ day1:
   - time: 1
     room: 0
     speaker: 'ETU'
-    title: ''
+    title: '快速佈署 Hadoop 環境'
   - time: 1
     room: 1
     speaker: 'Kajiyama'
@@ -53,8 +53,8 @@ day1:
     title: 'Web Component Intro'
   - time: 6
     room: 0
-    speaker: 'fr3@K'
-    title: 'Is Your Singleton Broken?'
+    speaker: 'Andrew Cole'
+    title: 'Growing Panes: An open-source video wall'
   - time: 6
     room: 1
     speaker: '張宗銓'
@@ -89,8 +89,8 @@ day1:
     title: 'Using Open Standards and Open Source to Manage a Datacenter'
   - time: 9
     room: 0
-    speaker: 'Ingy/Andrew'
-    title: ''
+    speaker: 'Ingy'
+    title: 'Bashing GitHub'
   - time: 9
     room: 1
     speaker: 'CindyLinz'
