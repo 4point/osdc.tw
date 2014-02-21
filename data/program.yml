@@ -114,7 +114,7 @@ day2:
     title: 'Rust: a safe, concurrent, practical language'
   - time: 1
     room: 0
-    speaker: 'fr3@k'
+    speaker: 'fr3@K'
     title: '有 <del>愛</del> RAII 的 C++'
   - time: 1
     room: 1
