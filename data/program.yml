@@ -57,7 +57,7 @@ day1:
     title: 'Growing Panes: An open-source video wall'
   - time: 6
     room: 1
-    speaker: '張宗銓'
+    speaker: 'Raymond'
     title: 'DIY一個Data Mining based的網路流量分析工具'
   - time: 6
     room: 2
