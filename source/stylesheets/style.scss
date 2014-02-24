@@ -55,6 +55,9 @@ a {
 			display: block;
 		}
 	}
+	li.active {
+		border-bottom: 2px solid #dcb732;
+	}
 	li.disable {
 		color: #524f55;
 	}

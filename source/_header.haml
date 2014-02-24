@@ -1,15 +1,15 @@
 %header#header
 	.wrapper
-		%h1#logo 
+		%h1#logo
 			= link_to 'OSDC', '/index.html'
 		%ul#menu
-			%li
+			%li{class: ("active" if current_page.path.start_with?('news') )}
 				= link_to 'News', '/news.html'
 			%li.disable
 				= link_to 'Register', '#register'
-			%li
+			%li{class: ("active" if current_page.path.start_with?('schedule') )}
 				= link_to 'Schedule', '/schedule.html'
-			%li
+			%li{class: ("active" if current_page.path.start_with?('sponsors') )}
 				= link_to 'Sponsors', '/sponsors.html'
 		.top
 			= image_tag 'top.svg'
