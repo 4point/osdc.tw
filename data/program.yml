@@ -77,7 +77,7 @@ day1:
     title: 'PgREST - PostgreSQL, JavaScript, and REST'
   - time: 8
     room: 0
-    speaker: 'Szu-Kai Hsu'
+    speaker: 'Szu-Kai Hsu (brucehsu)'
     title: '用 Go 打造程式語言執行環境：RunVM實例剖析'
   - time: 8
     room: 1
