@@ -57,6 +57,7 @@ a {
 	}
 	li.active a {
 		border-bottom: 2px solid #dcb732;
+		pointer-events: none;
 	}
 	li.disable {
 		color: #524f55;
@@ -190,6 +191,9 @@ article p a {
 			margin: 0 .5em;
 		}
 	}
+	.facebook h3 {
+		display: none;
+	}
 }
 
 #sponsors {
@@ -270,6 +274,35 @@ article p a {
 		display: block;
 		color: #dba927;
 		margin-bottom: .5em;
+	}
+}
+
+#speakers {
+	ul {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
+	.speaker {
+		color: #8e8e8e;
+		font-size: 14px;
+		display: inline-block;
+		vertical-align: top;
+		text-align: left;
+		.name {
+			color: #fff;
+			font-size: 24px;
+		}
+		.title {
+			color: #fff;
+		}
+		.avatar {
+			display: block;
+			width: 128px;
+			height: 128px;
+			object-fit: cover; // firefox you are the loser!
+			//border-radius: 50%;
+		}
 	}
 }
 

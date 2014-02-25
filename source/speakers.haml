@@ -1,0 +1,10 @@
+---
+title: Speakers
+---
+
+%section#speakers.page
+	%h2
+		Speakers
+	%ul
+		- data.participant.speaker.sort_by{|speaker| speaker.profile.length + speaker.title.length}.each do |speaker|
+			= partial(:speaker, :locals => {:speaker => speaker})

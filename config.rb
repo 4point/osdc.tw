@@ -104,6 +104,20 @@ helpers do
       end
     end
   end
+  def avatar (speaker)
+    speaker.avatar = '' unless speaker.respond_to?(:avatar)
+    case speaker.avatar
+    when 'twitter'
+      url = 'http://avatars.io/twitter/' + speaker.id.to_s + '?size=large'
+    when 'facebook'
+      url = 'http://avatars.io/facebook/' + speaker.id.to_s + '?size=large'
+    when 'instagram'
+      url = 'http://avatars.io/instagram/' + speaker.id.to_s + '?size=large'
+    else
+      url = 'http://avatars.io/gravatar/' + speaker.avatar.to_s + '?size=large'
+    end
+    image_tag(url, :alt => speaker.id, :class => 'avatar')
+  end
 end
 
 set :css_dir, 'stylesheets'

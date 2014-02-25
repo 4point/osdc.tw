@@ -1,0 +1,145 @@
+# avatar: 'twitter' or 'facebook' or 'instagram' or Gravatar hash, see http://avatars.io/
+# profile: |
+#           HTML tag in profile is not available!
+#           (blank line)
+#           Another paragraph.
+staff:
+  - id: 'hcchien'
+    name: 'Hsin-Chan Chien'
+    title: '主辦人'
+  - id: 'kidwm'
+    name: 'WM'
+    avatar: 'twitter'
+    title: 'Front-end Engineer at 4Point'
+    profile: |
+              這傢伙就是寫這個網站的懶惰鬼，請各位自己維護資料吧。
+speaker:
+  - id: 'kanru'
+    name: 'Kan-Ru Chen (陳侃如)'
+    avatar: 'twitter'
+    title: 'Debian Developer and Mozillian'
+    profile: |
+              因學習程式而接觸自由軟體，因自由軟體而愛上程式開發，從單純使用者變成貢獻者，只希望自己微薄的貢獻可以讓自由軟體生態變得更好。興趣是電腦上的所有東西，特別喜歡玩奇奇怪怪的程式語言。是一位 Debian Developer，現在在 Mozilla Taiwan 服務，主要負責 Firefox OS Platform 相關的開發。
+  - id: 'liz_barry'
+    name: 'Liz Barry'
+    title: 'Director of Community Development at the Public Laboratory for Open Technology and Science.'
+    profile: |
+              Co-founder and Director of Community Development at Public Laboratory for Open Technology and Science (publiclab.org), Liz Barry develops geographic tools and civic science methods for collaborative cities. She is also co-founder and co-director of TreeKIT, an organization developing tools for collaboratively managing urban forests. Barry holds degrees in landscape architecture and urban design, and teaches at Columbia University and Parsons the New School for Design. Previously, she worked at Skidmore, Owings and Merrill planning international new cities and campuses, at Durham Inner-city Gardeners (DIG) coordinating youth urban agriculture enterprise, and has travelled around the country catalyzing interaction among strangers with a “Talk To Me” sign – a project that received international press including the New York Times, AP, CNN, Oprah and NPR’s This American Life. She likes to play outside.
+  - id: 'azhuang'
+    name: 'Wei-Ning Huang (azhuang)'
+    title: 'ProjectTox developer'
+    profile: |
+              目前就讀台灣大學資訊工程學研究所。熱愛Python及Open Source，同時也是正在水深火熱中的碩二學生。個人網站為 http://azhuang.me。
+  - id: 'matthew_wilson'
+    name: 'Matthew Wilson'
+    title: 'co-founder of Veradox'
+    avatar: '44ae8408cedd6b876926d79e49d6d73a'
+    profile: |
+              diakopter.com, co-founder of Veradox
+  - id: 'miller_lee'
+    name: 'Miller Lee'
+    title: 'Junior Student at NCTUCS'
+    profile: |
+              Male
+  - id: 'starnight'
+    name: 'StarNight'
+    title: 'Engineer'
+    profile: |
+              努力實現夢想的業餘工程師，目前在種花店當個打雜的園丁。
+              http://about.me/StarNight
+  - id: 'brucehsu'
+    name: 'Szu-Kai Hsu (brucehsu)'
+    title: 'N/A'
+    avatar: '5b269f10020d91a6e2fb0930693ec941'
+    profile: |
+              brucehsu，主要於Twitter和github上活動，現就讀國內某大學資工所碩士班，鍵盤工程師一枚，長期關注OSS事務。
+  - id: 'lunastorm'
+    name: 'lunastorm'
+    title: 'Full Stack Engineer 全端工程師, Zillians 奇群科技'
+    profile: |
+              鍵盤黑手工，目前在一個 C++ 基本教義派公司偷寫 Python, Go, Objective-C 還有 Javascript.
+  - id: 'wens'
+    name: 'Software Engineer, CloudMosa, Inc.'
+    title: 'Junior Student at NCTUCS'
+    profile: |
+              A sysadmin for 10+ years, with many years of experience in backend software development. Recent interests also include Linux development on ARM SoCs.
+  - id: 'mosky'
+    name: 'Mosky Liu'
+    title: 'Python Charmer at Pinkoi'
+    profile: |
+              I am a Python developer at Pinkoi, an author of some Python packages, a Python instructor, and an Open Source lover. I am interested in using Python in the web, system administration, and data-related topics. But, today, I am going to share the finding on another side of the web.
+  - id: 'tpchung'
+    name: 'Tzu-ping Chung'
+    title: 'Lead Software Engineer at BIMETEK'
+    avatar: '9dafad54b5b4f360b7aae5f482bc1c91'
+    profile: |
+              TP builds his career around open-source software, and enjoys committing back his little efforts to help make the community better. He does a wide variety of things, but now finds his passion in Python.
+  - id: 'johnson_lin'
+    name: 'Johnson Lin'
+    title: '任職於祐生研究基金會；獨立遊戲開發者分享會雜工；IGDA Taiwan 工作團隊成員'
+    profile: |
+              沒有正式進入過台灣遊戲業界，卻從 2011 年起跑去 Game Developer Conference 與定期辦遊戲開發聚會的奇怪人士。除了社群事務，也與朋友斷斷續續地在開發的一款遊戲 CuBeat，也是這次分享的主題。本職勉強算程式以外，也幹過跟遊戲相關的美術、文章寫手與翻譯、電影字幕翻譯等雜七雜八的事。認為所有的 programming paradigm 中，oral programming 才是正道 (誤 
+  - id: 'cindylinz'
+    name: 'CindyLinz'
+    title: 'Technology Director 技術總監 @ Gamesofa 神來也'
+    avatar: 'facebook'
+    profile: |
+              我是神來也 Gamesofa 的工程師.
+              我喜歡由少少的公設支柱起來的邏輯系統, 具有數學美感, 以簡馭繁的東西.
+              Perl 與 Haskell 這兩個是我最喜愛的語言, 
+              這次終於把它們糊在一起感到非常開心 :p
+              
+              https://github.com/CindyLinz
+              http://search.cpan.org/~cindy/
+              http://hackage.haskell.org/user/CindyLinz
+              
+              希望越來越多人使用 Haskell, 可以讓軟體世界變得更美好~ <3
+  - id: 'raymond'
+    name: 'Raymond'
+    title: 'N/A'
+    profile: |
+              目前任職於康寧專校,負責系統網路管理工作,目前也正在就讀台灣科技大學資訊工程系．專長是系統網路,興趣是資訊安全,異常分析,資料探勘等相關技術，個人網站為 systw.net
+  - id: 'fredc'
+    name: 'Fred Chien（錢逢祥）'
+    title: 'Mandice Developer 和 AvangerGear（戰裝科技） CGO （Chief Geek Officer - 技客長）'
+    avatar: '42324a396666b26cefbe250aa60e5f26'
+    profile: |
+              Mandice 的創辦人，是第一個在全球直播的 COSCUP 和國際舞台上發表退學宣言的人，成為永遠畢不了業的淡江大學學生，以及一個職業夢想創業家，用自己的方式改變世界。曾經沉迷打工於國內外企業，也到處滅成為救火隊隊長，也是一個自由軟體開發者，專注於嵌入式裝置、伺服器技術、網站應用程式以及桌面環境（LXDE）等領域，閒暇時也研究 Linux 核心、驅動程式或作業系統相關技術。近年投入 Node.js 的發展，並整合過去的系統經驗，打造自己的 JavaScript OS。因為熱愛自由軟體，尤其喜歡貢獻個人經驗，時而發表並公開他的開發經驗在網站上。 Blog: http://fred-zone.blogspot.com/
+  - id: 'sunnychan'
+    name: 'Sunny Chan'
+    title: 'Leader of Hong Kong Java User Group'
+    profile: |
+              Sunny Chan currently works in an investment bank as a technology specialist providing support for the Java infrastructure as well as advising application team to make the best use of the Java technology. Previously he was working in the Java Technology Centre at IBM development laboratory in Hursley, United Kingdom, as a developer working on IBM's Java Virtual Machine.
+              
+              Twitter: @sunnythepooh77
+              Linkedin: http://hk.linkedin.com/in/sunnychan77/
+              blog: http://sunnychan.hk
+  - id: 'tkirby'
+    name: 'Kirby Wu'
+    title: 'g0v member'
+    profile: |
+              g0v.tw 共同發起人之一，活躍於立院、網路民主、資訊視覺化等專案，業餘則愛好登山與攝影活動，個人網站 http://tkirby.org/blog/ 。
+              
+              one of the g0v co-founders who contributes to projects such as open congress, e-democracy and data visualization. Also interested in mountaineering and photography.
+              Personal blog: http://tkirby.org/blog/
+  - id: 'wang'
+    name: '王耀聰'
+    title: 'Etu 首席架構師＼社群傳教士'
+    profile: |
+              －台灣 Hadoop 使用者社群 Haoop.TW ＼共同創辦人＼首席傳教士
+              －Hadoop : The Definitive Guide、Hadoop Operations 兩書主要譯者
+              －中華電信、資策會＼雲端與巨量資料＼固定講師
+  - id: 'ingy'
+    name: 'Ingy döt Net'
+    title: 'N/A'
+    profile: |
+              Ingy döt Net is a h♨cker who started out programming in IBM Assembly on punchcards, switched over to Perl and has since become enlightened to the goodness of all the OSDC languages and the people who hack, support and l♥ve them. He is one of the creators of YAML, a prolific CPAN/PyPI/NPM/RubyGems contributor, the Father of Acmeism and is drinking a Rolling Rock tallboy as you read this. 
+              
+              Ingy currently lives in Seattle, and is a cofounder of the Oui Street consulting company, with his good friend Andrew Cole. You should hire them for your interesting open-source project.
+  - id: 'kijiyama'
+    name: '梶山 隆輔'
+    title: 'MySQL Sales Consulting Manager, Asia Pacific & Japan'
+    profile: |
+              Ryusuke KAJIYAMA is the OSS specialist with over 10 years of experience in systems design utilizing MySQL and Open Source solutions. He is the original member of MySQL, and is currently responsible for managing MySQL Sales Consulting team of Asia Pacific and Japan at Oracle.
+              
+              Prior to joining MySQL team, he worked as a Systems Consultant at Nomura Research Institute, Japan's largest consulting firm, working on systems design of mission critical enterprise systems of major Japanese financial companies utilizing open source software.

@@ -1,3 +1,7 @@
+# intro: |
+#           HTML tag in intro is not available!
+#           (blank line)
+#           Another paragraph.
 sponsors:
   - id: 'pixnet'
     title: '痞客邦 PIXNET'

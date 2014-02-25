@@ -5,8 +5,8 @@
 		%ul#menu
 			%li{class: ("active" if current_page.path.start_with?('news') )}
 				= link_to 'News', '/news.html'
-			%li
-				= link_to 'Register', 'http://osdc.kktix.cc/events/osdctw2014'
+			%li{class: ("active" if current_page.path.start_with?('speakers') )}
+				= link_to 'Speakers', '/speakers.html'
 			%li{class: ("active" if current_page.path.start_with?('schedule') )}
 				= link_to 'Schedule', '/schedule.html'
 			%li{class: ("active" if current_page.path.start_with?('sponsors') )}

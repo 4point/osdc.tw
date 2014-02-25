@@ -1,0 +1,7 @@
+%li.speaker
+	%article{:id => speaker.id}
+		%header
+			= avatar speaker
+			%h3.name= speaker.name
+			%p.title= speaker.title
+		%main.profile= simple_format speaker.profile
