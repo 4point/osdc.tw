@@ -306,6 +306,8 @@ article p a {
 			height: 128px;
 			object-fit: cover; // firefox you are the loser!
 			border-radius: 50%;
+			background-image: image-url('avatar.png');
+			border: 2px solid #cfcfcf;
 		}
 		article:target {
 			outline: solid #dcb732 2px;
