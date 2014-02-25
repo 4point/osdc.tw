@@ -97,6 +97,10 @@ a {
 	}
 }
 
+#register {
+	color: #dcb732;
+}
+
 #content {
 	padding: 1em;
 	p {
@@ -301,7 +305,7 @@ article p a {
 			width: 128px;
 			height: 128px;
 			object-fit: cover; // firefox you are the loser!
-			//border-radius: 50%;
+			border-radius: 50%;
 		}
 		article:target {
 			outline: solid #dcb732 2px;

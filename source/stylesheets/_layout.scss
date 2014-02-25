@@ -9,6 +9,10 @@
 	}
 }
 
+#register {
+	padding-left: 1em;
+}
+
 #twitter {
 	width: 100%;
 	iframe {
@@ -24,7 +28,7 @@
 }
 
 #speakers .speaker {
-	margin-bottom: 2em;
+	margin: 2em 0;
 }
 
 @media (max-width: 640px) {
@@ -58,6 +62,9 @@
 	}
 	#content section h2 {
 		text-align: center;
+		background-color: #312F33;
+		padding: .5em 0;
+		border-top: 3px solid #3F3D42;
 	}
 	.news {
 		.title {
@@ -188,6 +195,11 @@
 			font-size: 40px;
 		}
 	}
+	#register {
+		position: absolute;
+		top: 220px;
+		font-size: 40px;
+	}
 	.news {
 		position: relative;
 		padding-left: 80px;
@@ -291,6 +303,9 @@
 			position: absolute;
 			bottom: 0;
 		}
+	}
+	#register {
+		right: 0;
 	}
 	#content {
 		.wrapper:first-child {

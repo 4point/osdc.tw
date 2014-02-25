@@ -114,7 +114,7 @@ helpers do
     when 'instagram'
       url = 'http://avatars.io/instagram/' + speaker.id.to_s + '?size=large'
     else
-      url = 'http://avatars.io/gravatar/' + speaker.avatar.to_s + '?size=large'
+      url = 'http://www.gravatar.com/avatar/' + speaker.avatar.to_s + '?s=128'
     end
     image_tag(url, :alt => speaker.id, :class => 'avatar')
   end
