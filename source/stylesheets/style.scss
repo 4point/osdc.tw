@@ -303,6 +303,10 @@ article p a {
 			object-fit: cover; // firefox you are the loser!
 			//border-radius: 50%;
 		}
+		article:target {
+			outline: solid #dcb732 2px;
+			outline-offset: 0.8em
+		}
 	}
 }
 

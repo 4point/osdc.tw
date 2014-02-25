@@ -1,3 +1,4 @@
+# speaker: the id of speaker in participant.yml
 day1:
   - time: 0
     room: 0
@@ -110,7 +111,7 @@ day2:
     title: 'Minimal MVC in JavaScript'
   - time: 0
     room: 2
-    speaker: 'Kan-Ru Chen'
+    speaker: 'kanru'
     title: 'Rust: a safe, concurrent, practical language'
   - time: 1
     room: 0

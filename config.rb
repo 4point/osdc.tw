@@ -84,7 +84,7 @@ helpers do
           when 'keynote'
             talk = data.program.send(day).find{|talk| talk.time == index}
             haml_tag :td, :class => "keynote", :colspan => 3 do
-              haml_tag :span, talk.speaker, :class => "speaker"
+              haml_tag :span, speaker_id(talk.speaker), :class => "speaker"
               haml_tag :span, talk.title, :class => "title"
             end
           when 'track'
@@ -94,7 +94,7 @@ helpers do
                 haml_tag :td, '', :class => "empty"
               else
                 haml_tag :td, :class => "talk" do
-                  haml_tag :span, talk.speaker, :class => "speaker"
+                  haml_tag :span, speaker_id(talk.speaker), :class => "speaker"
                   haml_tag :span, talk.title, :class => "title"
                 end
               end
@@ -117,6 +117,14 @@ helpers do
       url = 'http://avatars.io/gravatar/' + speaker.avatar.to_s + '?size=large'
     end
     image_tag(url, :alt => speaker.id, :class => 'avatar')
+  end
+  def speaker_id (id)
+    if speaker = data.participant.speaker.find{|speaker| speaker.id == id}
+      name = link_to speaker.name, '/speakers.html#' + speaker.id.to_s
+    else
+      name = id
+    end
+    name
   end
 end
 

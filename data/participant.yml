@@ -1,3 +1,4 @@
+# id: after modifying this, don't forget to also change the speaker id in program.yml
 # avatar: 'twitter' or 'facebook' or 'instagram' or Gravatar hash, see http://avatars.io/
 # profile: |
 #           HTML tag in profile is not available!
