@@ -7,4 +7,4 @@
 					= link_to image_tag('sponsors/' + link.id + '.png', :alt => link.title), link.link
 					%article
 						%h4= link.title
-						%p= link.intro
+						%main= simple_format link.intro

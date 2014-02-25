@@ -4,13 +4,19 @@ sponsors:
     link: 'http://www.pixnet.net/'
     rank: 'hacker'
     intro: |
-           「痞客邦 PIXNET」(www.pixnet.net) 為台灣最受歡迎網站之一，提供網友線上相簿、部落格、影音服務等功能。2003年以提供「網路免費相簿空間」開始，逐步拓展到「部落格平台」以及「個人化社群媒體」服務。站內豐富的創作力與廣大社群基礎將痞客邦推向台灣本土第一的「社群媒體」。2011年起，痞客邦更投入行動載具的服務開發，永遠堅持讓使用者體驗「零時差、無底限、個人化」的社群分享！ 
+           「痞客邦 PIXNET」(www.pixnet.net) 為台灣最受歡迎網站之一，提供網友線上相簿、部落格、影音服務等功能。2003年以提供「網路免費相簿空間」開始，逐步拓展到「部落格平台」以及「個人化社群媒體」服務。站內豐富的創作力與廣大社群基礎將痞客邦推向台灣本土第一的「社群媒體」。
+           
+           2011年起，痞客邦更投入行動載具的服務開發，永遠堅持讓使用者體驗「零時差、無底限、個人化」的社群分享！ 
   - id: 'etu'
     title: 'Etu'
     link: 'http://www.etusolution.com/'
     rank: 'hacker'
     intro: |
-            Etu is a Big Data pioneer in providing Big Data solutions that are primarily concerned with how customers to discover, capture and connect the valuable information hidden in the extremely large data sets with simple steps. At Etu, our mission is to develop Big Data Killer Solutions with Appliances, centered on business development in Taipei and Beijing. Utilizing the Hadoop-related technologies, working closely with all Hadoop distribution and third party tool vendors , our Big Data business is dedicated to providing end-to-end solutions for customers to effectively harness the challenges of large sets of data. With our professionalism and expertise, our core competency in Big Data is to address specific business problems for customers from a diverse set of industries.
+            Etu is a Big Data pioneer in providing Big Data solutions that are primarily concerned with how customers to discover, capture and connect the valuable information hidden in the extremely large data sets with simple steps.
+            
+            At Etu, our mission is to develop Big Data Killer Solutions with Appliances, centered on business development in Taipei and Beijing. Utilizing the Hadoop-related technologies, working closely with all Hadoop distribution and third party tool vendors , our Big Data business is dedicated to providing end-to-end solutions for customers to effectively harness the challenges of large sets of data.
+            
+            With our professionalism and expertise, our core competency in Big Data is to address specific business problems for customers from a diverse set of industries.
   - id: 'godgame'
     title: '神來也'
     link: 'http://www.godgame.com.tw/'
@@ -26,4 +32,7 @@ sponsors:
     link: 'http://www.acomotech.com/'
     rank: 'guru'
     intro: |
-           杏昕科技股份有限公司主要為醫療器材設計服務。 2013連續獲得德國iF設計獎以及德國紅點（red dot）設計獎-『輕鬆使用，完整照護』是AcoMo Tech. 研發團隊致力達到的設計目標。而開發一系列標誌著『台灣製造MIT』的優質精品，更是研發團隊從『心』稟持的初衷。產品範圍將涵括 嬰幼兒照護所需的各個面向，以高質量的電子設計研發實力為基礎，讓新生兒父母能輕鬆的使用AcoMo Tech. 所開發的種種人性化精品，在繁瑣的家務活動中，仍能周密地給予每一個寶貴的幼小生命24小時365天的零距離照護。
+           杏昕科技股份有限公司主要為醫療器材設計服務。
+           2013連續獲得德國iF設計獎以及德國紅點（red dot）設計獎-『輕鬆使用，完整照護』是AcoMo Tech. 研發團隊致力達到的設計目標。而開發一系列標誌著『台灣製造MIT』的優質精品，更是研發團隊從『心』稟持的初衷。
+           
+           產品範圍將涵括 嬰幼兒照護所需的各個面向，以高質量的電子設計研發實力為基礎，讓新生兒父母能輕鬆的使用AcoMo Tech. 所開發的種種人性化精品，在繁瑣的家務活動中，仍能周密地給予每一個寶貴的幼小生命24小時365天的零距離照護。

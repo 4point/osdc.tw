@@ -2,7 +2,7 @@
 	%time
 		= article.date.strftime('%b %e')
 	%h3.title
-		= link_to article.title, article
+		= link_to article.title, article.url + '#content'
 	- if content
 		%main.content
 			= article.body
