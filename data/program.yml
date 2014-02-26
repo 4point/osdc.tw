@@ -26,7 +26,7 @@ day1:
     title: 'Introduction to OpenJDK 8'
   - time: 2
     room: 2
-    speaker: 'Chen, Ping-Hsun'
+    speaker: 'penk'
     title: 'SlateKit - Open Source Tablet UX Building Kit'
   - time: 3
     room: 0

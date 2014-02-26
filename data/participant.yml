@@ -33,7 +33,7 @@ speaker:
   - id: 'lizbarry'
     name: 'Liz Barry'
     title: 'Director of Community Development at the Public Laboratory for Open Technology and Science.'
-    avatar: 'twitter'
+    avatar: '//dl.dropboxusercontent.com/u/4347314/osdc_avatar/lizbarry.jpg'
     profile: |
               Co-founder and Director of Community Development at Public Laboratory for Open Technology and Science (publiclab.org), Liz Barry develops geographic tools and civic science methods for collaborative cities. She is also co-founder and co-director of TreeKIT, an organization developing tools for collaboratively managing urban forests. Barry holds degrees in landscape architecture and urban design, and teaches at Columbia University and Parsons the New School for Design. Previously, she worked at Skidmore, Owings and Merrill planning international new cities and campuses, at Durham Inner-city Gardeners (DIG) coordinating youth urban agriculture enterprise, and has travelled around the country catalyzing interaction among strangers with a “Talk To Me” sign – a project that received international press including the New York Times, AP, CNN, Oprah and NPR’s This American Life. She likes to play outside.
   - id: 'azhuang'
@@ -135,6 +135,7 @@ speaker:
   - id: 'tkirby'
     name: 'Kirby Wu'
     title: 'g0v member'
+    avatar: '//dl.dropboxusercontent.com/u/4347314/osdc_avatar/kirby_wu.jpg'
     profile: |
               g0v.tw 共同發起人之一，活躍於立院、網路民主、資訊視覺化等專案，業餘則愛好登山與攝影活動，個人網站 http://tkirby.org/blog/ 。
               
@@ -179,3 +180,12 @@ speaker:
     title: 'F2E'
     profile: |
               othree，十多年前為了製作個人網頁而自學起 HTML、CSS 和 JavaScript，接著便一頭栽進網路標準的世界，並持續關注網路前端技術的發展，不時在部落格及各活動分享新知，近期關注 HTML5、CSS3、Web API、語意網等議題，被認為專長於 JavaScript，其實最喜歡寫的是漂亮的 HTML Markup，現職為 HTC 前端工程師（F2E）兼博士生。
+  - id: 'penk'
+    name: 'Chen, Ping-Hsun'
+    avatar: '//dl.dropboxusercontent.com/u/4347314/osdc_avatar/penk.jpg'
+    title: 'Software Engineer of Canonical'
+    profile: |
+              Ping-Hsun "penk" Chen (http://penkia.net/portfolio) is a web and FOSS developer, 
+              project lead of xPUD and SlateKit, always enjoying in old-school rock 'n' roll, 
+              Sci-Fi novels and volleyball, participating open source related activities, 
+              writing in free software, translating documents and books, loves NightWish, Vonnegut and Perl.
