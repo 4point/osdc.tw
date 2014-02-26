@@ -144,3 +144,8 @@ speaker:
               Ryusuke KAJIYAMA is the OSS specialist with over 10 years of experience in systems design utilizing MySQL and Open Source solutions. He is the original member of MySQL, and is currently responsible for managing MySQL Sales Consulting team of Asia Pacific and Japan at Oracle.
               
               Prior to joining MySQL team, he worked as a Systems Consultant at Nomura Research Institute, Japan's largest consulting firm, working on systems design of mission critical enterprise systems of major Japanese financial companies utilizing open source software.
+  - id: 'au'
+    name: 'Audrey'
+    title: 'Untitled Page @ Socialtext; Consultant @ Apple; Member @ g0v'
+    profile: |
+              A self-educated programmer and translator, Audrey is responsible for the MoeDict and EtherCalc services, and has served in language design committees for Haskell, Perl 5, and Perl 6.
