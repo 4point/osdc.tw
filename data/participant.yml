@@ -31,9 +31,10 @@ speaker:
     title: 'Debian Developer and Mozillian'
     profile: |
               因學習程式而接觸自由軟體，因自由軟體而愛上程式開發，從單純使用者變成貢獻者，只希望自己微薄的貢獻可以讓自由軟體生態變得更好。興趣是電腦上的所有東西，特別喜歡玩奇奇怪怪的程式語言。是一位 Debian Developer，現在在 Mozilla Taiwan 服務，主要負責 Firefox OS Platform 相關的開發。
-  - id: 'liz_barry'
+  - id: 'lizbarry'
     name: 'Liz Barry'
     title: 'Director of Community Development at the Public Laboratory for Open Technology and Science.'
+    avatar: 'twitter'
     profile: |
               Co-founder and Director of Community Development at Public Laboratory for Open Technology and Science (publiclab.org), Liz Barry develops geographic tools and civic science methods for collaborative cities. She is also co-founder and co-director of TreeKIT, an organization developing tools for collaboratively managing urban forests. Barry holds degrees in landscape architecture and urban design, and teaches at Columbia University and Parsons the New School for Design. Previously, she worked at Skidmore, Owings and Merrill planning international new cities and campuses, at Durham Inner-city Gardeners (DIG) coordinating youth urban agriculture enterprise, and has travelled around the country catalyzing interaction among strangers with a “Talk To Me” sign – a project that received international press including the New York Times, AP, CNN, Oprah and NPR’s This American Life. She likes to play outside.
   - id: 'azhuang'
@@ -74,9 +75,10 @@ speaker:
     title: 'Junior Student at NCTUCS'
     profile: |
               A sysadmin for 10+ years, with many years of experience in backend software development. Recent interests also include Linux development on ARM SoCs.
-  - id: 'mosky'
+  - id: 'moskytw'
     name: 'Mosky Liu'
     title: 'Python Charmer at Pinkoi'
+    avatar: 'twitter'
     profile: |
               I am a Python developer at Pinkoi, an author of some Python packages, a Python instructor, and an Open Source lover. I am interested in using Python in the web, system administration, and data-related topics. But, today, I am going to share the finding on another side of the web.
   - id: 'tpchung'
