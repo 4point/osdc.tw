@@ -164,3 +164,10 @@ speaker:
     title: 'Untitled Page @ Socialtext; Consultant @ Apple; Member @ g0v'
     profile: |
               A self-educated programmer and translator, Audrey is responsible for the MoeDict and EtherCalc services, and has served in language design committees for Haskell, Perl 5, and Perl 6.
+  - id: 'thinker'
+    name: 'Thinker'
+    title: 'Engineer @ Mozilla'
+    profile: |
+              十幾年經驗的自由軟體開發者與使用者，享受自由開發所帶來的樂趣。
+              
+              A developer and user of Open Source community for 10+ years, enjoyed by the fun of developing projects in free.
