@@ -99,6 +99,13 @@ a {
 
 #register {
 	color: #dcb732;
+	word-spacing: .3em;
+	&::before {
+		content: '\00bb\ ';
+	}
+	&:hover {
+		word-spacing: .1em;
+	}
 }
 
 #content {

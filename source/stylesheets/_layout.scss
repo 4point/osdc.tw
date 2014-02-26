@@ -9,10 +9,6 @@
 	}
 }
 
-#register {
-	padding-left: 1em;
-}
-
 #twitter {
 	width: 100%;
 	iframe {
@@ -59,6 +55,9 @@
 			top: -.8em;
 			padding: 0 1em;
 		}
+	}
+	#register {
+		padding-left: 1em;
 	}
 	#content section h2 {
 		text-align: center;
