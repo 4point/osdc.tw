@@ -20,7 +20,6 @@ speaker:
     title: '甲骨文公司MySQL技術顧問'
     profile: |
               曾任昇陽電腦軟體架構師，甲骨文公司教育訓練部資深講師及經理
-
               現任甲骨文公司MySQL技術顧問，負責大中 華及亞洲地區MySQL的技術推廣及專案的推動和技術指導。
 
               輔導過的MySQL應用建置專案或公 司包括：
@@ -71,8 +70,8 @@ speaker:
     profile: |
               鍵盤黑手工，目前在一個 C++ 基本教義派公司偷寫 Python, Go, Objective-C 還有 Javascript.
   - id: 'wens'
-    name: 'Software Engineer, CloudMosa, Inc.'
-    title: 'Junior Student at NCTUCS'
+    name: 'Chen-Yu Tsai (蔡鎮宇) (ID: wens)'
+    title: 'Software Engineer, CloudMosa, Inc.'
     profile: |
               A sysadmin for 10+ years, with many years of experience in backend software development. Recent interests also include Linux development on ARM SoCs.
   - id: 'moskytw'
