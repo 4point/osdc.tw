@@ -2,7 +2,7 @@
 day1:
   - time: 0
     room: 0
-    speaker: 'Liz Barry'
+    speaker: 'lizbarry'
     title: 'How Public Lab collaborates to make environmental science something anyone can do'
   - time: 1
     room: 0
@@ -42,7 +42,7 @@ day1:
     title: 'Building popular open source project (tips and trick)'
   - time: 5
     room: 0
-    speaker: 'Pixnet'
+    speaker: 'PIXNET'
     title: ''
   - time: 5
     room: 1
@@ -107,7 +107,7 @@ day2:
     title: 'C++AMP on Linux'
   - time: 0
     room: 1
-    speaker: 'mosky'
+    speaker: 'moskytw'
     title: 'Minimal MVC in JavaScript'
   - time: 0
     room: 2
