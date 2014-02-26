@@ -6,15 +6,15 @@ day1:
     title: 'How Public Lab collaborates to make environmental science something anyone can do'
   - time: 1
     room: 0
-    speaker: 'ETU'
+    speaker: 'wang'
     title: '快速佈署 Hadoop 環境'
   - time: 1
     room: 1
-    speaker: 'Kajiyama'
+    speaker: 'kajiyama'
     title: 'Sharding and Scale-out using MySQL Fabric'
   - time: 1
     room: 2
-    speaker: 'Matthew Wilson'
+    speaker: 'matthew_wilson'
     title: 'A Path to Forking All The Things - <br>progress and next steps toward full-stack trusted/free computing'
   - time: 2
     room: 0
@@ -22,7 +22,7 @@ day1:
     title: ''
   - time: 2
     room: 1
-    speaker: 'Sunny Chan'
+    speaker: 'sunnychan'
     title: 'Introduction to OpenJDK 8'
   - time: 2
     room: 2
@@ -34,7 +34,7 @@ day1:
     title: ''
   - time: 3
     room: 1
-    speaker: '杜修文'
+    speaker: 'ivantu'
     title: 'MySQL Utility'
   - time: 3
     room: 2
@@ -50,15 +50,15 @@ day1:
     title: 'Getting started with Python for Data Science'
   - time: 5
     room: 2
-    speaker: 'OOO'
+    speaker: 'othree'
     title: 'Web Component Intro'
   - time: 6
     room: 0
-    speaker: 'Andrew Cole'
+    speaker: 'aocole'
     title: 'Growing Panes: An open-source video wall'
   - time: 6
     room: 1
-    speaker: 'Raymond'
+    speaker: 'raymond'
     title: 'DIY一個Data Mining based的網路流量分析工具'
   - time: 6
     room: 2
@@ -70,7 +70,7 @@ day1:
     title: '你 go 了沒！？自幹 go 的 web helper'
   - time: 7
     room: 1
-    speaker: 'Johnson Lin'
+    speaker: 'johnson_lin'
     title: 'The Making of CuBeat, Programming-wise'
   - time: 7
     room: 2
@@ -78,7 +78,7 @@ day1:
     title: 'PgREST - PostgreSQL, JavaScript, and REST'
   - time: 8
     room: 0
-    speaker: 'Szu-Kai Hsu (brucehsu)'
+    speaker: 'brucehsu'
     title: '用 Go 打造程式語言執行環境：RunVM實例剖析'
   - time: 8
     room: 1
@@ -86,24 +86,24 @@ day1:
     title: 'Better and better keyboards'
   - time: 8
     room: 2
-    speaker: '蔡鎮宇'
+    speaker: 'wens'
     title: 'Using Open Standards and Open Source to Manage a Datacenter'
   - time: 9
     room: 0
-    speaker: 'Ingy'
+    speaker: 'ingy'
     title: 'Bashing GitHub'
   - time: 9
     room: 1
-    speaker: 'CindyLinz'
+    speaker: 'cindylinz'
     title: 'HasPerl: The marriage of Haskell and Perl'
   - time: 9
     room: 2
-    speaker: 'Wei-Ning Huang'
+    speaker: 'azhuang'
     title: 'ProjectTox: Free as in freedom Skype replacement'
 day2:
   - time: 0
     room: 0
-    speaker: 'Miller Lee'
+    speaker: 'miller_lee'
     title: 'C++AMP on Linux'
   - time: 0
     room: 1
@@ -119,19 +119,19 @@ day2:
     title: '有 <del>愛</del> RAII 的 C++'
   - time: 1
     room: 1
-    speaker: 'Fred Chien'
+    speaker: 'fredc'
     title: '當黃色小鴨都可以進入基隆，Node.js 當然也可以娶 QML'
   - time: 1
     room: 2
-    speaker: 'Thinker'
+    speaker: 'thinker'
     title: 'Hacking Syscalls and APIs - By Examples of Firefox OS'
   - time: 2
     room: 0
-    speaker: 'StarNight'
+    speaker: 'starnight'
     title: 'The Simple Scheduler in Embedded System'
   - time: 2
     room: 1
-    speaker: 'Kirby Wu'
+    speaker: 'tkirby'
     title: 'Data Visualization in D3js - Tips and Tricks'
   - time: 2
     room: 2
@@ -143,7 +143,7 @@ day2:
     title: ''
   - time: 3
     room: 1
-    speaker: 'Tzu-ping Chung'
+    speaker: 'tpchung'
     title: 'Escape from the Callback Hell'
   - time: 3
     room: 2
@@ -159,5 +159,5 @@ day2:
     title: '從 Multics 到雲端作業系統：淺談系統程式發展和新機會'
   - time: 7
     room: 0
-    speaker: 'Audrey'
+    speaker: 'au'
     title: '零時政府的第一年'
