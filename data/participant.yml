@@ -1,5 +1,5 @@
 # id: after modifying this, don't forget to also change the speaker id in program.yml
-# avatar: 'twitter' or 'facebook' or 'instagram' or Gravatar hash, see http://avatars.io/
+# avatar: 'twitter' or 'facebook' or 'instagram' or Gravatar hash, see http://avatars.io/, but you're still able to give a url of picture.
 # profile: |
 #           HTML tag in profile is not available!
 #           (blank line)
@@ -77,8 +77,8 @@ speaker:
               A sysadmin for 10+ years, with many years of experience in backend software development. Recent interests also include Linux development on ARM SoCs.
   - id: 'moskytw'
     name: 'Mosky Liu'
+    avatar: '//dl.dropboxusercontent.com/u/1769146/coscup2013.jpg'
     title: 'Python Charmer at Pinkoi'
-    avatar: 'twitter'
     profile: |
               I am a Python developer at Pinkoi, an author of some Python packages, a Python instructor, and an Open Source lover. I am interested in using Python in the web, system administration, and data-related topics. But, today, I am going to share the finding on another side of the web.
   - id: 'tpchung'
@@ -89,6 +89,7 @@ speaker:
               TP builds his career around open-source software, and enjoys committing back his little efforts to help make the community better. He does a wide variety of things, but now finds his passion in Python.
   - id: 'aocole'
     name: 'Andrew Cole'
+    avatar: 'http://ndrew.org/me.jpg'
     title: 'cofounder of the Oui Street'
     profile: |
               Andrew Cole is an interdisciplinary hacker/maker in Seattle USA. Projects with code and dirty hands are a happy place for him. Andrew is a cofounder of the Oui Street consulting company with his good friend Ingy döt Net. You should hire them for your interesting open-source project.

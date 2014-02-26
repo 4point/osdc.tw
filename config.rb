@@ -113,6 +113,8 @@ helpers do
       url = 'http://avatars.io/facebook/' + speaker.id.to_s + '?size=large'
     when 'instagram'
       url = 'http://avatars.io/instagram/' + speaker.id.to_s + '?size=large'
+    when /^(http|\/\/)/
+      url = speaker.avatar
     else
       url = 'http://www.gravatar.com/avatar/' + speaker.avatar.to_s + '?s=128&d=blank'
     end
