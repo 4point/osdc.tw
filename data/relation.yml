@@ -3,6 +3,14 @@
 #           (blank line)
 #           Another paragraph.
 sponsors:
+  - id: 'yahoo'
+    title: 'Yahoo!奇摩'
+    link: 'http://tw.yahoo.com/'
+    rank: 'hacker'
+    intro: |
+            Yahoo!奇摩自2001年2月由Yahoo!與奇摩兩大網站正式合併營運之後，即成為國內居領導地位之入口網站，並不斷致力於為廣大網友及企業客戶，提供豐富與多元化的服務與交流平台。
+
+            Yahoo!奇摩提供優質且多元的網路內容與服務，並創造在地化、好用且生活化的網路使用環境。Yahoo!奇摩也為企業提供各種網路服務，協助大型、中小型、微型企業、甚至傳統產業客戶，提升 其企業知名度與網路服務，例如完整服務的在地化關鍵字廣告、各式互動廣告、虛擬商店、線上交易服務、企業入口網站整體解決方案等。
   - id: 'pixnet'
     title: '痞客邦 PIXNET'
     link: 'http://www.pixnet.net/'
