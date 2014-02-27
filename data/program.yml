@@ -10,7 +10,7 @@ day1:
     title: '快速佈署 Hadoop 環境'
   - time: 1
     room: 1
-    speaker: 'kajiyama'
+    speaker: 'RKajiyama'
     title: 'Sharding and Scale-out using MySQL Fabric'
   - time: 1
     room: 2
@@ -34,7 +34,7 @@ day1:
     title: ''
   - time: 3
     room: 1
-    speaker: 'ivantu'
+    speaker: 'itu_tw'
     title: 'MySQL Utility'
   - time: 3
     room: 2
