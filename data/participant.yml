@@ -15,8 +15,9 @@ staff:
     profile: |
               這傢伙就是寫這個網站的懶惰鬼，請各位自己維護資料吧。
 speaker:
-  - id: 'ivantu'
+  - id: 'itu_tw'
     name: '杜修文'
+    avatar: 'twitter'
     title: '甲骨文公司MySQL技術顧問'
     profile: |
               曾任昇陽電腦軟體架構師，甲骨文公司教育訓練部資深講師及經理
@@ -157,8 +158,9 @@ speaker:
               Ingy döt Net is a h♨cker who started out programming in IBM Assembly on punchcards, switched over to Perl and has since become enlightened to the goodness of all the OSDC languages and the people who hack, support and l♥ve them. He is one of the creators of YAML, a prolific CPAN/PyPI/NPM/RubyGems contributor, the Father of Acmeism and is drinking a Rolling Rock tallboy as you read this. 
               
               Ingy currently lives in Seattle, and is a cofounder of the Oui Street consulting company, with his good friend Andrew Cole. You should hire them for your interesting open-source project.
-  - id: 'kajiyama'
+  - id: 'RKajiyama'
     name: '梶山 隆輔'
+    avatar: 'twitter'
     title: 'MySQL Sales Consulting Manager, Asia Pacific & Japan'
     profile: |
               Ryusuke KAJIYAMA is the OSS specialist with over 10 years of experience in systems design utilizing MySQL and Open Source solutions. He is the original member of MySQL, and is currently responsible for managing MySQL Sales Consulting team of Asia Pacific and Japan at Oracle.
