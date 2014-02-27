@@ -135,7 +135,7 @@ day2:
     title: 'Data Visualization in D3js - Tips and Tricks'
   - time: 2
     room: 2
-    speaker: 'Bo-Yi Wu'
+    speaker: 'appleboy'
     title: 'Introduction to Percona XtraDB Cluster with HAproxy'
   - time: 3
     room: 0
