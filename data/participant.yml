@@ -196,7 +196,7 @@ speaker:
   - id: 'appleboy'
     name: 'Bo-Yi Wu'
     title: 'Software Engineer of Realtek'
-    avatar: 'twitter'
+    avatar: '265bcbb56e831266de7a9f9281aab57a'
     profile: |
               現任瑞昱半導體系統工程師，設計前端、後端及嵌入式系統架構，喜歡學習嘗試任何新技術，目前專注於 JavaScript、Ruby on Rails、CodeIgniter、Larvel PHP Framewrok 等眾多 open source 專案。
               
