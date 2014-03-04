@@ -154,6 +154,7 @@ speaker:
   - id: 'peterzhoulei'
     name: 'Peter Zhou'
     title: 'Senior Engineer @ KKBOX'
+    avatar: 'facebook'
     profile: |
               幻想有super power的工程師。參與過KDE Amarok的開發，又在香港創業兩年后投奔KKBOX。為整合多個專案而建立kktoolkit開源android framework。寫著Android程式，其實對Web, Back-end有著執著的熱情。
   - id: 'ingy'
