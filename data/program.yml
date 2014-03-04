@@ -18,8 +18,8 @@ day1:
     title: 'A Path to Forking All The Things - <br>progress and next steps toward full-stack trusted/free computing'
   - time: 2
     room: 0
-    speaker: 'KKBOX'
-    title: ''
+    speaker: 'peterzhoulei'
+    title: 'Managing Android Projects in Hierarchy - Android Shared Libraries Design'
   - time: 2
     room: 1
     speaker: 'sunnychan'

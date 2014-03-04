@@ -151,6 +151,12 @@ speaker:
               －台灣 Hadoop 使用者社群 Haoop.TW ＼共同創辦人＼首席傳教士
               －Hadoop : The Definitive Guide、Hadoop Operations 兩書主要譯者
               －中華電信、資策會＼雲端與巨量資料＼固定講師
+  - id: 'peterzhoulei'
+    name: 'Peter Zhou'
+    title: 'Senior Engineer @ KKBOX'
+    avatar: 'facebook'
+    profile: |
+              幻想有super power的工程師。參與過KDE Amarok的開發，又在香港創業兩年后投奔KKBOX。為整合多個專案而建立kktoolkit開源android framework。寫著Android程式，其實對Web, Back-end有著執著的熱情。
   - id: 'ingy'
     name: 'Ingy döt Net'
     title: 'N/A'
