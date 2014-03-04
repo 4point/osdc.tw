@@ -202,3 +202,12 @@ speaker:
               
               Github: https://github.com/appleboy
               Blog: http://blog.wu-boy.com
+  - id: 'freak'
+    name: 'fr3@K'
+    title: 'Engineer @ Zillians'
+    avatar: 'c7f1bb839307e72a57f816643e10e064'
+    profile: |
+              一個信仰 Big Data 的 C++ 狂熱份子, 服務於 Zillians 奇群科技.
+              - 主要興趣: C++, networking and systems programming, distributed computing and systems architecture. 最近在玩 LLVM.
+              - Blog: http://fsfoundry.org/codefreak/
+              - 其他專長: Ruby
