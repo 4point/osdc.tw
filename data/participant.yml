@@ -57,7 +57,8 @@ speaker:
     name: 'StarNight'
     title: 'Engineer'
     profile: |
-              努力實現夢想的業餘工程師，目前在種花店當個打雜的園丁。
+              是個努力實現夢想的業餘工程師，平常喜歡畫畫電路圖、寫寫C程式、兜一些機構，然後玩玩嵌入式系統；有時也寫javascript，試試網站前後端的組合；偶爾利用python來打樣、驗證突發奇想的idea；...。
+              目前在種花店當個打雜的園丁~
               http://about.me/StarNight
   - id: 'brucehsu'
     name: 'Szu-Kai Hsu (brucehsu)'
