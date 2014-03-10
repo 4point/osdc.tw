@@ -148,6 +148,7 @@ speaker:
   - id: 'wang'
     name: '王耀聰'
     title: 'Etu 首席架構師＼社群傳教士'
+    avatar: '//dl.dropboxusercontent.com/u/4347314/osdc_avatar/jazz_wang.jpg'
     profile: |
               －台灣 Hadoop 使用者社群 Haoop.TW ＼共同創辦人＼首席傳教士
               －Hadoop : The Definitive Guide、Hadoop Operations 兩書主要譯者
