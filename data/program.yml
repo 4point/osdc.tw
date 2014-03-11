@@ -90,8 +90,8 @@ day1:
     title: 'Using Open Standards and Open Source to Manage a Datacenter'
   - time: 9
     room: 0
-    speaker: 'ingy'
-    title: 'Bashing GitHub'
+    speaker: 'freak'
+    title: 'Is Your Singleton Broken?'
   - time: 9
     room: 1
     speaker: 'cindylinz'
@@ -139,8 +139,8 @@ day2:
     title: 'Introduction to Percona XtraDB Cluster with HAproxy'
   - time: 3
     room: 0
-    speaker: 'Kawasaki'
-    title: ''
+    speaker: 'ingy'
+    title: 'Bashing GitHub'
   - time: 3
     room: 1
     speaker: 'tpchung'
@@ -151,8 +151,8 @@ day2:
     title: 'gutscript - a language compile to PHP'
   - time: 5
     room: 0
-    speaker: 'Oarabile Mudongo'
-    title: 'Youth and Emerging Digital Value Chains of the 21st Century in open moments'
+    speaker: 'Kawasaki'
+    title: 'BYOC'
   - time: 6
     room: 0
     speaker: 'jserv'
