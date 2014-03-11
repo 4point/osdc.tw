@@ -91,7 +91,7 @@ day1:
   - time: 9
     room: 0
     speaker: 'freak'
-    title: 'Is Your Singleton Broken?'
+    title: '有 <del>愛</del> RAII 的 C++'
   - time: 9
     room: 1
     speaker: 'cindylinz'
@@ -115,8 +115,8 @@ day2:
     title: 'Rust: a safe, concurrent, practical language'
   - time: 1
     room: 0
-    speaker: 'freak'
-    title: '有 <del>愛</del> RAII 的 C++'
+    speaker: 'appleboy'
+    title: 'Introduction to Percona XtraDB Cluster with HAproxy'
   - time: 1
     room: 1
     speaker: 'fredc'
@@ -135,8 +135,8 @@ day2:
     title: 'Data Visualization in D3js - Tips and Tricks'
   - time: 2
     room: 2
-    speaker: 'appleboy'
-    title: 'Introduction to Percona XtraDB Cluster with HAproxy'
+    speaker: 'Kawasaki'
+    title: 'BYOC'
   - time: 3
     room: 0
     speaker: 'ingy'
@@ -151,8 +151,8 @@ day2:
     title: 'gutscript - a language compile to PHP'
   - time: 5
     room: 0
-    speaker: 'Kawasaki'
-    title: 'BYOC'
+    speaker: 'freak'
+    title: 'Is Your Singleton Broken?'
   - time: 6
     room: 0
     speaker: 'jserv'
