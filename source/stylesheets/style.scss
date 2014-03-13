@@ -18,12 +18,18 @@ a {
 	.wrapper {
 		position: relative;
 	}
-	.top {
+	.top, .top2 {
 		position: absolute;
-		top: -40px;
 		left: 50%;
 		margin-left: -75px;
 		pointer-events: none;
+	}
+	.top {
+		top: -60px;
+	}
+	.top2 {
+		top: 170px;
+		z-index: -1;
 	}
 }
 

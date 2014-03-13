@@ -4,7 +4,7 @@
 }
 
 #header {
-	.top {
+	.top, .top2 {
 		display: none;
 	}
 }
@@ -253,6 +253,14 @@
 }
 
 @media (min-width: 641px) and (max-width: 999px) {
+	#logo {
+		text-align: center;
+	}
+	#menu {
+		li {
+			flex-grow: 1;
+		}
+	}
 	#banner {
 		width: 600px;
 	}
@@ -275,7 +283,7 @@
 	}
 	#header {
 		height: 66px;
-		.top {
+		.top, .top2 {
 			display: block;
 		}
 	}
@@ -300,7 +308,7 @@
 		}
 		.title {
 			position: absolute;
-			bottom: 0;
+			bottom: -0.5em;
 		}
 	}
 	#register {
