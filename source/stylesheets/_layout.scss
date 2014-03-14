@@ -318,13 +318,17 @@
 		.wrapper:first-child {
 			display: flex;
 		}
+		.pillar, .pillar2, .tap, .drop {
+			display: block;
+		}
 	}
 	#news.home {
 		width: 50%;
 		padding-right: 1em;
 	}
 	#twitter {
-		width: 50%;
+		width: 35%;
+		margin-left: 15%;
 		margin-top: -100px;
 	}
 	#footer {
