@@ -31,7 +31,7 @@ day2:
   - time: '12:30 - 13:40'
     type: 'lunch'
   - time: '13:40 - 14:10'
-    type: 'keynote'
+    type: 'track'
   - time: '14:20 - 14:50'
     type: 'keynote'
   - time: '15:10 - 15:40'

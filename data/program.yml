@@ -153,6 +153,14 @@ day2:
     room: 0
     speaker: 'freak'
     title: 'Is Your Singleton Broken?'
+  - time: 5
+    room: 1
+    speaker: ''
+    title: ''
+  - time: 5
+    room: 2
+    speaker: ''
+    title: ''
   - time: 6
     room: 0
     speaker: 'jserv'
