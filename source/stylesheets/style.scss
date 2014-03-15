@@ -12,6 +12,11 @@ a {
 	text-decoration: none;
 }
 
+.brick {
+	width: 150px;
+	height: 150px;
+}
+
 #header {
 	background-color: $header-background-color;
 	padding-top: 16px;
@@ -129,45 +134,44 @@ a {
 		display: none;
 		position: relative;
 		left: -555px;
-		img {
-			display: block;
+		.brick {
 			position: absolute;
 		}
 	}
 	.pillar {
 		top: -60px;
 		transform: translateY(-20px);
-		img:nth-of-type(1) {
+		svg:nth-of-type(1) {
 			top: 68px;
 		}
-		img:nth-of-type(2) {
+		svg:nth-of-type(2) {
 			top: 19px;
 		}
-		img:nth-of-type(3) {
+		svg:nth-of-type(3) {
 			top: -30px;
 		}
 	}
 	.pillar2 {
 		top: 150px;
 		transform: translateY(-30px);
-		img:nth-of-type(1) {
+		svg:nth-of-type(1) {
 			top: 19px;
 		}
-		img:nth-of-type(2) {
+		svg:nth-of-type(2) {
 			top: -30px;
 		}
 	}
 	.tap {
 		top: 200px;
 		transform: translateY(-12px);
-		img:nth-of-type(1) {
+		svg:nth-of-type(1) {
 			top: 88px;
 		}
-		img:nth-of-type(2) {
+		svg:nth-of-type(2) {
 			top: 183px;
 			left: 64px;
 		}
-		img:nth-of-type(3) {
+		svg:nth-of-type(3) {
 			top: 135px;
 			left: 64px;
 		}
@@ -176,6 +180,8 @@ a {
 		top: 400px;
 		z-index: -1;
 		img {
+			display: block;
+			position: absolute;
 			margin-left: 110px;
 		}
 	}

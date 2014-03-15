@@ -15,16 +15,24 @@ title: Home
 	%script
 		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 .tap
-	= image_tag 'bricks/red.svg'
-	= image_tag 'bricks/yellow.svg'
-	= image_tag 'bricks/purple.svg'
+	%svg.brick
+		%use{"xlink:href" => "#red"}
+	%svg.brick
+		%use{"xlink:href" => "#yellow"}
+	%svg.brick
+		%use{"xlink:href" => "#purple"}
 .pillar2
-	= image_tag 'bricks/green.svg'
-	= image_tag 'bricks/red_blue.svg'
+	%svg.brick
+		%use{"xlink:href" => "#green"}
+	%svg.brick
+		%use{"xlink:href" => "#red_blue"}
 .pillar
-	= image_tag 'bricks/purple.svg'
-	= image_tag 'bricks/yellow.svg'
-	= image_tag 'bricks/green.svg'
+	%svg.brick
+		%use{"xlink:href" => "#purple"}
+	%svg.brick
+		%use{"xlink:href" => "#yellow"}
+	%svg.brick
+		%use{"xlink:href" => "#green"}
 .drop
 	= image_tag 'drop.svg'
 	= image_tag 'drop.svg'

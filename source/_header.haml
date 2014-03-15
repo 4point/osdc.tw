@@ -14,7 +14,8 @@
 		.top
 			= image_tag 'line.svg'
 		.top2
-			= image_tag 'bricks/red_blue.svg'
+			%svg.brick
+				%use{"xlink:href" => "#red_blue"}
 #banner.wrapper
 	%p.left
 		%span OSDC
