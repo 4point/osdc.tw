@@ -54,8 +54,8 @@ day1:
     title: 'Web Component Intro'
   - time: 6
     room: 0
-    speaker: 'aocole'
-    title: 'Growing Panes: An open-source video wall'
+    speaker: ''
+    title: ''
   - time: 6
     room: 1
     speaker: 'raymond'
@@ -151,16 +151,16 @@ day2:
     title: 'gutscript - a language compile to PHP'
   - time: 5
     room: 0
+    speaker: 'aocole'
+    title: 'Growing Panes: An open-source video wall'
+  - time: 5
+    room: 1
     speaker: 'freak'
     title: 'Is Your Singleton Broken?'
   - time: 5
-    room: 1
-    speaker: ''
-    title: ''
-  - time: 5
     room: 2
     speaker: ''
-    title: ''
+    title: 'Docker 原理與使用'
   - time: 6
     room: 0
     speaker: 'jserv'
