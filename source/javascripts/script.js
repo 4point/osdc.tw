@@ -20,8 +20,8 @@ function update() {
 	}
 	var footer = document.getElementById('footer');
 	if (currentScrollY + document.documentElement.clientHeight > footer.offsetTop) {
-		var offset = -30 + (footer.clientHeight - (currentScrollY + document.documentElement.clientHeight - footer.offsetTop)) * 0.5;
-		footer.style.backgroundPosition = 'center bottom ' + offset + 'px';
+		var offset = -70 + (footer.clientHeight - (currentScrollY + document.documentElement.clientHeight - footer.offsetTop)) * 0.5;
+		document.getElementById('bottom').style.bottom = offset + 'px';
 	}
 	if (currentScrollY > 30 && currentScrollY < 150) {
 		document.querySelector('.pillar').style.transform = 'translateY(' + ((currentScrollY - 30) * 0.5 - 20) + 'px)';

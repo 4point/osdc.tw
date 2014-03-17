@@ -12,7 +12,9 @@
 			%li{class: ("active" if current_page.path.start_with?('sponsors') )}
 				= link_to 'Sponsors', '/sponsors.html'
 		.top
-			= image_tag 'line.svg'
+			%svg{:width => '150px', :height => '300px'}
+				%use{:y => '148', "xlink:href" => "#red"}
+				%use{"xlink:href" => "#line"}
 		.top2
 			%svg.brick
 				%use{"xlink:href" => "#red_blue"}

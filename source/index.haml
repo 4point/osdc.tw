@@ -5,14 +5,16 @@ title: Home
 %section#news.home
 	%h2
 		News
-		= link_to image_tag('feed-icon.svg'), '/feed.xml'
+		= link_to '/feed.xml' do
+			%svg
+				%use{"xlink:href" => "#feed"}
 	- page_articles.each_with_index do |article, i|
 		= partial(:news, :locals => {:article => article, :content => false})
 %section#twitter
 	%h2 Twitter
 	%a.twitter-timeline{:href => "https://twitter.com/search?q=%23osdc.tw", :data => {'widget-id' => "432792863965868032", 'tweet-limit' => 5, :chrome => "noheader nofooter transparent noscrollbar"}}
 		推文關於"#osdc.tw"
-	%script
+	%script{:defer => true}
 		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 .tap
 	%svg.brick
@@ -34,6 +36,9 @@ title: Home
 	%svg.brick
 		%use{"xlink:href" => "#green"}
 .drop
-	= image_tag 'drop.svg'
-	= image_tag 'drop.svg'
-	= image_tag 'drop.svg'
+	%svg
+		%use{"xlink:href" => "#drop"}
+	%svg
+		%use{"xlink:href" => "#drop"}
+	%svg
+		%use{"xlink:href" => "#drop"}

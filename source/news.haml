@@ -5,6 +5,8 @@ title: News
 %section#news.page
 	%h2
 		News
-		= link_to image_tag('feed-icon.svg'), '/feed.xml'
+		= link_to '/feed.xml' do
+			%svg
+				%use{"xlink:href" => "#feed"}
 	- page_articles.each_with_index do |article, i|
 		= partial(:news, :locals => {:article => article, :content => true})
