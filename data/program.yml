@@ -159,7 +159,7 @@ day2:
     title: 'Is Your Singleton Broken?'
   - time: 5
     room: 2
-    speaker: ''
+    speaker: 'kuotung.kao'
     title: 'Docker 原理與使用'
   - time: 6
     room: 0

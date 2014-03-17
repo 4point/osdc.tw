@@ -219,3 +219,9 @@ speaker:
               - 主要興趣: C++, networking and systems programming, distributed computing and systems architecture. 最近在玩 LLVM.
               - Blog: http://fsfoundry.org/codefreak/
               - 其他專長: 手把手 Ruby 教學
+  - id: 'kuotung.kao'
+    name: '高國棟'
+    title: 'Research and Development'
+    avatar: 'facebook'
+    profile: |
+              目前工作使用 python + django 為主。主要興趣在程式語言與作業系統，對嵌入式系統(mini2440)、androidd開發 、python 直譯器、qt與 anduino 皆有涉獵。喜歡開發一些簡單，功能奇怪的小軟體。平時會把自己所學寫進 blogger 作備忘。其他興趣則是爬山、心理學與行銷。about.me/ya790206
