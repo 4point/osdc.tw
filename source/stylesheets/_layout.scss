@@ -91,6 +91,9 @@
 			width: 100%;
 		}
 	}
+	#bottom {
+		bottom: -200px;
+	}
 	.sponsor {
 		margin-bottom: 2em;
 		img {
@@ -210,7 +213,6 @@
 		}
 	}
 	#footer {
-		padding-bottom: 120px;
 		.wrapper {
 			padding: 0 1em;
 		}
@@ -219,6 +221,9 @@
 			right: 0;
 			top: 0;
 		}
+	}
+	#bottom {
+		bottom: -70px;
 	}
 	#sponsors {
 		li {
@@ -264,6 +269,10 @@
 	#banner {
 		width: 600px;
 	}
+	#bottom {
+		left: auto;
+		right: 15%;
+	}
 	#schedule {
 		tbody td:first-child {
 			text-align: left;
@@ -280,6 +289,7 @@
 @media (min-width: 1000px) {
 	.wrapper {
 		width: 960px;
+		padding: 0;
 	}
 	#header {
 		height: 66px;
@@ -330,9 +340,6 @@
 		width: 35%;
 		margin-left: 15%;
 		margin-top: -100px;
-	}
-	#footer {
-		padding-bottom: 0;
 	}
 	#speakers .speaker {
 		width: 30%;

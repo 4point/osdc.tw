@@ -37,3 +37,6 @@ function update() {
 	}
 }
 window.addEventListener('scroll', onScroll, false);
+window.addEventListener('resize', function(){
+	document.getElementById('bottom').removeAttribute('style');
+}, false);
