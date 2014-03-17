@@ -56,6 +56,16 @@ sponsors:
             At Etu, our mission is to develop Big Data Killer Solutions with Appliances, centered on business development in Taipei and Beijing. Utilizing the Hadoop-related technologies, working closely with all Hadoop distribution and third party tool vendors , our Big Data business is dedicated to providing end-to-end solutions for customers to effectively harness the challenges of large sets of data.
             
             With our professionalism and expertise, our core competency in Big Data is to address specific business problems for customers from a diverse set of industries.
+  - id: 'zillians'
+    title: '奇群科技'
+    link: 'http://www.zillians.com'
+    rank: 'hacker'
+    intro: |
+            奇群科技成立於 2008 年，以「打造網路的右腦 (build the right brain of the internet)」為願景，我們的核心技術圍繞著 GPU 運算。
+
+            我們希望透過開發基於 GPU 運算的影像處理及電腦視覺平台，讓影像可以被電腦理解，以打造終極的人工智慧系統。因此，我們設計並實作了一套異質性程式語言與編譯器 Thor，希望能大幅度降低 GPU/CPU 這種異質性、平行化、分散式的系統軟體開發門檻，讓 GPU 應用開發變得跟 Web 開發一樣簡單快速。未來，我們希望全世界各地的學者、開發者都能在此開放式平台上實現他們的演算法，並辨識出特定的物件。
+
+            除了建造此平台之外，我們也嘗試開發各個垂直領域的應用，並在 2013 年推出了手機版行車記錄器 App RoadRunner 及行車影像雲端平台 PushCam，透過產品端的應用來幫我們一步步朝目標邁進。
   - id: 'godgame'
     title: '神來也'
     link: 'http://www.gamesofa.com/'
