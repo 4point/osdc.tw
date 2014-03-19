@@ -219,6 +219,11 @@ speaker:
               - 主要興趣: C++, networking and systems programming, distributed computing and systems architecture. 最近在玩 LLVM.
               - Blog: http://fsfoundry.org/codefreak/
               - 其他專長: 手把手 Ruby 教學
+  - id: 'Wisely.Chen'
+    name: 'Wisely Chen'
+    title: 'Sr. Engineer'
+    profile: |
+              Wisely Chen is Sr. Engineer in Yahoo! Taiwan data team and he is also  a lifetime learner in open source technology. 
   - id: 'kuotung.kao'
     name: '高國棟'
     title: 'Research and Development'
