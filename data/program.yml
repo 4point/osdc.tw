@@ -95,7 +95,7 @@ day1:
   - time: 9
     room: 1
     speaker: 'cindylinz'
-    title: 'HasPerl: The marriage of Haskell and Perl'
+    title: 'HasPerl: The marriage of Haskell and Perl<br>一條低門檻實用 Haskell 的路'
   - time: 9
     room: 2
     speaker: 'azhuang'
