@@ -18,27 +18,24 @@ title: Home
 		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 .tap
 	%svg.brick
-		%use{"xlink:href" => "#red"}
+		%use{"xlink:href" => image_path('image.svg') + "#red"}
 	%svg.brick
-		%use{"xlink:href" => "#yellow"}
+		%use{"xlink:href" => image_path('image.svg') + "#yellow"}
 	%svg.brick
-		%use{"xlink:href" => "#purple"}
+		%use{"xlink:href" => image_path('image.svg') + "#purple"}
 .pillar2
 	%svg.brick
-		%use{"xlink:href" => "#green"}
+		%use{"xlink:href" => image_path('image.svg') + "#green"}
 	%svg.brick
-		%use{"xlink:href" => "#red_blue"}
+		%use{"xlink:href" => image_path('image.svg') + "#red_blue"}
 .pillar
 	%svg.brick
-		%use{"xlink:href" => "#purple"}
+		%use{"xlink:href" => image_path('image.svg') + "#purple"}
 	%svg.brick
-		%use{"xlink:href" => "#yellow"}
+		%use{"xlink:href" => image_path('image.svg') + "#yellow"}
 	%svg.brick
-		%use{"xlink:href" => "#green"}
+		%use{"xlink:href" => image_path('image.svg') + "#green"}
 .drop
-	%svg
-		%use{"xlink:href" => "#drop"}
-	%svg
-		%use{"xlink:href" => "#drop"}
-	%svg
-		%use{"xlink:href" => "#drop"}
+	- 3.times do
+		%svg
+			%use{"xlink:href" => image_path('image.svg') + "#drop"}

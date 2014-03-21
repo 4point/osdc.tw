@@ -13,11 +13,11 @@
 				= link_to 'Sponsors', '/sponsors.html'
 		.top
 			%svg{:width => '150px', :height => '300px'}
-				%use{:y => '148', "xlink:href" => "#red"}
-				%use{"xlink:href" => "#line"}
+				%use{:y => '148', "xlink:href" => image_path('image.svg') + "#red"}
+				%use{"xlink:href" => image_path('image.svg') + "#line"}
 		.top2
 			%svg.brick
-				%use{"xlink:href" => "#red_blue"}
+				%use{"xlink:href" => image_path('image.svg') + "#red_blue"}
 #banner.wrapper
 	%p.left
 		%span OSDC
