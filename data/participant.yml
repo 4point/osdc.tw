@@ -219,6 +219,10 @@ speaker:
               - 主要興趣: C++, networking and systems programming, distributed computing and systems architecture. 最近在玩 LLVM.
               - Blog: http://fsfoundry.org/codefreak/
               - 其他專長: 手把手 Ruby 教學
+  - id: 'jnlin'
+    name: 'Jui-Nan Lin'
+    title: ''
+    profile: |
   - id: 'Wisely.Chen'
     name: 'Wisely Chen'
     title: 'Sr. Engineer'
