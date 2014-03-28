@@ -244,12 +244,8 @@
 	}
 	#speakers {
 		ul {
-			text-align: justify;
-			&::after {
-				content: '';
-				display: inline-block;
-				width: 100%;
-			}
+			display: flex;
+			flex-wrap: wrap;
 		}
 		.speaker {
 			margin: .5em;
@@ -281,7 +277,7 @@
 		}
 	}
 	#speakers .speaker {
-		width: 45%;
+		flex-basis: 45%;
 	}
 }
 
@@ -342,6 +338,6 @@
 		margin-top: -100px;
 	}
 	#speakers .speaker {
-		width: 30%;
+		flex-basis: 30%;
 	}
 }
