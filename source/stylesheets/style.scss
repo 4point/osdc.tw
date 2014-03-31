@@ -362,6 +362,10 @@ article p a {
 			border-bottom-color: #312f33;
 			border-left-color: #312f33;
 			padding: .5em;
+			vertical-align: top;
+			& > a {
+				display: block;
+			}
 		}
 		td:first-child {
 			text-align: center;
@@ -381,7 +385,7 @@ article p a {
 	}
 }
 
-#speakers {
+#speakers, #program {
 	ul {
 		padding: 0;
 		margin: 0;
@@ -409,10 +413,38 @@ article p a {
 			background-image: image-url('avatar.png');
 			border: 2px solid #cfcfcf;
 		}
-		article:target {
-			outline: solid #dcb732 2px;
-			outline-offset: 0.8em
+	}
+}
+
+#program {
+	& > header {
+		h2 {
+			border-top: 6px solid #6ca0f7;
+			background-color: #312f33;
+			padding: 1em;
 		}
+		time, .room {
+			font-size: larger;
+			padding: 1em;
+		}
+		.room {
+			float: right;
+			margin-top: -1em;
+		}
+	}
+	& > main {
+		padding: 1em;
+		line-height: 1.5em;
+		margin-bottom: 2em;
+	}
+	.speaker {
+		text-align: center;
+	}
+	.avatar {
+		margin: 0 auto;
+	}
+	.profile {
+		text-align: left;
 	}
 }
 

@@ -1,0 +1,19 @@
+---
+title: Program
+---
+
+%section#program.page
+	%header
+		%time #{settings.send(day)} #{data.schedule.send(day)[program.time].time}
+		%span.room #{settings.room[program.room]}
+		%h2 #{program.title}
+	%main
+		.intro
+			#{program.intro}
+	- if speaker
+		%article.speaker
+			%header
+				= avatar speaker
+				%h3.name= speaker.name
+				%p.title= speaker.title
+			%main.profile= simple_format speaker.profile

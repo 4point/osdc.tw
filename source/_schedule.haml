@@ -3,8 +3,8 @@
 	%thead
 		%tr
 			%th 時間
-			%th 第一會議室
-			%th 國際會議廳
-			%th 第二會議室
+			%th #{settings.room[1]}
+			%th #{settings.room[0]}
+			%th #{settings.room[2]}
 	%tbody
 		= program(date)

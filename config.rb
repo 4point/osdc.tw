@@ -1,5 +1,6 @@
 set :day1, '04/11'
 set :day2, '04/12'
+set :room, ['國際會議廳', '第一會議室', '第二會議室']
 
 ###
 # Blog
@@ -8,6 +9,19 @@ set :day2, '04/12'
 activate :blog do |blog|
 	blog.prefix = "news"
 end
+
+###
+# Proxy
+###
+
+['day1', 'day2'].each do |day|
+  data.program.send(day).each_with_index do |program, index|
+    speaker = data.participant.speaker.find{|speaker| speaker.id == program.speaker}
+    proxy "/program/#{day}-#{program.time}#{program.room}.html", "/program.html", :locals => { :program => program, :speaker => speaker, :day => day }
+  end
+end
+
+ignore "/program.html"
 
 ###
 # Compass
@@ -84,8 +98,10 @@ helpers do
           when 'keynote'
             talk = data.program.send(day).find{|talk| talk.time == index}
             haml_tag :td, :class => "keynote", :colspan => 3 do
-              haml_tag :span, speaker_id(talk.speaker), :class => "speaker"
-              haml_tag :span, talk.title, :class => "title"
+              haml_tag(:a, :href => program_link(day, talk)) do
+                haml_tag :span, speaker_id(talk.speaker), :class => "speaker"
+                haml_tag :span, talk.title, :class => "title"
+              end
             end
           when 'track'
             [1, 0, 2].each do |room|
@@ -94,8 +110,10 @@ helpers do
                 haml_tag :td, '', :class => "empty"
               else
                 haml_tag :td, :class => "talk" do
-                  haml_tag :span, speaker_id(talk.speaker), :class => "speaker"
-                  haml_tag :span, talk.title, :class => "title"
+                  haml_tag(:a, :href => program_link(day, talk)) do
+                    haml_tag :span, speaker_id(talk.speaker), :class => "speaker"
+                    haml_tag :span, talk.title, :class => "title"
+                  end
                 end
               end
             end
@@ -122,11 +140,14 @@ helpers do
   end
   def speaker_id (id)
     if speaker = data.participant.speaker.find{|speaker| speaker.id == id}
-      name = link_to speaker.name, '/speakers.html#' + speaker.id.to_s
+      name = speaker.name
     else
       name = id
     end
     name
+  end
+  def program_link (day, talk)
+    'program/' + day + '-' + talk.time.to_s + talk.room.to_s + '.html#content'
   end
 end
 

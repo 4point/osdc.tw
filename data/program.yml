@@ -24,6 +24,8 @@ day1:
     room: 1
     speaker: 'sunnychan'
     title: 'Introduction to OpenJDK 8'
+    intro: |
+            Java 8 is a revolutionary release with a major new language feature: Lambdas. In this talk we will look at the motivation for Lambdas and why it improves developer productivity. We will also look at other new features and enhancement in OpenJDK 8, including class library and hostpot changes, and Nashorn JavaScript Engine.
   - time: 2
     room: 2
     speaker: 'penk'
@@ -60,6 +62,8 @@ day1:
     room: 1
     speaker: 'raymond'
     title: 'DIY一個Data Mining based的網路流量分析工具'
+    intro: |
+            除了透過MRTG、NTOP、等工具外，難道沒有Data Mining based的網路流量分析工具可以用嗎?好吧，那我們用hontonwork、mahout、pmacc、netflow、bootstrap、php等opensource工具，建立一個簡單的Data Mining based的網路流量分析工具，幫助網管人員輕鬆看到更多的網路資訊
   - time: 6
     room: 2
     speaker: 'freedom'
@@ -72,6 +76,8 @@ day1:
     room: 1
     speaker: 'johnson_lin'
     title: 'The Making of CuBeat, Programming-wise'
+    intro: |
+            這場 talk 將用一個 (或數個) 以 JavaScript 寫成的最小化 MVC 架構 (~200 LOC) 為例，深入介紹 MVC 這個 design pattern。並希望在這個充滿琳琅滿目 framework 的時代中，能帶給大家一些反思。
   - time: 7
     room: 2
     speaker: '高嘉良'
@@ -96,6 +102,8 @@ day1:
     room: 1
     speaker: 'cindylinz'
     title: 'HasPerl: The marriage of Haskell and Perl<br>一條低門檻實用 Haskell 的路'
+    intro: |
+            To write Haskell code in Perl. To write Perl code in Haskell. Combine the type most language and the type least language together...
   - time: 9
     room: 2
     speaker: 'azhuang'
@@ -105,10 +113,16 @@ day2:
     room: 0
     speaker: 'miller_lee'
     title: 'C++AMP on Linux'
+    intro: |
+            GPGPU programming has long been a tedious and challenging task, requiring deep understanding to the GPU architecture intricacies and most of current GPGPU programming models also models the GPU as an explicit accelerator (such as CUDA and OpenCL), which requires verbose memory space management as well as special kernel launch constructs. To address these, Microsoft proposes C++AMP as an open standard for GPGPU computing. C++AMP address them by naturally extending C++11 lambdas and closure to model GPU kernels and providing a shared memory address look-and-feel to the user. The compiler then compile lambdas into GPU codes and execute on the GPU. A runtime is used to hide the memory address space differences from the user.
+            Currently, the only publicly available implementation is Microsoft Visual Studio 2012. The major problem left for the open source community is that there is currently no functional C++AMP implementation that is either open-sourced or supporting Linux as a host.
+            In this talk, I would like to present our work in the first open-source C++AMP implementation Linux targeting OpenCL. This is based on popular Clang/LLVM. We will discuss the details on how to compile C++AMP kernels into OpenCL, as well as how to hide the address space differences by leveraging GMAC, an open source library for virtual shared address space between host and accelerators. Also, what we need to care when designing the headers.
   - time: 0
     room: 1
     speaker: 'moskytw'
     title: 'Minimal MVC in JavaScript'
+    intro: |
+            MVC、MVC、MVC，這個關鍵字你一定聽過。他是在 Front/Back-end Web 或 GUI 的應用程式中非常流行的 design pattern。你也可以輕鬆地在網路上找到各種語言的 Open Source MVC framework --- 但究竟 MVC 的本質是什麼？難道要用 MVC 就一定要用 framework 嗎？
   - time: 0
     room: 2
     speaker: 'kanru'
@@ -133,6 +147,13 @@ day2:
     room: 1
     speaker: 'tkirby'
     title: 'Data Visualization in D3js - Tips and Tricks'
+    intro: |
+            D3js is a most advanced and powerful javascript library for interactive data visualization. while d3js.org itself demonstrates lots of brilliant examples made by D3js, many people are also still exploring its possibilities in many different ways. In this talk, following topics will be discussed:
+            * Essential of Data Visualization
+            * Presentation Abstraction with AngularJS
+            * Three Dimensional D3js
+            * Dimensional filtering of Multivariate Dataset
+            * D3js in Server Side
   - time: 2
     room: 2
     speaker: 'Kawasaki'
@@ -145,6 +166,8 @@ day2:
     room: 1
     speaker: 'tpchung'
     title: 'Escape from the Callback Hell'
+    intro: |
+            Asynchronised operations are good. Callbacks are not. Named callbacks clutter scopes and are disruptive. Anonymous callbacks—if they are supported at all—create deeply nested code and become totally unreadable. There is another way. Let's take a look of how efforts are taken to flatten the code structure for async operations, and how it may be relevant to you.
   - time: 3
     room: 2
     speaker: 'c9s'

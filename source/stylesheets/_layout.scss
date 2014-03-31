@@ -175,6 +175,20 @@
 			text-align: center;
 		}
 	}
+	#program {
+		& > header {
+			.room {
+				display: block;
+				float: none;
+				margin: 0;
+			}
+			h2 {
+				margin: 0;
+				padding: .5em;
+				border-top: 3px solid #6ca0f7;
+			}
+		}
+	}
 }
 
 @media (min-width: 641px) {
