@@ -23,16 +23,16 @@ function update() {
 		var offset = -70 + (footer.clientHeight - (currentScrollY + document.documentElement.clientHeight - footer.offsetTop)) * 0.5;
 		document.getElementById('bottom').style.bottom = offset + 'px';
 	}
-	if (currentScrollY > 30 && currentScrollY < 150) {
+	if (currentScrollY > 30 && currentScrollY < 150 && document.querySelector('.pillar')) {
 		document.querySelector('.pillar').style.transform = 'translateY(' + ((currentScrollY - 30) * 0.5 - 20) + 'px)';
 	}
-	if (currentScrollY > 150 && currentScrollY < 280) {
+	if (currentScrollY > 150 && currentScrollY < 280 && document.querySelector('.pillar2')) {
 		document.querySelector('.pillar2').style.transform = 'translateY(' + ((currentScrollY - 150) * 0.7 - 30) + 'px)';
 	}
 	if (currentScrollY > 280 && currentScrollY < 380) {
 		//document.querySelector('.tap').style.transform = 'translateY(' + ((currentScrollY - 250)) + 'px)';
 	}
-	if (currentScrollY > 380) {
+	if (currentScrollY > 380 && document.querySelector('.drop')) {
 		document.querySelector('.drop').classList.add('start');
 	}
 }

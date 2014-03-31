@@ -6,7 +6,7 @@ set :day2, '04/12'
 ###
 
 activate :blog do |blog|
-	blog.prefix = "/news"
+	blog.prefix = "news"
 end
 
 ###

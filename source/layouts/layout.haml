@@ -13,7 +13,7 @@
 		= javascript_include_tag  "script"
 	%body
 		= partial 'header'
-		%main#content
+		%main#content{:class => page_classes}
 			.wrapper
 				= yield
 			- unless current_page.url == '/sponsors.html'

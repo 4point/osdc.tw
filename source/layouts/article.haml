@@ -3,3 +3,11 @@
 		%time= current_article.date.strftime('%b %e')
 		%h2.title= current_article.title
 		%main= yield
+	%section#news
+		%h2
+			News
+			= link_to '/feed.xml' do
+				%svg
+					%use{"xlink:href" => image_path('image.svg') + "#feed"}
+		- page_articles.each_with_index do |article, i|
+			= partial(:news, :locals => {:article => article, :content => false})

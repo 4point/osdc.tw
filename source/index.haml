@@ -7,7 +7,7 @@ title: Home
 		News
 		= link_to '/feed.xml' do
 			%svg
-				%use{"xlink:href" => "#feed"}
+				%use{"xlink:href" => image_path('image.svg') + "#feed"}
 	- page_articles.each_with_index do |article, i|
 		= partial(:news, :locals => {:article => article, :content => false})
 %section#twitter
