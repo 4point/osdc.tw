@@ -342,7 +342,7 @@
 		.pillar, .pillar2, .tap, .drop {
 			display: block;
 		}
-		&.index > .wrapper {
+		&.index > .wrapper:first-child {
 			display: flex;
 		}
 	}
