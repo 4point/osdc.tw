@@ -160,8 +160,11 @@ day2:
     title: 'BYOC'
   - time: 3
     room: 0
-    speaker: 'ingy'
-    title: 'Bashing GitHub'
+    speaker: ingy
+    title: The Terminal GitHub User
+    intro: |
+            U ♥ GitHub. U ♥ 2 Hack. U ♥ UR Terminal. Y U GitHub wit teh BROWSR?!?!
+            Ingy döt Net will show you how to do all your daily GitHub interactions from the command line, using a new Git command: git-hub. Create repos. Stalk users. Fork, star, clone, follow, trust, request, pull. Star all the repos of all your Taiwanese followers in one command! The git-hub is your new best friend.
   - time: 3
     room: 1
     speaker: 'tpchung'
@@ -174,8 +177,10 @@ day2:
     title: 'gutscript - a language compile to PHP'
   - time: 5
     room: 0
-    speaker: 'aocole'
-    title: 'Growing Panes: An open-source video wall'
+    speaker: ingy
+    title: Bashing OSDC
+    intro: |
+            What is the hot new language of 2014? It's Bash! SRSLY?? SRSLY!! Come let Ingy show you how to do modern, test driven, OO programming in a language much older than Ruby. Ingy will show you why Bash is actually better than the OSDC languages (Ruby, Perl, JavaScript, Python) for many tasks. You will also learn about 3 important new modules for Bash: JSON, Test::More and Bash+, and the new place to get them: BPAN.
   - time: 5
     room: 1
     speaker: 'freak'
