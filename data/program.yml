@@ -4,6 +4,8 @@ day1:
     room: 0
     speaker: 'lizbarry'
     title: 'How Public Lab collaborates to make environmental science something anyone can do'
+    intro: |
+            Public Lab is a community that works together to make environmental science something anyone can do. This broad mission attracts a wide diversity of personalities with varied skills sets, ranging from coding to drawing to interviewing people to flying kites! In locations around the US and the world, self-started Public Lab groups bring people facing environmental issues together with hardware/software developers, then blurs these categories through the "give and take" of peer-to-peer learning. In this way, Public Lab is attempting to distribute the ability to conduct environmental research broadly through the civic sector. 
   - time: 1
     room: 0
     speaker: 'wang'
@@ -16,6 +18,8 @@ day1:
     room: 2
     speaker: 'matthew_wilson'
     title: 'A Path to Forking All The Things - <br>progress and next steps toward full-stack trusted/free computing'
+    intro: |
+            Matthew Wilson of Veradox illuminates steps toward being able to rely on the integrity of our software and hardware, starting with examining and showing progress toward forkability and provability.
   - time: 2
     room: 0
     speaker: 'peterzhoulei'
@@ -30,6 +34,10 @@ day1:
     room: 2
     speaker: 'penk'
     title: 'SlateKit - Open Source Tablet UX Building Kit'
+    intro: |
+            SlateKit (slatekit.org) is the building blocks aim for people who are crazy enough to create their own embedded UX. 
+             
+            This project consists a set of Qt-based UI components, including launcher, web browser, virtual keyboard and handwriting/voice input method. With its hardware adaption layer (Hybris), it can also run on top of Android system and leverage existing hardware/device.
   - time: 3
     room: 0
     speaker: 'Wisely.Chen'
@@ -38,6 +46,8 @@ day1:
     room: 1
     speaker: 'itu_tw'
     title: 'MySQL Utility'
+    intro: |
+            MySQL Utility is a GPL tool that works MySQL Server with operations, such as configure master-slave replicaiton, auto fail-over and fail-back, promte the slave server the has move update information among slave servers while master is down and clone and compare MySQL database. From this sharing audience can have a comprehensive understanding to this tool and benifit from it' features
   - time: 3
     room: 2
     speaker: '林佑安'
@@ -50,10 +60,14 @@ day1:
     room: 1
     speaker: 'Willy Kuo'
     title: 'Getting started with Python for Data Science'
+    intro: |
+            Many people are saying "Data Scientist might be the sexist job of the 21 century." But, what is data science? How can I do it? Fortunately, there're many open source tool can help us to do those data science things. I'll mainly focus on Python in the speech. I'll give some examples about what data scientists are doing. Also, I'll give a short introduction for some python libraries which can help us to mining the data, including numpy, pandas, scikit-learn, matplotlib, and statsmodel. Will have a demo if time permitted.
   - time: 5
     room: 2
     speaker: 'othree'
     title: 'Web Component Intro'
+    intro: |
+            Web Component 可以說是目前最受期待的前端領域新技術，它是 Extensible Web 潮流的第一個浪頭，概念看似簡單，但是 Web Component 其實並非一個網路標準，而是 Shadow DOM、Custom Element 和 HTML Imports 為主的幾個新標準結合起來才能構成，這些標準雖然尚未穩定，但是已經可以透過一些 polyfill 函式庫開始使用，Google Chrome 也已經有實驗性的支援了，現在正是可以開始了解學習 Web Component 的適當時機，本分享將對 Web Component 的概念和結構完整的介紹，並且從無到有製作一個 Web Component 出來。
   - time: 6
     room: 0
     speaker: 'nctusdk'
@@ -68,6 +82,8 @@ day1:
     room: 2
     speaker: 'freedom'
     title: 'Understanding Android Benchmarks'
+    intro: |
+            Although Android is an open-source project, benchmarking on Android-based devices is complicated. Do you really know the performance of your Android devices?  Usually we use benchmarks to measure Android devices performances, but do you really know or say trust benchmark programs on Android devices?  In this talk, I'll review the past of performance benchmarking, talk about what some popular Android benchmarks do, and tell you some examples of how we did to improve benchmark numbers.
   - time: 7
     room: 0
     speaker: 'lunastorm'
@@ -77,27 +93,52 @@ day1:
     speaker: 'johnson_lin'
     title: 'The Making of CuBeat, Programming-wise'
     intro: |
-            這場 talk 將用一個 (或數個) 以 JavaScript 寫成的最小化 MVC 架構 (~200 LOC) 為例，深入介紹 MVC 這個 design pattern。並希望在這個充滿琳琅滿目 framework 的時代中，能帶給大家一些反思。
+            website: http://cubeat.game.tw
+            github: https://github.com/godfat/cubeat
+              
+            CuBeat 是我們從大學畢業專題就一直斷斷續續做到現在的快節奏對戰三消遊戲。除了時程實在莫名其妙地長以外，到目前為止的 codebase 皆使用 open source libraries，專案本身也是以 Apache License 2.0 公開在 github 上。這次想要來談談邊做邊學的過程中踩過的坑、用到的一些有趣的 lib，以及最後想想 Open Source 與 commercial game dev 之間的關係。
+                
+            The topic may include: 
+            1. LuaJIT (used in AI, UI & puzzle generation)
+            2. ManyMouse 
+            3. Easing Animation
+            4. Cross-platform in one codebase (WinXP+, OSX, Linux, Android)
+            5. Hand-made open-source toolchain or commercial toolchain
   - time: 7
     room: 2
     speaker: '高嘉良'
     title: 'PgREST - PostgreSQL, JavaScript, and REST'
+    intro: |
+            PgREST turns PostgreSQL into a RESTful JSON document store, allows running JavaScript and npm modules as stored procedures for queries and triggers from within the database. It also provides Firebase-compatible API for developing real-time applications. This talk will cover the building blocks of PgREST: PostgreSQL, plv8js, plv8x, as well as examples for turning existing relational data into REST endpoints.
   - time: 8
     room: 0
     speaker: 'brucehsu'
     title: '用 Go 打造程式語言執行環境：RunVM實例剖析'
+    intro: |
+            憑藉著其易寫易讀以及效能出眾的特性（還有Google這位富爸爸的支援），Go逐漸在系統程式的領域展露頭角，這裡我們以如何實作一個Ruby執行環境為主題，透過實際的例子介紹Go的語言特性。
+             
+            brucehsu，現就讀國內某大學資工所碩士班，鍵盤工程師一枚，長期關注OSS事務。
   - time: 8
     room: 1
-    speaker: 'Jesse Vincent'
-    title: 'Better and better keyboards'
+    speaker: 'Alan Sung'
+    title: ''
   - time: 8
     room: 2
     speaker: 'wens'
     title: 'Using Open Standards and Open Source to Manage a Datacenter'
+    intro: |
+            Managing a datacenter with hundreds of nodes is hard work.
+            Various tools and solutions exist to ease the burden of the sysadmins.
+            Some are proprietary, some are open source.
+            This talk shares my experience using and encorporating open source tools based on open standards to make my life easier.
   - time: 9
     room: 0
     speaker: 'freak'
     title: '有 <del>愛</del> RAII 的 C++'
+    intro: |
+            Resource Acquisition Is Initialization (RAII) idiom 幾乎是 C++ 最核心的思想, 它是 C++ 之所以是今天的 C++ 的一個主要原因, 也是 C++ 與大部分主流語言最顯著不一樣的地方之一.
+             
+              這個 talk 將會介紹 RAII 對 Resource Management, State Consistency and Exception Handling 等不同層面上, 對 C++ 帶來的正面影響.
   - time: 9
     room: 1
     speaker: 'cindylinz'
@@ -108,6 +149,8 @@ day1:
     room: 2
     speaker: 'azhuang'
     title: 'ProjectTox: Free as in freedom Skype replacement'
+    intro: |
+            ProjectTox 是一個 Open Source 的聊天網路，其Project的存在目的在於提供一個開源且安全的P2P IM 網路。此 Talk 將會介紹並推廣 ProjectTox，並說明其設計以及底層機制如 DHT, Onion Routing等等。身為 ProjectTox 的開發者之一，另外會介紹 PyTox 和其他相關 Open source project。
 day2:
   - time: 0
     room: 0
@@ -127,22 +170,60 @@ day2:
     room: 2
     speaker: 'kanru'
     title: 'Rust: a safe, concurrent, practical language'
+    intro: |
+            Rust 是 Mozilla 計畫的一個新系統程式語言，被用來開發新一代的 Browser 引擎 Servo。Rust 具有 C 語言家族的外觀，C++ 的效能、更安全的記憶體管理、Erlang 風格的平行運算、ML 的模式批配、Lisp 的 Macro……
+             
+            Rust 還有什麼能耐？能不能超越 C++？讓我們一起來玩 Rust！
   - time: 1
     room: 0
     speaker: 'appleboy'
     title: 'Introduction to Percona XtraDB Cluster with HAproxy'
+    intro: |
+            本次會介紹 Percona XtraDB Cluster 搭配 HAproxy 實現多台 MySQL Server 負載平衡架構
   - time: 1
     room: 1
     speaker: 'fredc'
     title: '當黃色小鴨都可以進入基隆，Node.js 當然也可以娶 QML'
+    intro: |
+            QML 是一個由 Qt 所研發的使用者圖形介面描述語言，語法近似 CSS，又可以嵌入 JavaScript，對前端工程師來說，是一個非常值得關注的技術。近幾年，拜 Ubuntu Phone 和前 Nokia 團隊所開發的 Jolla 所賜，QML 已被證明了可以在桌面環境甚至是嵌入式系統中運行良好，不但可以用來製作炫麗的 UI ，也擁有極佳的效能。尤其自 Qt 5.2 版以後，更引入了 Chromium（blink）做為 HTML5 的解決方案，結合原本的 QML 的優勢，可說是一個能 Web 開發者飄飄然並大展拳腳的技術。
+             
+            只不過， 雖然 QML 以 JavaScript 為主要支援的開發語言，但一直以來自成體系，而無法結合 Node.js 現成的龐大開發資源，令人相當遺憾。失去了當今最紅的 JavaScript 社群資源，對 JavaScript 開發者來說，QML 的開發便綁手綁腳，不這麼好用了。
+               
+            讓 Node.js 能夠原生支援 QML 真的是不可行的嗎？在完成整併 Qt 事件引擎、 V8 JavaScript Engine 和 QML Engine 的底層工作之後，Node.js + QML 的理想便得以實現。
+            remarks
+            Mandice 的創辦人，是第一個在全球直播的 COSCUP 和國際舞台上發表退學宣言的人，因此再也不是淡江大學學生，成為了一個職業夢想家。曾經沉迷打工於國內外企業中，也是一個自由軟體開發者，專注於嵌入式裝置、伺服器技術、網站應用程式以及桌面環境等領域，閒暇時也研究 Linux 核心、驅動程式或作業系統相關技術。熱愛自由軟體，尤其喜歡貢獻個人經驗，時而發表並公開他的開發經驗在網站上。 Blog: http://fred-zone.blogspot.com/
   - time: 1
     room: 2
     speaker: 'thinker'
     title: 'Hacking Syscalls and APIs - By Examples of Firefox OS'
+    intro: |
+            The first Firefox OS phone was shipped in 2013. It is an important milestone, but it is just a begin. There are still a lot of improvements waiting for. This talk shows you some interesting ideas of hacking Linux syscalls to improve the performance of Firefox OS. It would cover following topics,
+             1. Nuwa 
+                - the template process mechanism of Firefox OS. It reduce memory usage and launch time of apps.
+                - hacking setjmp/longjmp and pthread.
+             2. zram - compress data on RAM to squeeze more space for apps.
+             3. mmap - we use mmap() at various places to improve data loading and reduce RSS.
+             4. more topics.
+                  
+             就在 2013，第一支 Firefox OS phone 面市了。這是一個重要的里程杯，卻不是結束，只是旅程的開始。在那之後，我們還做了許多重要的改善。在這個主題裡，將談及一些用於 Firefox OS 效能善的 Linux syscall 和 API 的神奇使用方式。主題包括
+             1. Nuwa 
+                - Firefox OS 的 template process，改善 app 的開啟速度與記憶體使用量。
+                - setjmp/longjmp 和 pthread 相關 API 的 hacking.
+             2. zram - 壓縮記憶體的資料，以挪出更多記憶體。
+             3. mmap - 我們大量使用 mmap()，以降低記憶體使用量和資料的載入時間。
+             4. 其它有趣的 API。
   - time: 2
     room: 0
     speaker: 'starnight'
     title: 'The Simple Scheduler in Embedded System'
+    intro: |
+            小時候，因為不是資工系的學生，所以只能自己去旁聽「作業系統」的課。
+            長大後，因為小時候旁聽沒交作業，覺得對不起老師！所以自己又再上了「作業系統」的網路課程，實做了個Scheduler補交作業，才比較心安。
+              
+            這次talk將複習相關背景知識，並敘述發展這Simple Scheduler的心路歷程及其使用方法，最後再以實做在AVR上的簡單數位示波器當作說明範例。
+            Because of not being in Computer Science Department, I could only attend the Operating System class as a non-credit earning student in the university.
+            Because of regretting that did not hand in the assignments in the university, I attended the Operating System class on the internet again. Then, I developed the "Simple Scheduler" as my own homework which I should hand in the class.
+            In this talk, I will review the background knowledge and describe thoughts on the development and API usage of the "Simple Scheduler". Besides, it is the simple oscilloscope built on AVR as the example that is implemented with the "Simple Scheduler".
   - time: 2
     room: 1
     speaker: 'tkirby'
@@ -158,6 +239,10 @@ day2:
     room: 2
     speaker: 'Kawasaki'
     title: 'BYOC'
+    intro: |
+            @kawanet is a JavaScript and Perl hacker from Tokyo, Japan.
+            He comes to Taipei as loving Xiaolongbao as well as OSDC.TW since 2008.
+            He gives a talk about something veiled as usual.
   - time: 3
     room: 0
     speaker: ingy
@@ -175,6 +260,10 @@ day2:
     room: 2
     speaker: 'c9s'
     title: 'gutscript - a language compile to PHP'
+    intro: |
+            Gutscript 是一個比 PHP 更簡潔的程式語言，支援 PHP 程式碼生成。 也就說，利用 Gutscript，可以以更有效率的方式來寫 PHP 應用程式，避免掉以往令人厭惡的 PHP 原生缺陷。
+
+            這個講題將會介紹如何使用 Go 來撰寫一個轉譯器，將 Gutscript 轉譯成 PHP 程式碼。以及 Gutscript 語法設計、專案未來展望等等。
   - time: 5
     room: 0
     speaker: ingy
@@ -185,15 +274,36 @@ day2:
     room: 1
     speaker: 'freak'
     title: 'Is Your Singleton Broken?'
+    intro: |
+            Singleton 是什麼? 可以吃嗎? 也許你不知道, 任何 non-trivial 程式，幾乎都免不了使用到 singleton. 簡單如 hello world 也用到了 singleton.
+            Singleton 是程式設計裡最古老的問題之一. 典型狹義的 singleton 是用一個 class 的 static member function 封裝, 稱為 singleton pattern. The Gang of Four (GoF) 在 Design Patterns 討論並提出第一個令人滿意的 singleton 解答, 這個 pattern 幾乎是一夕之間聲名大噪, 成為最廣為人知的 pattern 之一. 在 GoF 之前與之後, 許多人 (其中不乏大師級人物) 提出了不同的 singleton 實作方法. 只是, 它們幾乎都不是完全正確 bulletproof 的.
+               
+            What do you know about your singleton? Is it broken?
   - time: 5
     room: 2
     speaker: 'kuotung.kao'
     title: 'Docker 原理與使用'
+    intro: |
+            Docker 原理
+            介紹 lxc
+            介紹 kernel namespace
+            介紹 autofs
+            Docker 的使用
   - time: 6
     room: 0
     speaker: 'jserv'
     title: '從 Multics 到雲端作業系統：淺談系統程式發展和新機會'
+    intro: |
+            1964 年，貝爾實驗室、麻省理工學院及美國通用電力公等單位共同研發
+            Multics，這是針對大型主機設計的多人多工作業系統，著名的《人月神話：軟體專案管理之道》在「第二系統效應」章節舉出血淋淋的失敗案例，就是描述
+            Multics，最終在 1969 年，因進度過於緩慢，終究遭裁撤，貝爾實驗室結束此計畫，但 UNIX
+            反而在兩位天才工程師的投入下，在相對低階的硬體上，重新展現 Multics
+            的特性，並且廣泛散佈到世界各個角落，如今，我們每日所用的智慧型手機中，都可見到 UNIX
+            的影子。講者參與多年的移動裝置和虛擬化技術開發後，回顧 1960 年代那個軍備競賽和電子工業大躍進的年代，回頭檢視 Multics
+            的開發訴求，發現五十年前的願景在凡事講究雲端運算的今日，竟有高度相關，是此，藉由議程彙整相關的開發歷程，並以近年轉向非消費性電子產品領域後，心境視野多有改觀，也分享所見所聞並談及諸多系統程式發展的機會。
   - time: 7
     room: 0
     speaker: 'au'
     title: '零時政府的第一年'
+    intro: |
+            這場演講介紹零時政府這一年來，透過線上、線下的交叉協作，循著自由軟體界二十年來確立的模式，將社群媒體（Social media）轉變成社群產出（Social production）平台的經驗。
