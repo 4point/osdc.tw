@@ -89,12 +89,6 @@ speaker:
     avatar: '9dafad54b5b4f360b7aae5f482bc1c91'
     profile: |
               TP builds his career around open-source software, and enjoys committing back his little efforts to help make the community better. He does a wide variety of things, but now finds his passion in Python.
-  - id: 'aocole'
-    name: 'Andrew Cole'
-    avatar: 'http://ndrew.org/me.jpg'
-    title: 'cofounder of the Oui Street'
-    profile: |
-              Andrew Cole is an interdisciplinary hacker/maker in Seattle USA. Projects with code and dirty hands are a happy place for him. Andrew is a cofounder of the Oui Street consulting company with his good friend Ingy döt Net. You should hire them for your interesting open-source project.
   - id: 'johnson_lin'
     name: 'Johnson Lin'
     avatar: '//dl.dropboxusercontent.com/u/4347314/osdc_avatar/johnson_lin.png'
