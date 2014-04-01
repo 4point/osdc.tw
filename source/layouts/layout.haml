@@ -18,7 +18,8 @@
 				= yield
 			- unless current_page.url == '/sponsors.html'
 				%section#sponsor.wrapper
-					%h2 Sponsors
+					%h2
+						= link_to 'Sponsors', '/sponsors.html'
 					%ul
 						- data.relation.sponsors.each do |link|
 							%li.sponsor

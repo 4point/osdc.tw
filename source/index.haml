@@ -4,7 +4,7 @@ title: Home
 
 %section#news.home
 	%h2
-		News
+		= link_to 'News', '/news.html'
 		= link_to '/feed.xml' do
 			%svg
 				%use{"xlink:href" => image_path('image.svg') + "#feed"}
@@ -16,26 +16,39 @@ title: Home
 		推文關於"#osdc.tw"
 	%script{:defer => true}
 		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-.tap
-	%svg.brick
-		%use{"xlink:href" => image_path('image.svg') + "#red"}
-	%svg.brick
-		%use{"xlink:href" => image_path('image.svg') + "#yellow"}
-	%svg.brick
-		%use{"xlink:href" => image_path('image.svg') + "#purple"}
-.pillar2
-	%svg.brick
-		%use{"xlink:href" => image_path('image.svg') + "#green"}
-	%svg.brick
-		%use{"xlink:href" => image_path('image.svg') + "#red_blue"}
-.pillar
-	%svg.brick
-		%use{"xlink:href" => image_path('image.svg') + "#purple"}
-	%svg.brick
-		%use{"xlink:href" => image_path('image.svg') + "#yellow"}
-	%svg.brick
-		%use{"xlink:href" => image_path('image.svg') + "#green"}
-.drop
-	- 3.times do
-		%svg
-			%use{"xlink:href" => image_path('image.svg') + "#drop"}
+#bricks
+	.tap
+		%svg.brick
+			%use{"xlink:href" => image_path('image.svg') + "#red"}
+		%svg.brick
+			%use{"xlink:href" => image_path('image.svg') + "#yellow"}
+		%svg.brick
+			%use{"xlink:href" => image_path('image.svg') + "#purple"}
+	.pillar2
+		%svg.brick
+			%use{"xlink:href" => image_path('image.svg') + "#green"}
+		%svg.brick
+			%use{"xlink:href" => image_path('image.svg') + "#red_blue"}
+	.pillar
+		%svg.brick
+			%use{"xlink:href" => image_path('image.svg') + "#purple"}
+		%svg.brick
+			%use{"xlink:href" => image_path('image.svg') + "#yellow"}
+		%svg.brick
+			%use{"xlink:href" => image_path('image.svg') + "#green"}
+	.drop
+		- 3.times do
+			%svg
+				%use{"xlink:href" => image_path('image.svg') + "#drop"}
+%section#schedule.home
+	%h2
+		= link_to 'Schedule', '/schedule.html'
+	= partial(:schedule, :locals => {:date => settings.day1})
+	= partial(:schedule, :locals => {:date => settings.day2})
+	%p{:style => 'float: right'} （議程更動以主辦單位公布為主）
+%section#speakers.home
+	%h2
+		= link_to 'Speakers', '/speakers.html'
+	%ul
+		- data.participant.speaker.select{|speaker| !speaker.avatar.nil?}.sort_by{|speaker| speaker.profile.length + speaker.title.length}.each do |speaker|
+			= partial(:speaker, :locals => {:speaker => speaker})

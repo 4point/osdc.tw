@@ -342,18 +342,18 @@
 		.pillar, .pillar2, .tap, .drop {
 			display: block;
 		}
-		&.index > .wrapper:first-child {
-			display: flex;
-		}
 	}
 	#news.home {
+		display: inline-block;
 		width: 50%;
-		padding-right: 1em;
 	}
 	#twitter {
+		position: relative;
+		display: inline-block;
 		width: 35%;
-		margin-left: 15%;
+		right: -15%;
 		margin-top: -100px;
+		vertical-align: top;
 	}
 	#speakers .speaker {
 		flex-basis: 30%;
