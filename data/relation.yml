@@ -56,6 +56,12 @@ sponsors:
             At Etu, our mission is to develop Big Data Killer Solutions with Appliances, centered on business development in Taipei and Beijing. Utilizing the Hadoop-related technologies, working closely with all Hadoop distribution and third party tool vendors , our Big Data business is dedicated to providing end-to-end solutions for customers to effectively harness the challenges of large sets of data.
             
             With our professionalism and expertise, our core competency in Big Data is to address specific business problems for customers from a diverse set of industries.
+  - id: 'mediatek'
+    title: 'MediaTek'
+    link: 'http://www.mediatek.com'
+    rank: 'hacker'
+    intro: |
+            聯發科技是全球IC設計領導廠商，專注于無線通訊及數位媒體等技術領域。本公司提供的晶片整合系統解決方案，包含無線通訊、高解析度電視、光儲存、DVD及藍光等相關產品，市場上均居領導地位。聯發科技成立於1997 年，已在臺灣證券交易所公開上市，股票代號為2454。公司總部設於臺灣，並設有銷售或研發團隊於中國大陸、新加坡、印度、美國、日本、韓國、丹麥、英國、瑞典及杜拜。如需更多相關資訊，請連結至www.mediatek.com 瀏覽。
   - id: 'zillians'
     title: '奇群科技'
     link: 'http://www.zillians.com'
