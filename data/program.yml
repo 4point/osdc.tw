@@ -80,14 +80,16 @@ day1:
             除了透過MRTG、NTOP、等工具外，難道沒有Data Mining based的網路流量分析工具可以用嗎?好吧，那我們用hontonwork、mahout、pmacc、netflow、bootstrap、php等opensource工具，建立一個簡單的Data Mining based的網路流量分析工具，幫助網管人員輕鬆看到更多的網路資訊
   - time: 6
     room: 2
+    speaker: '高嘉良'
+    title: 'PgREST - PostgreSQL, JavaScript, and REST'
+    intro: |
+            PgREST turns PostgreSQL into a RESTful JSON document store, allows running JavaScript and npm modules as stored procedures for queries and triggers from within the database. It also provides Firebase-compatible API for developing real-time applications. This talk will cover the building blocks of PgREST: PostgreSQL, plv8js, plv8x, as well as examples for turning existing relational data into REST endpoints.
+  - time: 7
+    room: 0
     speaker: 'freedom'
     title: 'Understanding Android Benchmarks'
     intro: |
             Although Android is an open-source project, benchmarking on Android-based devices is complicated. Do you really know the performance of your Android devices?  Usually we use benchmarks to measure Android devices performances, but do you really know or say trust benchmark programs on Android devices?  In this talk, I'll review the past of performance benchmarking, talk about what some popular Android benchmarks do, and tell you some examples of how we did to improve benchmark numbers.
-  - time: 7
-    room: 0
-    speaker: 'lunastorm'
-    title: '你 go 了沒！？自幹 go 的 web helper'
   - time: 7
     room: 1
     speaker: 'johnson_lin'
@@ -106,10 +108,8 @@ day1:
             5. Hand-made open-source toolchain or commercial toolchain
   - time: 7
     room: 2
-    speaker: '高嘉良'
-    title: 'PgREST - PostgreSQL, JavaScript, and REST'
-    intro: |
-            PgREST turns PostgreSQL into a RESTful JSON document store, allows running JavaScript and npm modules as stored procedures for queries and triggers from within the database. It also provides Firebase-compatible API for developing real-time applications. This talk will cover the building blocks of PgREST: PostgreSQL, plv8js, plv8x, as well as examples for turning existing relational data into REST endpoints.
+    speaker: 'lunastorm'
+    title: '你 go 了沒！？自幹 go 的 web helper'
   - time: 8
     room: 0
     speaker: 'brucehsu'
