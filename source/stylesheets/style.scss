@@ -420,6 +420,12 @@ article p a {
 			background-image: image-url('avatar.png');
 			border: 2px solid #cfcfcf;
 		}
+		.talk {
+			color: #dcb732;
+			a {
+				border: none;
+			}
+		}
 	}
 }
 
