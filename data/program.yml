@@ -44,7 +44,7 @@ day1:
     title: 'Building popular open source project (tips and trick)'
   - time: 5
     room: 0
-    speaker: 'jnlin'
+    speaker: 'cloud.sung'
     title: '設計一個 Mobile API SDK: 一些經驗分享'
   - time: 5
     room: 1

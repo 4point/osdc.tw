@@ -213,10 +213,12 @@ speaker:
               - 主要興趣: C++, networking and systems programming, distributed computing and systems architecture. 最近在玩 LLVM.
               - Blog: http://fsfoundry.org/codefreak/
               - 其他專長: 手把手 Ruby 教學
-  - id: 'jnlin'
-    name: 'Jui-Nan Lin'
+  - id: 'cloud.sung'
+    name: 'Cloud Sung'
     title: ''
+    avatar: '//dl.dropboxusercontent.com/u/4347314/osdc_avatar/cloud.sung.png'
     profile: |
+              本來立志當戚家長工的，小時候撿到一台 MacBook 和一隻 iPhone3Gs 就做了一個寫 App 的夢到現在還沒醒。現被 PIXNET 收留當一個小小 iOS Developer。比起當工程師，烹飪比較可以說是專長。和煮飯作菜一樣，如果能把對的事放在對的時間找對的人配上對的火候和調味。Cook 出來的東西一定也不會太糟。
   - id: 'Wisely.Chen'
     name: 'Wisely Chen'
     title: 'Sr. Engineer'
