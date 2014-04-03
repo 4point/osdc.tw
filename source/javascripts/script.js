@@ -35,6 +35,11 @@ function update() {
 	if (currentScrollY > 380 && document.querySelector('.drop')) {
 		document.querySelector('.drop').classList.add('start');
 	}
+	if (currentScrollY > 300) {
+		document.getElementById('scroll').classList.add('show');
+	} else {
+		document.getElementById('scroll').classList.remove('show');
+	}
 }
 window.addEventListener('scroll', onScroll, false);
 window.addEventListener('resize', function(){

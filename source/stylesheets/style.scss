@@ -465,4 +465,23 @@ article p a {
 	}
 }
 
+#scroll {
+	position: fixed;
+	bottom: 1em;
+	right: -2em;
+	font-size: 2em;
+	width: 1em;
+	height: 1em;
+	text-align: center;
+	border-radius: 50%;
+	border: 2px solid;
+	background-color: $page-background-color;
+	transition: right .5s ease-in;
+	display: none;
+}
+
+#scroll.show {
+	right: 2em;
+}
+
 @import 'layout';
