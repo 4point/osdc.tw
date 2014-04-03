@@ -88,8 +88,8 @@ day1:
     title: '用 Go 打造程式語言執行環境：RunVM實例剖析'
   - time: 8
     room: 1
-    speaker: 'Jesse Vincent'
-    title: 'Better and better keyboards'
+    speaker: 'clsung'
+    title: 'Interfacing C libraries with GO'
   - time: 8
     room: 2
     speaker: 'wens'
