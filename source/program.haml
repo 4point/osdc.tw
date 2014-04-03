@@ -7,9 +7,7 @@ title: Program
 		%time #{settings.send(day)} #{data.schedule.send(day)[program.time].time}
 		%span.room #{settings.room[program.room]}
 		%h2 #{program.title}
-	%main
-		.intro
-			#{program.intro}
+	%main.intro= simple_format program.intro
 	- if speaker
 		%article.speaker
 			%header
