@@ -156,6 +156,7 @@ speaker:
   - id: ingy
     name: Ingy döt Net
     title: The Father of Acmeism
+    avatar: '8b3bd89d842c858bea279637e34b4382'
     profile: |
               Ingy döt Net is a h♨cker who started out programming in IBM Assembly on punchcards, switched over to Perl and has since become enlightened to the goodness of all the OSDC languages and the people who hack, support and l♥ve them. He is one of the creators of YAML, a prolific CPAN/PyPI/NPM/RubyGems contributor, the Father of Acmeism and is drinking a Rolling Rock tallboy as you read this.
               
