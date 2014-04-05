@@ -2,6 +2,12 @@ set :day1, '04/11'
 set :day2, '04/12'
 set :room, ['國際會議廳', '第一會議室', '第二會議室']
 
+activate :webp do |webp|
+  webp.conversion_options = {
+    "*.png" => {lossless: true}
+  }
+end
+
 ###
 # Blog
 ###
