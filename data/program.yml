@@ -144,16 +144,16 @@ day1:
     speaker: 'cindylinz'
     title: 'HasPerl: The marriage of Haskell and Perl<br>一條低門檻實用 Haskell 的路'
     intro: |
-            <p>神祕的 Haskell 常引起我們一探究竟的興趣,
+            神祕的 Haskell 常引起我們一探究竟的興趣,
             而身為工程師的我們, 學東西不會只停在「看一看」的階段就滿足,
             總會想拿它來用, 拿來工作中使用, 甚至拿來討生活..
 
-            <p>但 Haskell 與我們平常熟悉的語言工具差異實在太大,
+            但 Haskell 與我們平常熟悉的語言工具差異實在太大,
             要面對現實時, Haskell 的神祕面紗會讓我們卻步,
             我們不知道如果賭下去整個專案都用 Haskell 開發會不會因為不夠熟悉而難產.
             於是我們就錯過一次又一次實裝 Haskell 技能的機會.
 
-            <p>在一次又一次失落懊悔之後, 一怒之下決定做了這個 project,
+            在一次又一次失落懊悔之後, 一怒之下決定做了這個 project,
             讓我可以隨著熟悉度與信心的進展, 讓 Haskell 一點一點侵入我的生活:
             如果完全不會 Haskell, 那寫起來活脫脫就是完整的 Perl 程式;
             如果會一點 Haskell, 那可以在將這 Perl 程式的一小角換成 Haskell;
@@ -162,7 +162,7 @@ day1:
             逃進 Perl 喘口氣. (或逃進 Perl 裡的 Inline::C, CPP, Java, Ruby, Python, Lua.. etc)
             暫時躲在 Perl, Python, Ruby, Java 的巨量 library 背後休息一下.
 
-            <p>希望這樣降低選用 Haskell 的風險, 讓我們不再錯過實裝 Haskell 的機會.
+            希望這樣降低選用 Haskell 的風險, 讓我們不再錯過實裝 Haskell 的機會.
             體驗一下有時比 Perl 還短, 卻和 Java 一樣快的 real world Haskell! (^-^)
 
   - time: 9
