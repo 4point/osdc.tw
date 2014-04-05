@@ -9,4 +9,4 @@
 			- ['day1', 'day2'].each do |day|
 				- data.program.send(day).select{|program| program.speaker == speaker.id}.each do |program|
 					%p.talk
-						= link_to program.title, "/program/#{day}-#{program.time}#{program.room}.html"
+						= link_to program.title, "/program/#{settings.year}-#{day}-#{program.time}#{program.room}.html"

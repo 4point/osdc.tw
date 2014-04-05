@@ -1,4 +1,8 @@
 # speaker: the id of speaker in participant.yml
+# intro: |
+#           HTML tag in intro is not available!
+#           (blank line)
+#           Another paragraph.
 day1:
   - time: 0
     room: 0
@@ -178,7 +182,9 @@ day2:
     title: 'C++AMP on Linux'
     intro: |
             GPGPU programming has long been a tedious and challenging task, requiring deep understanding to the GPU architecture intricacies and most of current GPGPU programming models also models the GPU as an explicit accelerator (such as CUDA and OpenCL), which requires verbose memory space management as well as special kernel launch constructs. To address these, Microsoft proposes C++AMP as an open standard for GPGPU computing. C++AMP address them by naturally extending C++11 lambdas and closure to model GPU kernels and providing a shared memory address look-and-feel to the user. The compiler then compile lambdas into GPU codes and execute on the GPU. A runtime is used to hide the memory address space differences from the user.
+
             Currently, the only publicly available implementation is Microsoft Visual Studio 2012. The major problem left for the open source community is that there is currently no functional C++AMP implementation that is either open-sourced or supporting Linux as a host.
+
             In this talk, I would like to present our work in the first open-source C++AMP implementation Linux targeting OpenCL. This is based on popular Clang/LLVM. We will discuss the details on how to compile C++AMP kernels into OpenCL, as well as how to hide the address space differences by leveraging GMAC, an open source library for virtual shared address space between host and accelerators. Also, what we need to care when designing the headers.
   - time: 0
     room: 1

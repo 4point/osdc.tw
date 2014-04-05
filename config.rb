@@ -1,3 +1,5 @@
+set :year, '2014'
+set :days, ['04/11', '04/12']
 set :day1, '04/11'
 set :day2, '04/12'
 set :room, ['國際會議廳', '第一會議室', '第二會議室']
@@ -23,7 +25,7 @@ end
 ['day1', 'day2'].each do |day|
   data.program.send(day).each_with_index do |program, index|
     speaker = data.participant.speaker.find{|speaker| speaker.id == program.speaker}
-    proxy "/program/#{day}-#{program.time}#{program.room}.html", "/program.html", :locals => { :program => program, :speaker => speaker, :day => day }
+    proxy "/program/#{settings.year}-#{day}-#{program.time}#{program.room}.html", "/program.html", :locals => { :program => program, :speaker => speaker, :day => day }
   end
 end
 
@@ -104,7 +106,7 @@ helpers do
           when 'keynote'
             talk = data.program.send(day).find{|talk| talk.time == index}
             haml_tag :td, :class => "keynote", :colspan => 3 do
-              haml_tag(:a, :href => program_link(day, talk)) do
+              haml_tag :a, :href => url_for(program_link(day, talk)) do
                 haml_tag :span, speaker_id(talk.speaker), :class => "speaker"
                 haml_tag :span, talk.title, :class => "title"
               end
@@ -116,7 +118,7 @@ helpers do
                 haml_tag :td, '', :class => "empty"
               else
                 haml_tag :td, :class => "talk" do
-                  haml_tag(:a, :href => program_link(day, talk)) do
+                  haml_tag :a, :href => url_for(program_link(day, talk)) do
                     haml_tag :span, speaker_id(talk.speaker), :class => "speaker"
                     haml_tag :span, talk.title, :class => "title"
                   end
@@ -153,7 +155,7 @@ helpers do
     name
   end
   def program_link (day, talk)
-    'program/' + day + '-' + talk.time.to_s + talk.room.to_s + '.html#content'
+    'program/' + settings.year + '-' + day + '-' + talk.time.to_s + talk.room.to_s + '.html#content'
   end
 end
 
