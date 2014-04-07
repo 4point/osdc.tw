@@ -1,4 +1,9 @@
-osdc.tw
+OSDC.TW
 =======
 
-OSDC.tw web site.
+Powered by [Middleman](http://middlemanapp.com/)
+
+Build
+-----
+
+Check instruction of [Middleman::Webp](https://github.com/iiska/middleman-webp)
