@@ -70,6 +70,7 @@ speaker:
               個人網站為 http://brucehsu.org
   - id: 'lunastorm'
     name: 'lunastorm'
+    avatar: '3f44db9af00adf3dd3e209f1ca59d7fe'
     title: 'Full Stack Engineer 全端工程師, Zillians 奇群科技'
     profile: |
               鍵盤黑手工，目前在一個 C++ 基本教義派公司偷寫 Python, Go, Objective-C 還有 Javascript.
