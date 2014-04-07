@@ -16,8 +16,13 @@ day1:
     title: '快速佈署 Hadoop 環境'
   - time: 1
     room: 1
-    speaker: 'RKajiyama'
-    title: 'Sharding and Scale-out using MySQL Fabric'
+    speaker: 'wens'
+    title: 'Using Open Standards and Open Source to Manage a Datacenter'
+    intro: |
+            Managing a datacenter with hundreds of nodes is hard work.
+            Various tools and solutions exist to ease the burden of the sysadmins.
+            Some are proprietary, some are open source.
+            This talk shares my experience using and encorporating open source tools based on open standards to make my life easier.
   - time: 1
     room: 2
     speaker: 'matthew_wilson'
@@ -30,10 +35,8 @@ day1:
     title: 'Managing Android Projects in Hierarchy - Android Shared Libraries Design'
   - time: 2
     room: 1
-    speaker: 'sunnychan'
-    title: 'Introduction to OpenJDK 8'
-    intro: |
-            Java 8 is a revolutionary release with a major new language feature: Lambdas. In this talk we will look at the motivation for Lambdas and why it improves developer productivity. We will also look at other new features and enhancement in OpenJDK 8, including class library and hostpot changes, and Nashorn JavaScript Engine.
+    speaker: 'RKajiyama'
+    title: 'Sharding and Scale-out using MySQL Fabric'
   - time: 2
     room: 2
     speaker: 'penk'
@@ -116,25 +119,20 @@ day1:
     title: '你 go 了沒！？自幹 go 的 web helper'
   - time: 8
     room: 0
-    speaker: 'brucehsu'
-    title: '用 Go 打造程式語言執行環境：RunVM實例剖析'
+    speaker: 'azhuang'
+    title: 'ProjectTox: Free as in freedom Skype replacement'
     intro: |
-            憑藉著其易寫易讀以及效能出眾的特性（還有Google這位富爸爸的支援），Go逐漸在系統程式的領域展露頭角，這裡我們以如何實作一個Ruby執行環境為主題，透過實際的例子介紹Go的語言特性。
-             
-            brucehsu，現就讀國內某大學資工所碩士班，鍵盤工程師一枚，長期關注OSS事務。
+            ProjectTox 是一個 Open Source 的聊天網路，其Project的存在目的在於提供一個開源且安全的P2P IM 網路。此 Talk 將會介紹並推廣 ProjectTox，並說明其設計以及底層機制如 DHT, Onion Routing等等。身為 ProjectTox 的開發者之一，另外會介紹 PyTox 和其他相關 Open source project。
   - time: 8
     room: 1
-    speaker: 'clsung'
-    title: 'Interfacing C libraries with GO'
+    speaker: 'sunnychan'
+    title: 'Introduction to OpenJDK 8'
+    intro: |
+            Java 8 is a revolutionary release with a major new language feature: Lambdas. In this talk we will look at the motivation for Lambdas and why it improves developer productivity. We will also look at other new features and enhancement in OpenJDK 8, including class library and hostpot changes, and Nashorn JavaScript Engine.
   - time: 8
     room: 2
-    speaker: 'wens'
-    title: 'Using Open Standards and Open Source to Manage a Datacenter'
-    intro: |
-            Managing a datacenter with hundreds of nodes is hard work.
-            Various tools and solutions exist to ease the burden of the sysadmins.
-            Some are proprietary, some are open source.
-            This talk shares my experience using and encorporating open source tools based on open standards to make my life easier.
+    speaker: 'clsung'
+    title: 'Interfacing C libraries with GO'
   - time: 9
     room: 0
     speaker: 'freak'
@@ -171,10 +169,12 @@ day1:
 
   - time: 9
     room: 2
-    speaker: 'azhuang'
-    title: 'ProjectTox: Free as in freedom Skype replacement'
+    speaker: 'brucehsu'
+    title: '用 Go 打造程式語言執行環境：RunVM實例剖析'
     intro: |
-            ProjectTox 是一個 Open Source 的聊天網路，其Project的存在目的在於提供一個開源且安全的P2P IM 網路。此 Talk 將會介紹並推廣 ProjectTox，並說明其設計以及底層機制如 DHT, Onion Routing等等。身為 ProjectTox 的開發者之一，另外會介紹 PyTox 和其他相關 Open source project。
+            憑藉著其易寫易讀以及效能出眾的特性（還有Google這位富爸爸的支援），Go逐漸在系統程式的領域展露頭角，這裡我們以如何實作一個Ruby執行環境為主題，透過實際的例子介紹Go的語言特性。
+             
+            brucehsu，現就讀國內某大學資工所碩士班，鍵盤工程師一枚，長期關注OSS事務。
 day2:
   - time: 0
     room: 0
@@ -269,6 +269,10 @@ day2:
             @kawanet is a JavaScript and Perl hacker from Tokyo, Japan.
             He comes to Taipei as loving Xiaolongbao as well as OSDC.TW since 2008.
             He gives a talk about something veiled as usual.
+            He gives a talk introducing his recent research and products on Node.js, seriously.
+
+            * obop - MongoDB-style object operators makes array manipulation easy: where/order/update/view
+            * Kawapp - 急行 asynchronous Web application framework
   - time: 3
     room: 0
     speaker: ingy
