@@ -1,5 +1,5 @@
 # id: after modifying this, don't forget to also change the speaker id in program.yml
-# avatar: 'twitter' or 'facebook' or 'instagram' or Gravatar hash, see http://avatars.io/, but you're also able to give a url of picture.
+# avatar: 'facebook' or Gravatar hash, but you're also able to give a url of picture.
 # profile: |
 #           HTML tag in profile is not available!
 #           (blank line)
@@ -10,14 +10,13 @@ staff:
     title: '主辦人'
   - id: 'kidwm'
     name: 'WM'
-    avatar: 'twitter'
+    avatar: '75307af344414a724528f5ba3920d01c'
     title: 'Front-end Engineer at 4Point'
     profile: |
               這傢伙就是寫這個網站的懶惰鬼，請各位自己維護資料吧。
 speaker:
   - id: 'itu_tw'
     name: '杜修文'
-    avatar: 'twitter'
     title: '甲骨文公司MySQL技術顧問'
     profile: |
               曾任昇陽電腦軟體架構師，甲骨文公司教育訓練部資深講師及經理
@@ -27,7 +26,7 @@ speaker:
               台積電 ICOP及CCOP， 遠傳電信CDR應用，亞太電訊簡訊管理系統及報表系統整合，中華 電信，富邦金控，聯合信用卡中心，東海大學在線教學系統，中國國際金融公司，香港期貨交易所，中央研究院數據中心，香港電信盈科，中國聯通， 烽火科技，用友集團，中國移動飛信，中科院先進所，菲律賓iComteq，SMART Telcom等。
   - id: 'kanru'
     name: 'Kan-Ru Chen (陳侃如)'
-    avatar: 'twitter'
+    avatar: 'd37aa8abde706a410f6f4f4ad035129f'
     title: 'Debian Developer and Mozillian'
     profile: |
               因學習程式而接觸自由軟體，因自由軟體而愛上程式開發，從單純使用者變成貢獻者，只希望自己微薄的貢獻可以讓自由軟體生態變得更好。興趣是電腦上的所有東西，特別喜歡玩奇奇怪怪的程式語言。是一位 Debian Developer，現在在 Mozilla Taiwan 服務，主要負責 Firefox OS Platform 相關的開發。
@@ -185,7 +184,7 @@ speaker:
               A developer and user of Open Source community for 10+ years, enjoyed by the fun of developing projects in free.
   - id: 'othree'
     name: 'ǝǝɹɥʇo'
-    avatar: 'twitter'
+    avatar: 'c4ce16f549c450f4759eb37f5d5d1a63'
     title: 'F2E'
     profile: |
               othree，十多年前為了製作個人網頁而自學起 HTML、CSS 和 JavaScript，接著便一頭栽進網路標準的世界，並持續關注網路前端技術的發展，不時在部落格及各活動分享新知，近期關注 HTML5、CSS3、Web API、語意網等議題，被認為專長於 JavaScript，其實最喜歡寫的是漂亮的 HTML Markup，現職為 HTC 前端工程師（F2E）兼博士生。
@@ -242,7 +241,12 @@ speaker:
   - id: 'clsung'
     name: 'Cheng-Lung Sung'
     title: ''
-    avatar: 'twitter'
     profile: |
               - Twitter: @clsung
               - Blog: http://dev.clsung.org/
+  - id: 'clkao'
+    name: '高嘉良'
+    title: 'g0v'
+    avatar: 'f0cc4b511c06b73afb23beb5695a83d6'
+    profile: |
+              高村長

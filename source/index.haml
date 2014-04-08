@@ -50,5 +50,5 @@ title: Home
 	%h2
 		= link_to 'Speakers', '/speakers.html'
 	%ul
-		- data.participant.speaker.select{|speaker| !speaker.avatar.nil?}.sort_by{|speaker| speaker.profile.length + speaker.title.length}.each do |speaker|
+		- data.participant.speaker.select{|speaker| !(speaker.avatar.nil? or speaker.avatar =~ /^(http|\/\/)/)}.sort_by{|speaker| speaker.profile.length + speaker.title.length}.each do |speaker|
 			= partial(:speaker, :locals => {:speaker => speaker})

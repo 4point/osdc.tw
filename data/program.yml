@@ -87,7 +87,7 @@ day1:
             除了透過MRTG、NTOP、等工具外，難道沒有Data Mining based的網路流量分析工具可以用嗎?好吧，那我們用hontonwork、mahout、pmacc、netflow、bootstrap、php等opensource工具，建立一個簡單的Data Mining based的網路流量分析工具，幫助網管人員輕鬆看到更多的網路資訊
   - time: 6
     room: 2
-    speaker: '高嘉良'
+    speaker: 'clkao'
     title: 'PgREST - PostgreSQL, JavaScript, and REST'
     intro: |
             PgREST turns PostgreSQL into a RESTful JSON document store, allows running JavaScript and npm modules as stored procedures for queries and triggers from within the database. It also provides Firebase-compatible API for developing real-time applications. This talk will cover the building blocks of PgREST: PostgreSQL, plv8js, plv8x, as well as examples for turning existing relational data into REST endpoints.
