@@ -7,4 +7,28 @@
 			%th #{settings.room[0]}
 			%th #{settings.room[2]}
 	%tbody
-		= program(date)
+		- day = date == settings.day1 ? 'day1' : 'day2'
+		- data.schedule.send(day).each_with_index do |schedule, index|
+			%tr
+				%td= schedule.time
+				- case schedule.type
+				- when 'lunch'
+					%td.lunch{:colspan => 3} 午餐
+				- when 'lightning'
+					%td.lightning{:colspan => 3} Lightning Talks
+				- when 'keynote'
+					- talk = data.program.send(day).find{|talk| talk.time == index}
+					%td.keynote{:colspan => 3}
+						= link_to program_link(day, talk) do
+							%span.speaker= speaker_id(talk.speaker)
+							%span.title= talk.title
+				- when 'track'
+					- [1, 0, 2].each do |room|
+						- talk = data.program.send(day).find{|talk| talk.time == index and talk.room == room}
+						- if talk.speaker.empty?
+							%td.empty
+						- else
+							%td.talk
+								= link_to program_link(day, talk) do
+									%span.speaker= speaker_id(talk.speaker)
+									%span.title= talk.title

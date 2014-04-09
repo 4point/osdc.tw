@@ -92,44 +92,6 @@ set :relative_links, true
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def program (date)
-    capture_haml do
-      day = date == settings.day1 ? 'day1' : 'day2'
-      data.schedule.send(day).each_with_index do |schedule, index|
-        haml_tag :tr do
-          haml_tag :td, schedule.time
-          case schedule.type
-          when 'lunch'
-            haml_tag :td, '午餐', :class => "lunch", :colspan => 3
-          when 'lightning'
-            haml_tag :td, 'Lightning Talks', :class => "lightning", :colspan => 3
-          when 'keynote'
-            talk = data.program.send(day).find{|talk| talk.time == index}
-            haml_tag :td, :class => "keynote", :colspan => 3 do
-              haml_tag :a, :href => url_for(program_link(day, talk)) do
-                haml_tag :span, speaker_id(talk.speaker), :class => "speaker"
-                haml_tag :span, talk.title, :class => "title"
-              end
-            end
-          when 'track'
-            [1, 0, 2].each do |room|
-              talk = data.program.send(day).find{|talk| talk.time == index and talk.room == room}
-              if talk.speaker.empty?
-                haml_tag :td, '', :class => "empty"
-              else
-                haml_tag :td, :class => "talk" do
-                  haml_tag :a, :href => url_for(program_link(day, talk)) do
-                    haml_tag :span, speaker_id(talk.speaker), :class => "speaker"
-                    haml_tag :span, talk.title, :class => "title"
-                  end
-                end
-              end
-            end
-          end
-        end
-      end
-    end
-  end
   def avatar (speaker)
     speaker.avatar = '' unless speaker.respond_to?(:avatar)
     case speaker.avatar

@@ -4,13 +4,13 @@
 			= link_to 'OSDC', '/index.html'
 		%ul#menu
 			%li{class: ("active" if current_page.path.start_with?('news') )}
-				= link_to 'News', (current_page.path.start_with?('index') ? '#news' : '/news.html')
+				= link_to 'News', '/news.html'
 			%li{class: ("active" if current_page.path.start_with?('speakers') )}
-				= link_to 'Speakers', (current_page.path.start_with?('index') ? '#speakers' : '/speakers.html')
+				= link_to 'Speakers', '/speakers.html'
 			%li{class: ("active" if current_page.path.start_with?('schedule') )}
-				= link_to 'Schedule', (current_page.path.start_with?('index') ? '#schedule' : '/schedule.html')
+				= link_to 'Schedule', '/schedule.html'
 			%li{class: ("active" if current_page.path.start_with?('sponsors') )}
-				= link_to 'Sponsors', (current_page.path.start_with?('index') ? '#sponsor' : '/sponsors.html')
+				= link_to 'Sponsors', '/sponsors.html'
 		%svg.top
 			%use{:y => '148', "xlink:href" => image_path('image.svg') + "#red"}
 			%use{"xlink:href" => image_path('image.svg') + "#line"}
