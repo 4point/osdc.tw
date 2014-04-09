@@ -28,6 +28,8 @@ a {
 		left: 50%;
 		margin-left: -75px;
 		pointer-events: none;
+		width: 150px;
+		height: 300px;
 	}
 	.top {
 		top: -60px;
@@ -133,54 +135,26 @@ a {
 }
 
 #bricks {
+	overflow: visible;
 	position: relative;
 	left: 405px;
-	top: -570px;
+	top: -10px;
 	width: 300px;
 	.pillar, .pillar2, .tap, .drop {
 		display: none;
-		position: relative;
-		.brick {
-			position: absolute;
-		}
+		position: absolute;
 	}
 	.pillar {
-		top: -60px;
-		transform: translateY(-20px);
-		svg:nth-of-type(1) {
-			top: 68px;
-		}
-		svg:nth-of-type(2) {
-			top: 19px;
-		}
-		svg:nth-of-type(3) {
-			top: -30px;
-		}
+		overflow: visible;
+		top: -80px;
 	}
 	.pillar2 {
-		top: 150px;
-		transform: translateY(-30px);
-		svg:nth-of-type(1) {
-			top: 19px;
-		}
-		svg:nth-of-type(2) {
-			top: -30px;
-		}
+		overflow: visible;
+		top: 120px;
 	}
 	.tap {
-		top: 200px;
-		transform: translateY(-12px);
-		svg:nth-of-type(1) {
-			top: 88px;
-		}
-		svg:nth-of-type(2) {
-			top: 183px;
-			left: 64px;
-		}
-		svg:nth-of-type(3) {
-			top: 135px;
-			left: 64px;
-		}
+		overflow: visible;
+		top: 218px;
 	}
 	.drop {
 		top: 400px;

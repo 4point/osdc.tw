@@ -11,13 +11,11 @@
 				= link_to 'Schedule', (current_page.path.start_with?('index') ? '#schedule' : '/schedule.html')
 			%li{class: ("active" if current_page.path.start_with?('sponsors') )}
 				= link_to 'Sponsors', (current_page.path.start_with?('index') ? '#sponsor' : '/sponsors.html')
-		.top
-			%svg{:width => '150px', :height => '300px'}
-				%use{:y => '148', "xlink:href" => image_path('image.svg') + "#red"}
-				%use{"xlink:href" => image_path('image.svg') + "#line"}
-		.top2
-			%svg.brick
-				%use{"xlink:href" => image_path('image.svg') + "#red_blue"}
+		%svg.top
+			%use{:y => '148', "xlink:href" => image_path('image.svg') + "#red"}
+			%use{"xlink:href" => image_path('image.svg') + "#line"}
+		%svg.top2
+			%use.brick{"xlink:href" => image_path('image.svg') + "#red_blue"}
 #banner.wrapper
 	%p.left
 		%span OSDC
