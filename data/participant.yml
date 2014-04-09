@@ -17,6 +17,7 @@ staff:
 speaker:
   - id: 'itu_tw'
     name: '杜修文'
+    avatar: '//avatars.io/twitter/itu_tw?size=large'
     title: '甲骨文公司MySQL技術顧問'
     profile: |
               曾任昇陽電腦軟體架構師，甲骨文公司教育訓練部資深講師及經理
@@ -241,6 +242,7 @@ speaker:
   - id: 'clsung'
     name: 'Cheng-Lung Sung'
     title: ''
+    avatar: '//avatars.io/twitter/clsung?size=large'
     profile: |
               - Twitter: @clsung
               - Blog: http://dev.clsung.org/
