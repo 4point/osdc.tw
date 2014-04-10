@@ -2,21 +2,20 @@
 title: Home
 ---
 #bricks
-	%svg.tap
+	%svg.tap{:height => 500}
 		%use.brick{"xlink:href" => image_path('image.svg') + "#red", :y => 88}
 		%use.brick{"xlink:href" => image_path('image.svg') + "#yellow", :y => 183, :x => 64}
 		%use.brick{"xlink:href" => image_path('image.svg') + "#purple", :y => 135, :x => 64}
-	%svg.pillar2
+	%svg.pillar2{:height => 500}
 		%use.brick{"xlink:href" => image_path('image.svg') + "#green", :y => 49}
 		%use.brick{"xlink:href" => image_path('image.svg') + "#red_blue"}
-	%svg.pillar
+	%svg.pillar{:height => 500}
 		%use.brick{"xlink:href" => image_path('image.svg') + "#purple", :y => 98}
 		%use.brick{"xlink:href" => image_path('image.svg') + "#yellow", :y => 49}
 		%use.brick{"xlink:href" => image_path('image.svg') + "#green"}
-	.drop
+	%svg.drop
 		- 3.times do
-			%svg
-				%use{"xlink:href" => image_path('image.svg') + "#drop"}
+			%use{"xlink:href" => image_path('image.svg') + "#drop"}
 %section#news.home
 	%h2
 		= link_to 'News', '/news.html'

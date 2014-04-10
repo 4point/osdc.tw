@@ -144,36 +144,37 @@ a {
 		display: none;
 		position: absolute;
 	}
-	.pillar {
+	.pillar, .pillar2, .tap {
 		overflow: visible;
+		min-height: 500px;
+	}
+	.pillar {
 		top: -80px;
 	}
 	.pillar2 {
-		overflow: visible;
 		top: 120px;
 	}
 	.tap {
-		overflow: visible;
 		top: 218px;
 	}
 	.drop {
 		top: 400px;
 		z-index: -1;
-		svg {
-			display: block;
-			position: absolute;
-			margin-left: 110px;
-		}
+		height: 600px;
+		left: 110px;
 	}
 	.drop.start {
-		svg:nth-of-type(1) {
+		use:nth-of-type(1) {
 			animation: drop 3s -1s cubic-bezier(.61,.01,.93,.04) infinite;
+			-webkit-animation: drop 3s -1s cubic-bezier(.61,.01,.93,.04) infinite;
 		}
-		svg:nth-of-type(2) {
+		use:nth-of-type(2) {
 			animation: drop 3s -2s cubic-bezier(.61,.01,.93,.04) infinite;
+			-webkit-animation: drop 3s -2s cubic-bezier(.61,.01,.93,.04) infinite;
 		}
-		svg:nth-of-type(3) {
+		use:nth-of-type(3) {
 			animation: drop 3s cubic-bezier(.61,.01,.93,.04) infinite;
+			-webkit-animation: drop 3s cubic-bezier(.61,.01,.93,.04) infinite;
 		}
 	}
 }
@@ -184,6 +185,15 @@ a {
 	}
 	to {
 		transform: translateY(500px);
+	}
+}
+
+@-webkit-keyframes drop {
+	from {
+		-webkit-transform: translateY(0);
+	}
+	to {
+		-webkit-transform: translateY(500px);
 	}
 }
 
