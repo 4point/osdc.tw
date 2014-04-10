@@ -253,3 +253,20 @@ speaker:
     profile: |
               高嘉良(clkao) - 喜歡寫程式、泡♨︎ 。參加 1997 年國際資訊奧林匹亞後，進入台大資訊系就讀，即活躍於國內外開放源碼社群，隨後旅居英國倫敦從事軟體開發及顧問工作。現為美商 Socialtext Inc. 及台灣工業技術研究院軟體開發顧問。2012 年發起零時政府g0v.tw 計畫。
               g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社會的資訊平台與工具。
+  - id: 'c9s'
+    name: '林佑安'
+    title: ''
+    avatar: 'e4f596062f8f3495d7a83b1190204bd1'
+    profile: |
+              林佑安 (c9s) - Open Source / Web Developer. 過去幾年曾投入於 Vim
+              plugins 開發, Perl CPAN 模組開發。2009 年起活躍於 GitHub
+              開放原始碼平台上，曾被 "Most active GitHub users"
+              (http://git.io/top) 於 2013 年列為排名第一名的使用者。
+              近年來專注於 JavaScript, PHP 及 Go 程式語言等相關應用。
+
+              Yo-An Lin is an open source / web developer, he wrote a lot of Vim
+              pluings and Perl CPAN modules few years ago. Now focusing on
+              Javascript, PHP and Golang related technologies.
+
+              - Twitter: @c9s
+              - Blog: http://c9s.blogspot.com
