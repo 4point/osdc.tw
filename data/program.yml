@@ -57,7 +57,7 @@ day1:
             MySQL Utility is a GPL tool that works MySQL Server with operations, such as configure master-slave replicaiton, auto fail-over and fail-back, promte the slave server the has move update information among slave servers while master is down and clone and compare MySQL database. From this sharing audience can have a comprehensive understanding to this tool and benifit from it' features
   - time: 3
     room: 2
-    speaker: '林佑安'
+    speaker: 'c9s'
     title: 'Building popular open source project (tips and trick)'
   - time: 5
     room: 0
