@@ -34,27 +34,28 @@
         <!-- START CONTENT -->     
         <div id="content">
           <%= yield %>
-        </div> <!-- end #content -->
-
-    <div class="center-block">
+            <div class="clear"></div>    
+            <div class="divider"></div>
+            <div class="center-block">
         <h4>贊助廠商列表：</h4>
-            <a target="_blank" href="http://tw.yahoo.com/"><img height="40" alt="" src="http://osdc.tw/assets/img/sponsors/yahoo.png"></a>
-            <a target="_blank" href="http://www.pixnet.net/"><img height="40" alt="" src="http://osdc.tw/assets/img/sponsors/pixnet.png"></a>
+            <a target="_blank" href="http://tw.yahoo.com/"><%= image_tag 'sponsors/yahoo.png', :height => 40 %></a>
+            <a target="_blank" href="http://www.pixnet.net/"><%= image_tag 'sponsors/pixnet.png', :height => 40 %></a>
     
-            <a target="_blank" href="http://www.etusolution.com"><img height="40" alt="" src="http://osdc.tw/assets/img/sponsors/etu.png"></a>
-            <a target="_blank" href="http://tw.kkbox.com/index.html"><img height="40" alt="" src="http://osdc.tw/assets/img/sponsors/kkbox.png"></a>
+            <a target="_blank" href="http://www.etusolution.com"><%= image_tag 'sponsors/etu.png', :height => 40 %></a>
+            <a target="_blank" href="http://tw.kkbox.com/index.html"><<%= image_tag 'sponsors/kkbox.png', :height => 40 %></a>
             
-            <a target="_blank" href="http://faria.co/"><img height="40" alt="" src="http://osdc.tw/assets/img/sponsors/faria.png"></a>
+            <a target="_blank" href="http://faria.co/"><%= image_tag 'sponsors/faria.png', :height => 40 %></a>
     
-            <a target="_blank" href="http://www.godgame.com.tw/"><img height="40" alt="" src="http://osdc.tw/assets/img/sponsors/godgame.png"></a>
-            <a target="_blank" href="http://www.archilife.org"><img height="40" alt="" src="http://osdc.tw/assets/img/sponsors/archilife.png"></a>
-            <a target="_blank" href="http://www.acomotech.com/"><img height="30" alt="" src="http://osdc.tw/assets/img/sponsors/acomotech.png"></a>
-            <a target="_blank" href="http://handlino.com/"><img height="40" alt="" src="http://osdc.tw/assets/img/sponsors/handlino.png"></a>
-            <a target="_blank" href="http://web1.nsc.gov.tw/"><img height="40" alt="" src="http://osdc.tw/assets/img/sponsors/nsc.png"></a>
-            <a target="_blank" href="http://www.citi.sinica.edu.tw/"><img height="40" alt="" src="http://osdc.tw/assets/img/sponsors/citi.png"></a>
-            <a target="_blank" href="http://www.openfoundry.org/"><img height="40" alt="" src="http://osdc.tw/assets/img/sponsors/ossf.png"></a>
+            <a target="_blank" href="http://www.godgame.com.tw/"><%= image_tag 'sponsors/godgame.png', :height => 40 %></a>
+            <a target="_blank" href="http://www.archilife.org"><%= image_tag 'sponsors/archilife.png', :height => 40 %></a>
+            <a target="_blank" href="http://www.acomotech.com/"><%= image_tag 'sponsors/acomotech.png', :height => 40 %></a>
+            <a target="_blank" href="http://handlino.com/"><%= image_tag 'sponsors/handlino.png', :height => 40 %></a>
+            <a target="_blank" href="http://web1.nsc.gov.tw/"><%= image_tag 'sponsors/nsc.png', :height => 40 %></a>
+            <a target="_blank" href="http://www.citi.sinica.edu.tw/"><%= image_tag 'sponsors/citi.png', :height => 40 %></a>
+            <a target="_blank" href="http://www.openfoundry.org/"><%= image_tag 'sponsors/ossf.png', :height => 40 %></a>
     
         </div> <!-- end .center-block -->
+        </div> <!-- end #content -->
 
         <!-- START FOOTER -->    
         <div id="footer">

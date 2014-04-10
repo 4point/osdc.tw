@@ -35,6 +35,8 @@ page "/index.html", :layout => "index"
 #   @which_fake_page = "Rendering a fake page with a variable"
 # end
 
+set :relative_links, true
+
 ###
 # Helpers
 ###
