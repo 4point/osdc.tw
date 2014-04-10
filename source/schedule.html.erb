@@ -1,538 +1,968 @@
 ---
-title: OSDC 2013 | 議程表
+title: OSDC 2012 | 議程表
 ---
 
 <%= stylesheet_link_tag "bootstrap/css/bootstrap", "jquery.fancybox", "custom", "typicons.min" %>
 <%= javascript_include_tag "jquery.fancybox", "jquery.fancybox-media" %>
+<style type="text/css">
+    table.tablesorter {
+        font-family:arial;
+        background-color: #f9f9f9;
+        margin:10px 0pt 20px;
+        font-size: 8pt;
+        width: 100%;
+        text-align: left;
+    }
+    table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+        background-color: #2D333C;
+        border: 1px solid #2D333C;
+        font-size: 12pt;
+        padding: 4px;
+        color: #fff;
+        text-align: center;
+    }
+    table.tablesorter thead tr .header {
+        background-image: url('../img/bg.gif');
+        background-repeat: no-repeat;
+        background-position: center right;
+        cursor: pointer;
+    }
+    table.tablesorter tbody td {
+        padding: 6px;
+        background-color: #fafafa;
+        vertical-align: top;
+        border: 1px solid #2D333C;
+    }
+    table.tablesorter tbody tr.odd td {
+        background-color:#333333;
+    }
+    table.tablesorter thead tr .headerSortUp {
+        background-image: url('../img/asc.gif');
+    }
+    table.tablesorter thead tr .headerSortDown {
+        background-image: url('../img/desc.gif');
+    }
+    table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+        background-color: #2D333C;
+    }
 
+    table.tablesorter td p {
+        margin-bottom: 2px;
+        color: #333;
+        font-size: 12px;
+    }
+    table.tablesorter td p strong {
+        font-size: 14px;
+    }
+    .center {
+        text-align:center;
+    }
+    table.tablesorter td.time {
+        text-align: center;
+        font-size: 14px;
+        vertical-align: middle;
+    }
+    table.tablesorter td p.keynote {
+        text-align: center;
+        width: 100%;
+    }
+    table.tablesorter td p.keynote strong, table.tablesorter td p.keynote strong a {
+        font-size: 18px;
+    }
+</style>
 <div class="center-block">
   <h2>議程表</h2>
   <a name="day1"></a>
-  <h3 class="no-margin">4/19 - DAY 1</h3>
+    <h3 class="no-margin">4/14 - DAY 1</h3>
 
-  <table class="table table-bordered table-hover" style="background-color: #fff;">
-    <thead>
-      <tr style="background-color: #333; color: #eee;">
-        <th width="12%" class="center">時間</th>
-        <th width="24%" class="center">第一會議室</th>
-        <th width="40%" class="center">國際會議廳</th>
-        <th width="24%" class="center">第二會議室</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="time">09:20-10:00</td>
-        <td colspan="3" class="center">breakfast</td>
-      </tr>
-      <tr>
-        <td class="time">10:00-10:50</td>
-        <td colspan="3" class="center"><a class="popup">Selena Deckelmann</a>:<br />What beginners teach us<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=d2WAd_FLnP0"><span class="typcn typcn-video"></span></a><a href="https://speakerdeck.com/selenamarie/what-beginners-teach-us" target="_blank"><span class="typcn typcn-document"></span></a>
-<pre style="display:none;width:600px;">
-Open source as an idea has won. Linux dominates developer servers, open source tools are ubiquitous and being an open source developer rocks.
+    <table id="rowspan" class="tablesorter">
+        <thead>
+            <tr>
+                <th width="12%">上午</th>
+                <th width="88%">國際會議廳</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="time">09:10-9:50</td>
+                <td><p class="keynote"><strong>Dr. 宮力 (MOZILLA)</strong></p><p style="text-align:center;">Mozilla B2G: Breaking Mobile Monopolies</p>
+                    <p style="text-align:center;">
+                        <a href="/2012/assets/contents/BreakingMobileMonopolies.pdf" target="_blank">簡報檔 (PDF)</a>
+                        <a href="http://www.youtube.com/watch?v=iPTgAhgbB7M" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28184732" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120414-InternationalRoom-0910_0950.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="time">10:00-10:40</td>
+                <td><p class="keynote"><strong><a href="#intro_cocktails">Eric Chuang (YAHOO)</a></strong></p><p style="text-align:center;">Cocktails – Shaken, Not Stirred</p>
+                    <p style="text-align:center;">
+                        <a href="http://www.youtube.com/watch?v=2dU6suiAh6A" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28184498" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120414-InternationalRoom-1000_1040.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="time">11:00-11:40</td>
+                <td><p class="keynote"><strong>史憲軍 (SAMSUNG)</strong></p><p style="text-align:center;">從手寫筆、滑掌截圖、陀螺儀等應用看Android應用程式開發</p>
+                    <p style="text-align:center;">
+                        <a href="http://www.youtube.com/watch?v=QdbMBU4i_D4" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28184450" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120414-InternationalRoom-1100_1140.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="time">11:50-12:30</td>
+                <td><p class="keynote"><strong><a href="#intro_zonble">zonble (KKBOX)</a></strong></p><p style="text-align:center;">談手機 Internet Client 開發：我從「台灣天氣」學到的事情</p>
+                    <p style="text-align:center;">
+                        <a href="http://www.youtube.com/watch?v=RiTxMQsppC4" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28184748" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120414-InternationalRoom-1150_1230.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>		
+    <table id="rowspan" class="tablesorter" style="margin-top: -20px;">
+        <thead>
+            <tr>
+                <th width="12%">下午</th>
+                <th width="24%">第一會議室</th>
+                <th width="40%">國際會議廳</th>
+                <th width="24%">第二會議室</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="time">14:00-14:30</td>
+                <td><p><strong><a href="#intro_robot">Noritsuna Imamura</a></strong></p>
+                    <p>Content-Centric Embedded ~Treasure Hunting Brain Robot~</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.youtube.com/watch?v=ADAJ1-EU5QY" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28184956" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120414-1stRoom-1400_1430.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+                <td><p><strong><a href="#intro_mikimoto">mikimoto</a></strong></p>
+                    <p>DIY Open Source 無人自走砲</p>
+                    <p style="text-align:left;">
+                        <a href="http://speakerdeck.com/u/mikimoto/p/diy-open-source-osdctw-2012" target="_blank">簡報檔</a>
+                        <a href="http://www.youtube.com/watch?v=Q1-9GgoYoec" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28184506" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120414-InternationalRoom-1400_1430.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+                <td><p><strong><a href="#intro_sunny">sunny</a></strong></p>
+                    <p>An Overview to Garbage Collection Algorithms in OpenJDK</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.youtube.com/watch?v=mumvD0r7IH4" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28185306" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120414-2ndRoom-1400_1430.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="time">14:40-15:10</td>
+                <td><p><strong><a href="#intro_johnson">johnson lin</a></strong></p>
+                    <p>Introduction to LuaJIT &amp; How to bind complex C++ codebase using LuaJIT FFI</p>
+                    <p style="text-align:left;">
+                        <a href="http://speakerdeck.com/u/igdshare/p/introduction-to-luajit-how-to-bind-cpp-code-base-using-luajit-ffi" target="_blank">簡報檔</a>
+                        <a href="http://www.youtube.com/watch?v=G9ZFNzT8eHo" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28185312" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120414-1stRoom-1440_1510.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+                <td><p><strong><a href="#intro_fred">fred chien</a></strong></p>
+                    <p>Let's Enjoy NodeJS - All Development in JavaScript</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.slideshare.net/cfsghost/let-s-enjoy-nodejs" target="_blank">簡報檔</a>
+                        <a href="http://www.youtube.com/watch?v=9GeMAO5RI4k" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28184630" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120414-InternationalRoom-1440_1510.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+                <td><p><strong><a href="#intro_c9s">c9s</a></strong></p>
+                    <p>The Ecosystems of PHP and Perl</p>
+                    <p style="text-align:left;">
+                        <a href="http://speakerdeck.com/u/c9s/p/osdctw-2012-the-ecosystems-of-php-and-perl" target="_blank">簡報檔</a>
+                        <a href="http://www.youtube.com/watch?v=EDp94wQipw4" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28185264" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120414-2ndRoom-1440_1510.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="time">15:30-16:00</td>
+                <td><p><strong><a href="#intro_jush">jush.lu</a></strong></p>
+                    <p>MCLinker – an LLVM integrated linker</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.youtube.com/watch?v=443Ye5GXBzM" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28185286" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120414-1stRoom-1530_1600.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+                <td><p><strong><a href="#intro_audrey">audrey</a></strong></p>
+                    <p>EtherCalc: 多人即時協作試算表</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.slideshare.net/autang/ethercalc" target="_blank">簡報檔</a>
+                        <a href="http://www.youtube.com/watch?v=osJxSgbJuzY" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28184670" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120414-InternationalRoom-1530_1600.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+                <td><p><strong><a href="#intro_wu">Jeng-Hsueh Wu</a></strong></p>
+                    <p>Facing the Big Data challenge: a use case for leveraging from Hadoop and her friends</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.youtube.com/watch?v=Mhn3fzAATyE" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28185314" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120414-2ndRoom-1530_1600.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="time">16:10-16:40</td>
+                <td><p><strong>Thinker (Mozilla)</strong></p>
+                    <p>Apps on HTML5 and the new WebAPIs</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.youtube.com/watch?v=YciwU7nk_lI" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28224068" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120414-1stRoom-1610_1640.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+                <td><p><strong><a href="#intro_kito">kito cheng (0xlab)</a></strong></p>
+                    <p>Android C Library : Bionic 成長計畫</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.slideshare.net/kitocheng/android-c-library-bionic" target="_blank">簡報檔</a>
+                        <a href="http://www.youtube.com/watch?v=w7pbeHGVIeU" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28184650" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120414-InternationalRoom-1610_1640.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+                <td><p><strong><a href="#intro_gugod">gugod</a></strong></p>
+                    <p>事件驅動 Perl 程式設計</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.youtube.com/watch?v=Mn-8LES0JDk" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28185358" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120414-2ndRoom-1610_1640.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="time">16:50-17:20</td>
+                <td><p><strong><a href="#intro_imacat">imacat</a></strong></p>
+                    <p>OpenOffice UNO Application on Android.</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.slideshare.net/imacat/openoffice-uno-application-on-android" target="_blank">簡報檔</a>
+                        <a href="http://www.youtube.com/watch?v=abj882B6bYI" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28224652" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120414-1stRoom-1650_1720.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+                <td><p><strong><a href="#intro_trend">fr3@K (Trend Micro)/lunastorm (Trend Micro)</a></strong></p>
+                    <p>Trend Message Exchange - Open Source Realtime Big Data Processing Platform</p>
+                    <p style="text-align:left;">
+                        <a href="http://speakerdeck.com/u/lunastorm/p/tme-introduction-at-osdctw-2012" target="_blank">簡報檔</a>
+                        <a href="http://www.youtube.com/watch?v=ECHhEXC4Gm8" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28184764" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120414-InternationalRoom-1650_1720.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+                <td><p><strong>clkao</strong></p>
+                    <p>automated trading toolkit</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.youtube.com/watch?v=qWsWu2Gkb7g" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28185360" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120414-2ndRoom-1650_1720.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>		
+    <a name="day2"></a>
+    <h3 class="no-margin">4/15 - DAY 2</h3>
+    <table id="rowspan2" class="tablesorter">
+        <thead>
+            <tr>
+                <th width="12%">上午</th>
+                <th width="24%">第一會議室</th>
+                <th width="40%">國際會議廳</th>
+                <th width="24%">第二會議室</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="time">9:00-9:30</td>
+                <td><p><strong><a href="#intro_wycc">wycc</a></strong></p>
+                    <p>Tiny Java VM for Wireless Home automation application</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.youtube.com/watch?v=lKL5tq_0ZqQ" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28185756" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120415-1stRoom-0900_0930.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+                <td><p><strong><a href="#intro_rails">小蟹</a></strong></p>
+                    <p>Rails 3.1 : Asset Pipeline</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.slideshare.net/wildjcrt/asset-pipeline-osdc" target="_blank">簡報檔</a>
+                        <a href="http://www.youtube.com/watch?v=9-n0COOe2AI" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28185592" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120415-InternationalRoom-0900_0930.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+                <td><p><strong><a href="#intro_c11">fr3@K (Trend Micro)</a></strong></p><p>A brief introduction to C++11</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.box.com/s/3850a16d44ab52b1e92e" target="_blank">簡報檔</a>
+                        <a href="http://www.youtube.com/watch?v=iI2olKWJxzo" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28186266" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120415-2ndRoom-0900_0930.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="time">9:40-10:10</td>
+                <td><p><strong><a href="#intro_slayer">slayer</a></strong></p>
+                    <p>Something about the Standardization of Android Testing</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.youtube.com/watch?v=cbNxBUE_o5U" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28185740" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120415-1stRoom-0940_1010.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+                <td><p><strong><a href="#intro_yc">yc ling</a></strong></p>
+                    <p>Dependency Management - Taking Ruby Development for Example</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.youtube.com/watch?v=qe5h1x6lrwo" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28185606" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120415-InternationalRoom-0940_1010.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+                <td><p><strong><a href="#intro_miyagawa">miyagawa</a></strong></p>
+                    <p>Carton, CPAN dependencies manager</p>
+                    <p style="text-align:left;">
+                        <a href="http://speakerdeck.com/u/miyagawa/p/carton-at-osdctw-2012" target="_blank">簡報檔</a>
+                        <a href="http://www.youtube.com/watch?v=bDvgxMNhWtU" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28186740" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120415-2ndRoom-0940_1010.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="time">10:30-11:00</td>
+                <td><p><strong><a href="#intro_freedom">freedom</a></strong></p>
+                    <p>Miscellaneous Android WebKit topics</p>
+                    <p style="text-align:left;">
+                        <a href="http://freebsd.csie.nctu.edu.tw/~freedom/webkit-misc-2012/" target="_blank">簡報檔</a>
+                        <a href="http://www.youtube.com/watch?v=OgDwAG69Qvs" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28185748" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120415-1stRoom-1030_1100.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+                <td><p><strong><a href="#intro_ihower">ihower</a></strong></p>
+                    <p>那些 Functional Programming 教我的事</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.slideshare.net/ihower/fp-osdc2012v2" target="_blank">簡報檔</a>
+                        <a href="http://www.youtube.com/watch?v=NupnQoBIBko" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28185642" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120415-InternationalRoom-1030_1100.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+                <td><p><strong><a href="#intro_hlb">hlb</a></strong></p><p>Fire.app - Dead Easy HTML Prototyping</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.youtube.com/watch?v=GtYuJ9DH1yI" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28186572" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120415-2ndRoom-1030_1100.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="time">11:10-11:40</td>
+                <td><p><strong><a href="#intro_kenichi">kenichi</a></strong></p>
+                    <p>Perl Kwalitee updates</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.slideshare.net/charsbar/cpants-2012" target="_blank">簡報檔</a>
+                        <a href="http://www.youtube.com/watch?v=APC0SFbJMSM" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28185764" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120415-1stRoom-1110_1140.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+                <td><p><strong><a href="#intro_mark">mark sung</a></strong></p>
+                    <p>the Online Game Cloud Computing Platform base on HPC Technologies</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.youtube.com/watch?v=YZyb76_Q35A" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28185648" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120415-InternationalRoom-1110_1140.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+                <td><p><strong><a href="#intro_othree">Othree</a></strong></p>
+                    <p>JavaScript Essential Patterns</p>
+                    <p style="text-align:left;">
+                        <a href="http://www.slideshare.net/othree/javascript-essentialpattern" target="_blank">簡報檔</a>
+                        <a href="http://www.youtube.com/watch?v=vEsaIUlX3vk" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28186752" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120415-2ndRoom-1110_1140.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="rowspan2" class="tablesorter" style="margin-top: -20px;">
+        <thead>
+            <tr>
+                <th width="12%">下午</th>
+                <th width="24%">第一會議室</th>
+                <th width="64%">國際會議廳</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="time">13:00-13:40</td>
+                <td rowspan="3" style="vertical-align: middle; text-align: center;"><p><strong>Samsung</strong></p>
+                    <p>Samsung Apps Contest</p>
+                    <p style="text-align:center;">
+                        <a href="http://www.youtube.com/watch?v=ro5BOCB4lFQ" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28186964" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120415-1stRoom-1300_1530.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+                <td colspan="2"><p class="keynote"><strong><a href="#intro_allison">Allison Randal</a></strong></p><p style="text-align:center;">Good collaboration in open source projects</p>
+                    <p style="text-align:center;">
+                        <a href="http://www.youtube.com/watch?v=mrGwraoqBe4" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28185660" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120415-InternationalRoom-1300_1340.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="time">13:50-14:30</td>
+                <td colspan="2"><p class="keynote"><strong><a href="#intro_ronnywang">ronnywang (PIXNET)</a></strong></p><p style="text-align:center;">PIXNET 的 ORM，Pix Table</p>
+                    <p style="text-align:center;">
+                        <a href="http://www.youtube.com/watch?v=NzNiRFvzoo8" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28185750" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120415-InternationalRoom-1350_1430.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+            </tr>
 
-And yet, we talk frequently about how to find new contributors, how to increase the number of people who participate and share code with us, how to improve the skills of the junior developers and hire them as fast as we can.
-
-Selena has spent most of the last year teaching absolute beginners how to program in Python, how to use the command-line and how to use revision control. These beginners succeed and fail in open source in both familiar and surprising ways. 
-
-Selena will share lessons from their experiences to help us create a more inclusive and welcoming future for open source software.
-
-Selena Deckelmann is a major contributor to PostgreSQL and a data architect at Mozilla.  She's been involved with free and open source software since 1995 and began running conferences for PostgreSQL in 2007. She founded Open Source Bridge, Postgres Open and speaks internationally about open source, databases and community. She is an advisor to the Ada Initiative, an organization dedicated to increasing the participation of women in open source and technology communities. You can find her on twitter (@selenamarie) and on her blog (http://chesnok.com).
-</pre>
-        </td>
-      </tr>
-      <tr>
-        <td class="time">10:50-11:00</td>
-        <td colspan="3" class="center">-</td>
-      </tr>
-      <tr>
-        <td class="time">11:00-11:30</td>
-        <td><a class="popup">Andrew Cole</a>:<br />The RosettaCode Data Project<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=Y-F5CNHU_vc"><span class="typcn typcn-video"></span></a>
-<pre style="display:none;width:600px;">
-RosettaCode.org is a wiki containing many solutions to over 650 programming problems in almost 500 programming languages. The RosettaCode Data Project has put all of the code samples into a single git repo, and is creating tools to do interesting stuff with them. Andrew Cole will tell you all about this exciting project that may take OSDC to a new level.
-
-Andrew Cole is an Open Source hacker who lives in Seattle and works for ActiveState. He likes to FTAA (Forward The Acmeist Agenda)!
-</pre>
-        </td>
-        <td>YAHOO | <a class="popup">Yi-Kai Tsai</a>:<br /> OpenStack 101<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=3NDRB0l5qwg"><span class="typcn typcn-video"></span></a>
-<pre style="display:none;width:600px;">
-OpenStack is one of the most popular open source IaaS project in passing two years. This area is hot and there are lots of technologies and terminologies. In today's talk, starting from history of OpenStack, I will talk more about OpenStack design concept and its philosophy.Then giving a architecture overview introduction on it. I hope people will have a better understanding on OpenStack.
-</pre>
-        </td>
-        <td><a class="popup">lunastorm</a>:<br />Wissbi, A Distributed Event Toolkit to Process Big Data<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=bTD3jIqCFw0"><span class="typcn typcn-video"></span></a><a href="http://s3-ap-southeast-1.amazonaws.com/lunastorm.share/tmp/Wissbi_OSDC_PDF.pdf" target="_blank"><span class="typcn typcn-document"></span></a>
-<pre style="display:none;width:600px;">
-Wissbi is a highly available and scalable distributed message routing framework like ZeroMQ that took a different path from traditional MQ middlewares. 
-The toolkits supports an elegant and intuitive integration model, allowing writing event driven applications as easy as "$ tail -f log | grep error > error.log".
-
-Scott Wang a.k.a. lunastorm, Sr. Engineer at Zillians
-</pre>
-        </td>
-      </tr>
-      <tr>
-        <td class="time">11:30-11:40</td>
-        <td colspan="3" class="center">-</td>
-      </tr>
-      <tr>
-        <td class="time">11:40-12:10</td>
-        <td><a class="popup">Kawasaki</a>:<br />IR light vs HEV light: 紅外線 vs 高能量可見光<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=bW8z2HZtJZw"><span class="typcn typcn-video"></span></a><a href="http://www.slideshare.net/kawa0117/osdctw-2013public" target="_blank"><span class="typcn typcn-document"></span></a>
-<pre style="display:none;width:600px;">
-Infrared light could be helpful despite that high-energy visible light
-could be harmful.
-At this session, he will give a crazy demo once again as well as super-duper
-hacking talk based upon HTML5/CSS3 and other leading edge Web technologies.
-The topic is subject to change.
-
-Yusuke Kawasaki is a Perl monger, JavaScript hacker and user interface
-researcher.
-He's back to Taipei as he loves OSDC.TW as well as Xiaolongbao.
-This is his first talk given abroad after quiting Media Technology
-Labs last October
-and just launched his own startup company in Tokyo.
-</pre>
-        </td>
-        <td>KKBOX | <a class="popup">Gea-Suan Lin</a>:<br />Percona XtraDB Cluster 入門<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=vxnyFaa6zyA"><span class="typcn typcn-video"></span></a>
-<pre style="display:none;width:600px;">
-Percona XtraDB Cluster (PXC) 是 Percona 基於 Galera Cluster 而發行的 MySQL server 版本，針對設定與實用性的部份加強。
-
-Galera Cluster 是 Codership 針對傳統 MySQL replication 的缺點而改良的產品，加強資料一致性，並解決 Replication Lag。
-
-我們這半個小時會說明 PXC 能夠帶來什麼好處，並且帶大家入門：
-說明 PXC 相較於既有 MySQL replication 的好處。
-說明 PXC 的架構。
-架設 PXC。
-架設 Heartbeat，並且配合 PXC 的狀態，提供高可靠資料庫系統。
-</pre>
-        </td>
-        <td>
-        <a class="popup">Tatsuhiko Miyagawa</a>:<br /> What's new in cpanm 1.6<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=UYhIloHZ00A"><span class="typcn typcn-video"></span></a>
-<pre style="display:none;width:600px;">
-Tatsuhiko Miyagawa: What's new in cpanm 1.6
-
-cpanm is one of the most popular tools to install CPAN modules. The
-new major version of cpanm 1.6 was just released in March, and has
-some awesome features to make module installation and deployment much
-easier.
-
-Tatsuhiko Miyagawa lives in San Francisco, writes Perl
-and Ruby code and loves listening to music, drinking beer and shooting
-photos.
-</pre>
-        </td>
-      </tr>
-      <tr>
-        <td class="time">12:10-14:00</td>
-        <td colspan="3" class="center">lunch</td>
-      </tr>
-      <tr>
-        <td class="time">14:00-14:30</td>
-        <td><a class="popup">Noritsuna Imamura</a>:<br />How to make the "MAKERS".<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=c1ceiXQdOtU"><span class="typcn typcn-video"></span></a>
-<pre style="display:none;width:600px;">
-Last year, Makers: The New Industrial Revolution by Chris Anderson (
-http://www.amazon.com/dp/0307720950/ ) was the one of the best seller.
-
-I, I joined some following MAKERS's events as MAKERS, explain about MAKERS:
-What is the "MAKERS" ?
-What do the "MAKERS" make ?
-How to make the "MAKERS"'s product ?
-APPENDIX:
-How to use a 3D Prineter.
-How to use a CNC lathe machine.
-How about are MAKERS's events.
-When you finish to listen my session, you become "MAKERS"!
-MAKERS's events which I joined:
-Maker Faire 2012 BayArea(San Francisco)
-http://makerfaire.com/bayarea/2012/index.html
-Mini Maker Faire 2012 Shen Zhen http://www.shenzhenmakerfaire.com/
-Mini Maker Faire 2012 Singapore http://makerfairesingapore.com/
-Mini Maker Faire 2012 Hong Kong http://hkmakerfaire.wordpress.com/
-
-I'm a board member as OESF(http://www.oesf.biz). And I'm coordinating an OESF's Open Lab(Taiwan&Japan) & future system WG(http://fswg.oesf.biz/).
-I'm a starting member of the biggest Android community in Japan(http://android-group.jp).
-I'm making an Android for community for embedded(for OEM/ODM venders) in Taiwan with ITRI(http://itri.org.tw/) & Linaro(http://www.linaro.org).
-And I'm making some funny products as MAKERS.
-Auto Chasing Turtle:
-http://www.siprop.org/ja/2.0/index.php?product%2FAutoChasingTurtle
-Panda Cloud: http://www.siprop.org/en/2.0/index.php?product%2Fpandacloud
-Treasure Hunting Robot:
-http://www.siprop.org/en/2.0/index.php?product%2FTreasureHuntingRobot
-</pre>
-        </td>
-        <td>PIXNET | <a class="popup">Zack Yang</a>:<br />Say yo to AngularJS<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=f4PM5_PBub8"><span class="typcn typcn-video"></span></a>
-<pre style="display:none;width:600px;">
-在 Web 應用愈來愈複雜的狀況下，前端所使用的開發工具愈來愈多，連網頁程式也要講究 MVC 架構，尤其是在開發 SPA(Single Page Application) 的 Web App。Yeoman 與 AngularJS 都是新興的 Open source 專案，Yeoman 是集開發工具之大成的一個神兵利器，目的是讓開發的 Workflow 更順暢。AngularJS 可以說是專門在建立 SPA 的 Framework，能以簡潔的方式來開發網頁程式。結合 Yeoman 與 AngularJS 可以幫助開發者加速開發 Web 的應用。
-</pre>
-        </td>
-        <td><a class="popup">BrianHsu</a>:<br />我如何停止憂慮並愛上 Non-MVC Web Framework<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=D9AEj9RsVT0"><span class="typcn typcn-video"></span></a><a href="https://speakerdeck.com/brianhsu/wo-ru-he-ting-zhi-you-lu-bing-ai-shang-non-mvc-web-framework-at-osdc-dot-tw-2013" target="_blank"><span class="typcn typcn-document"></span></a>
-<pre style="display:none;width:600px;">
-目前熱門的網站開發的框架，如 Ruby 上的 Rails、使用 Python 的 DJango 或是 Java 的 Play Framework ，多數採用 MVC 的模式，並且配合模版的概念，來實現「外觀與程式邏輯的分離」。
-但針對這個議題，並不是只有 MVC 這一個解法，使用 Scala 做為程式語言的網頁應用程式框架 Lift Web Framework，就提出了另一個稱為 View First  的概念，做為實現外觀與程式邏輯的分離的手段。
-在這個 Talk 中，我們會介紹 Lift 如何用 Functional Programming 的角度來看待網頁應用程式中的外觀與程式邏輯，以及它如何透過 View First 的方法，讓網頁應用程式中的模版是完全標準的 HTML 文件，不含有任何的程式邏輯，但卻又可以在其中注入動態產生的內容。
-
-BrianHsu，中研院研究助理，負責開發與維護數位典藏聯合目錄網站。平日工作上使用 Java 做為開發程式語言，但用的最順手的其實是 Scala。
-</pre>
-        </td>
-      </tr>
-      <tr>
-        <td class="time">14:30-14:40</td>
-        <td colspan="3" class="center">-</td>
-      </tr>
-      <tr>
-        <td class="time">14:40-15:10</td>
-        <td><a class="popup">Kazuaki Maeda</a>:<br />Parser Development Based on an External DSL and an Internal DSL<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=zZ1q_GfJILk"><span class="typcn typcn-video"></span></a>
-<pre style="display:none;width:600px;">
-I will talk a traditional parser generator based on an external DSL (Domain Specific Language) and my own parser generator
-based on an internal DSL in Ruby.
-The parser reads source code, recognizes a syntactic structure, and builds an abstract syntax tree. Since Yacc was introduced to parser development in 1970s, many parser generators have been built and made parser development easier.
-The parser generators read syntax rules with action code, and generate source code to support parser development.
-All of them are now available free under Open Source licenses.
-All custom languages to represent syntax rules are different from general purpose languages so that they are called external DSLs.
-The parser generators read mixture of the syntax rules in the external DSLs and action code in general purpose languages such as Java and C#.
-I explain parser development in Java using a traditional parser generator BYACC/J.
-I believe that an internal DSL is one of the approaches to improve the descriptive power.
-It is also an intuitive language to define syntax rules and build the parser.
-An original parser generator which is currently building by myself is designed on a subset of Ruby.
-We can define syntax rules in Ruby and action code in Ruby. Ruby gives a powerful description to define syntax rules and we can embed action code with a flexible way. The parser generator will be distributed as an Open Source Software, soon. I explain parser development in Ruby using my own parser generator.
-
-He graduated in Department of Administration Engineering from Keio University in Japan,
-and graduated in Graduate School of Science and Technology from Keio University.
-After leaving Keio University, he got an academic position at Chubu University in Japan.
-Now he is a professor at Department of Business Administration and Information Science in Chubu University in Japan.
-His research interests are Compiler Construction, Domain Specific Languages, Object-Oriented Programming, Software Engineering and Open Source Software.
-</pre>
-        </td>
-        <td>ETU | <a class="popup">韓祖棻</a>:<br />Hadoop Cluster HA 的經驗分享<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=cacXi27zu8o"><span class="typcn typcn-video"></span></a>
-<pre style="display:none;width:600px;">
-Hadoop HA 是個熱門且重要的議題，目前有諸多設計是以 Namenode HA 為主軸，進而延伸至 Job Tracker 和 HMaster。然而，在實作 Hadoop Cluster HA 時，僅考量Namenode、Job Tracker、和 HMaster 仍然不夠嚴謹，在Production的環境，一個Hadoop Cluster 通常還會需要其他的非Hadoop Ecosystem的服務與之協同運作，如 PostgreSQL、Kerberos、Puppet、 NTP 等，這些服務皆需一併規劃與設計，在 HA 被觸發後，讓 Hadoop Cluster 仍可正確運作。本議程將會介紹 Apache Hadoop、Cloudera、和 Hortonworks 於 Hadoop HA 上的解決方案，以及最新發展，並分享第一手的 Etu Appliance HA 作法。
-
-韓祖棻   現任Etu 技術經理
-</pre>
-</td>
-        <td><a class="popup">wycc</a>:<br />讓系統千變萬化的作業環境<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=m-qMcqxfNgE"><span class="typcn typcn-video"></span></a><a href="https://docs.google.com/presentation/d/1FK5OROIp7Wxvphp0w3sLVNwfNXNFfDkZ2m7OKMQocuU/pub?start=false&loop=false&delayms=3000" target="_blank"><span class="typcn typcn-document"></span></a>
-<pre style="display:none;width:600px;">
-對於越來越胖的 Linux 很無力嗎? 我只是要做一些宅宅的事，確要花數十秒才能啟動一個作業系統。過去十年所多人想要幫 Linux 減重，不過就像大家一樣，越減越重。打掉重練才是正途。不過重做一個 Linux 不但花工，而且很可能下場是一樣的。要減要連架構一起改變才有意義。
-最近十年 IOT(Intenet of Things) 提供了一個很好的方向。我們可以用一堆的小機器來組合出我們想要的功能。這些小機器用各式各樣的網路組合起來。就變成是一個很強大的平台了。我們可以用如變型金鋼般的方式將各式各樣組式拼成一個組合體。
-悟空 (WuKong https://github.com/wukong-m2m/NanoKong) 計畫的目的在於創造一新型態的作業系統。讓我們可以使用 web 界面客製化並控制一套複雜的組件。這個平台的創造一個新的 APP 平台，使得應用程式的開發者可以為開發一套可以在不同硬體上運行的應用程式。如此一來，使用者可以從 APP store中下載一個應用程式並套用在不同的硬體內。
-傳統的感知器應用程式都是針對一個特定的系統寫的。悟空提出的架構使得寫一個可以在不同硬體上執行的感知器應用程式變的可行。悟空所有的程式都在 github 上，目前支援 Arduino 的平台。WuKong 也自行設計了一個有 Z-Wave/Zigbee 功能的硬體。這個硬體可以使用 Arduino 所有的應用程式。
-
-從 1992 年開始使用 Linux。早期投身 Linux 中文顯示列印及文書處理系統開發，之後開始做一些和 Linux Kernel 即時作業系統相關的研究。四年前開始研究家庭自動化系統，使用無線將家中設備上網。不過最後變成水電工幫人家裝電燈和窗簾。最近開始現超小型的 Java VM 系統，希望能把 JVM 放到每一個裝置中 。現在也在研究如何不用文字編輯器就可以寫程式，讓會用電腦的人就會寫程式。
-</pre>
-        </td>
-      </tr>
-      <tr>
-        <td class="time">15:10-15:30</td>
-        <td colspan="3" class="center">tea time</td>
-      </tr>
-      <tr>
-        <td class="time">15:30-16:00</td>
-        <td><a class="popup">Team Yamanekko</a>:<br />mruby develoment with Eclipse<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=pKd-ENTmNCY"><span class="typcn typcn-video"></span></a>
-<pre style="display:none;width:600px;">
-mruby is an implementation of Ruby, especially for embedded.
-We have tried to make mruby easy-to-use on micro controllers.
-In this session, we show the way to develop mruby application on MCU
-(ARM Cortex-M3) using Eclipse's GUI and other OSS tools(GCC, OpenOCD and so on).
-
-Team Yamanekko
-Team Yamanekko is a developer group of Yurie Yamane and Masayoshi Takahashi.
-We are using mruby for micro controllers, with the slogan "tanoshii
-mruby(mruby for fun)".
-Yurie Yamane is a programmer who is interested in embedded systems,
-and a member of asakusa.rb.
-Masayoshi Takahashi is an old-time Rubyist and the founder of Nihon
-Ruby no Kai, the non-profit Ruby community in Japan. He is also the
-founder of Tatsu-Zine Publising, the e-book publisher for IT engineers
-in Japan.
-</pre>
-        </td>
-        <td><a class="popup">imacat</a>:<br />Multimedia Fun with OpenOffice Calc - Abusing OpenOffice UNO API<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=JzBwqWtPfNE"><span class="typcn typcn-video"></span></a><a href="http://www.slideshare.net/imacat/multimedia-fun-with-openoffice-calc" target="_blank"><span class="typcn typcn-document"></span></a>
-<pre style="display:none;width:600px;">
-試算表可以用來做什麼？記帳？計算學生成績？記載員工資料？通訊錄？使用 OpenOffice Calc ，發揮你的創意，激發無限可能。原來 OpenOffice UNO API 也可以這樣用！
-What do you do with spreadsheets?  Accounting?  Students' scors?
-Employers' information?  Address book?  With OpenOffice Calc, you can do
-much, much more.
-
-依瑪貓／楊士青
-* OpenOffice 開發管理團隊成員
-* OpenOffice 論壇站長
-* OOo 補給站站長
-* 師大資訊教育研究所碩士班研究生
-* 台灣女子自由軟體工作小組
-</pre>
-        </td>
-        <td><a class="popup">Johnson Lin</a>:<br />Game Jam and Open Source<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=e7nopy19AZ4"><span class="typcn typcn-video"></span></a><a href="https://speakerdeck.com/igdshare/game-jam-and-open-source-at-osdc-dot-tw-2013" target="_blank"><span class="typcn typcn-document"></span></a>
-          <pre style="display:none;width:600px;">
-在開源社群或廣泛的資訊技術社群中，黑客松（hackathon）這種活動大家應該都耳熟能詳；在遊戲開發上，這種活動被稱為 Game Jam。我相信目前在台灣投入資訊技術領域的朋友，一定有為數不少的人是從「想做遊戲->要學程式」這個原因開始的。這次希望淺談既有的 Game Jam 與 Open Source 的關係、Game Jam 時常用到的技術工具（當中有許多開源產物）、以及目前 Game Jam 在台灣的狀況，希望有更多的機會能促進開源社群的朋友與遊戲開發社群的交流。
-內容大綱：
-1. How are game jam & open source related at all?
-2. The jamming kit(s): programming and stuffs during the jam.
-3. Current game jams in Taiwan, and games we've had from the jams.
-
-Johnson Lin
-Google+ profile: http://gplus.to/jslin
-推動獨立遊戲開發者分享會 http://igdshare.org、IGDA 台灣分會成員之一 http://igda.tw
-MIT Game Jam #1 Music Video: http://www.youtube.com/watch?v=dTQm5pytZnY
-MIT Game Jam #1 Archive: http://igdshare.org/content/MITGJ_archives
-Fukushima Game Jam Archive: http://igdshare.org/content/fgj2012tp_archives
-Global Game Jam 2013 + MIT Game Jam #2 Album:
-資策會：http://www.facebook.com/media/set/?set=a.415179105216873.90544.193870990681020&type=1
-大同大學：http://www.facebook.com/media/set/?set=a.415072955227488.90525.193870990681020&type=1
-</pre>
-        </td>
-      </tr>
-      <tr>
-        <td class="time">16:00-16:10</td>
-        <td colspan="3" class="center">-</td>
-      </tr>
-      <tr>
-        <td class="time">16:10-16:40</td>
-        <td>
-          
-        <a class="popup">Kenichi</a>:<br />typemap feature in Perl/XS<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=qfrd9OCnOw4"><span class="typcn typcn-video"></span></a><a href="http://www.slideshare.net/charsbar/osdctw2013" target="_blank"><span class="typcn typcn-document"></span></a>
-<pre style="display:none;width:600px;">
-When you write an application that has a significantly heavy part, it's better to use a library written in a low-level language (or maybe an external service) for speed while writing other parts in a language you usually use for ease of maintenance. However, it's not always easy to decide how much you should write in your language, and how much you should write in other language to bridge. This year I'll focus on the typemap feature in Perl/XS and other related stuff I referred to when I wrote yet another Perl interface to groonga, an open-source fulltext
-search engine and column store.
-
-Kenichi Ishigaki (aka @charsbar) is a freelance developer and translator from Shibuya.pm, Japan.
-</pre>
-        </td>
-        <td><a class="popup">大貓</a>:<br />那些函數語言Tutorial沒教我的事<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=ifp_ASiwvFU"><span class="typcn typcn-video"></span></a><a href="http://www.slideshare.net/miaout17/tutorial-19128603" target="_blank"><span class="typcn typcn-document"></span></a>
-<pre style="display:none;width:600px;">
-聽說函數語言抽象表述力很強，只要一行就可以實作Quick Sort？
-聽說函數語言很適合平行、分散式系統，用了函數語言就不用擔心Race Condition？
-近年來函數語言再度受到重視，其特性也融入了許多主流語言之中。網路上也常聽到各種「函數語言適合XXX」的說法，這些說法中是否隱藏了什麼細節？
-軟體界沒有萬靈丹，身為一個函數語言愛好者，希望可以深入討論藏在細節下的魔鬼。本講題將探討函數語言常見的若干特性，說明其優點與缺點，在實用方面能解決及不能解決什麼問題。
-
-大貓(aka. @miaout17)，愛寫程式的阿宅，FPUG.TW共同籌辦人。喜歡研究不同類型的程式語言及技術，從低階的C到高階的Python，從imperative到Haskell這類的functional language。曾在遊戲公司寫C++和Lua，目前以Ruby Web Application為生，閒暇時打TopCoder等算法競賽做為娛樂。
-
-Blog: http://blog.miaout17.net
-Github: https://github.com/miaout17
-Google+: http://goo.gl/Rg2F7
-</pre>
-        </td>
-        <td><a class="popup">老蕭</a>:<br />第一次 setup openstack + lxc 就上手<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=a88iJfncNkA"><span class="typcn typcn-video"></span></a>
-<pre style="display:none;width:600px;">
-cloud computing is the trend, and lxc may be the trend. Openstack has great potential in cloud computing, but the setup is tedious. furthurmore, currently (20/28/2013) there are some typos in the official doc, which may lead to the failure of the setup. I'll share how to setup openstack in your home.
-</pre>
-</td>
-      </tr>
-      <tr>
-        <td class="time">16:50-17:20</td>
-        <td><a class="popup">Mikimoto</a>:<br />2013 年了還在搞輸入法？<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=SFkm7lFdgMg"><span class="typcn typcn-video"></span></a><a href="https://speakerdeck.com/mikimoto/2013-huan-zai-gao-shu-ru-fa" target="_blank"><span class="typcn typcn-document"></span></a>
-<pre style="display:none;width:600px;">
-就在 2012 年底，Yahoo!KeyKey 輸入法 open source 了，CHK接手後一路的點點滴滴跟大家分享，也希望大家一起來協助專案，後面我們要作更好玩的事...
-
-講者為 Mobilogics 總工程師，同時也是 MOPCON 發起人、CocoaHeads Kaohsiung Chapter、Code for Kaohsiung 發起人，「Making a difference. One app at a time.」現在正為了下一代致力於改變世界中。
-</pre>
-        </td>
-        <td><a class="popup">OOO</a>:<br />Functional Programming Using Underscore.js<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=Jf9KfIOURxY"><span class="typcn typcn-video"></span></a>
-<pre style="display:none;width:600px;">
-Underscore.js 是一套由 Jeremy Ashkenas(DocumentCloud) 開發的 JavaScript Library，提供了很多有用的 tool function，像是用來判斷變數是否為陣列的 isArray，用來分散運算的 map 和 reduce，亂數重排的 shuffle，或是可以減少 callback function 執行次數以增加效率的
- throttle 和 debounce 等，都是非常有用，但是 JavaScript 不直接提供的工具，一般使用者會把它當成是 tool function library ，不過大部分人都忽略了 Underscore.js 首頁的第一句話：「Underscore is a utility-belt library for JavaScript that provides a lot of the functional 
- programming support」，Underscore.js 提供的這些工具，其實有很多是從 functional programming language 裡來的，本 Talk 則要從functional JavaScript 為出發點，帶大家看看 Underscore.js 的這些函式到底可以如何使用。
-
- othree，十年前為了製作個人網頁而自學起 HTML、CSS 和 JavaScript，接著便一頭栽進網路標準的世界，並持續關注網路前端技術的發展，不時在部落格及各活動分享新知，近期關注 HTML5、CSS3、Web API、語意網等議題，被認為專長於 JavaScript，其實最喜歡寫的是漂亮的 HTML Markup，現職為 HTC 前端工程師（F2E）兼博士生。
-</pre>
-        </td>
-        <td>
-        <a class="popup">obra</a>:<br />Building a keyboard from scratch<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=j4zMzwdFFN4"><span class="typcn typcn-video"></span></a>
-<pre style="display:none;width:600px;">
-Come learn how to design your own keyboard. We'll talk about everything from open source microcontroller firmware options to the basics of fabrication and soldering. You'll walk away from this talk with everything you need to know to build a keyboard from scratch -- even if you've never touched a soldering iron.
-
-Jesse Vincent is the author of RT and Hiveminder and the founder of Best Practical Solutions, LLC, a company dedicated to open tools to help people and organizations keep track of what needs doing, when it gets done, and who does it. Jesse is also the founder and project lead of K-9 Mail, the leading open source email client for Android. Jesse was the project lead for Perl 5 for the 5.12 and 5.14 release cycles.
-</pre>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-  <a name="day2"></a>
-  <h3 class="no-margin">4/20 - DAY 2</h3>
-  <table class="table table-bordered table-hover" style="background-color: #fff;">
-    <thead>
-      <tr style="background-color: #333; color: #eee;">
-        <th width="12%">時間</th>
-        <th width="24%">第一會議室</th>
-        <th width="40%">國際會議廳</th>
-        <th width="24%">第二會議室</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="time">9:20-10:00</td>
-        <td colspan="3" class="center">breakfast</td>
-      </tr>
-      <tr>
-        <td class="time">10:00-10:30</td>
-        <td colspan="3" class="center"><a class="popup">Paul Rouget</a>:<br />Future of JavaScript
-<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=a7a0eom1cRA"><span class="typcn typcn-video"></span></a>
-<pre style="display:none;width:600px;">
-Paul Rouget: Future of JavaScript
-
-Performance. Syntax. Parallelism. APIs. JavaScript is evolving. In this talk I'll cover the different projects Mozilla is working on to bring JavaScript to a new level: ASM.js, Emscripten, ES6, WebAPIs, and more.
-
-Paul Rouget is a Firefox engineer and a technology evangelist at Mozilla. He is instrumental in combining the latest and greatest open Web technologies. His goal is to push the boundaries of the Web and ensure that it continues to develop into an open and accessible platform for all. Paul works closely with the platform team at Mozilla to explore how new technologies can continue to improve Firefox. He has been involved with the Mozilla project since 2003 both as a volunteer and as staff.
-</pre>
-        </td>
-      </tr>
-      <tr>
-        <td class="time">10:30-10:40</td>
-        <td colspan="3" class="center">-</td>
-      </tr>
-      <tr>
-        <td class="time">10:40-11:10</td>
-        <td><a class="popup">Richard lee</a>:<br />Using CocoaPods for Objective-C Library Management.<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=jiNSrQdYDc4"><span class="typcn typcn-video"></span></a>
-<pre style="display:none;width:600px;">
-CocoaPods is the best way to manage library dependencies in Objective-C projects.
-It resolves dependencies between libraries, fetches source code for the dependencies, and creates and maintains an Xcode workspace to build your project.
-Moreover, it actually improves discoverability of, and engagement in, third party open-source libraries, by creating a more centralized ecosystem.
-
-Richard Lee is the Co-founder of iCook & Polydice, and works on both web, and mobile development.
-Beside the startup, he contributes to open source projects including Three20, ShareKit, ViewDeck and many others, and maintains several specs / formulas of CocoaPods and homebrew.
-You can find him on Twitter or GitHub.
-</pre>
-        </td>
-        <td><a class="popup">Fred</a>:<br />Node.js 進攻桌面開發！用 HTML5 開發跨平台的單機版應用程式！<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=zagTIgEnlW0"><span class="typcn typcn-video"></span></a><a href="http://www.slideshare.net/cfsghost/nodejs-19410474" target="_blank"><span class="typcn typcn-document"></span></a>
-<pre style="display:none;width:600px;">
-最潮的 Node.js 又來了！JavaScript 過去征服了 Server，這次將進攻跨平台桌面！誰說開發桌面程式一定要學 C/C++/C#/Object C？這次，JavaScript + HTML5 才是主角！
-獨立運作的單機版 JavaScript + HTML5 程式，不再是夢！ node-webkit 專案實現了 Web 開發者們的夢想，直接嵌入 Node.js 進 Webkit （Chrome/Chromium 瀏覽器核心），讓 Web 開發者完全可以使用熟悉的 HTML5 和 WebGL 開發圖形介面，並同時利用 Node.js 和其數不清的第三方模組，去存取檔案、資料庫以及執行更多低階操作。更重要的是，開發完成的結果，有如原生的桌面應用程式一般，無論在 Linux、Windows 還是 Mac 作業系統，都可以運行良好。
-
-目前是 Mandice 的 CEO，自 2012 年於全球直播的國際舞台上發表退學宣言後，已經不是淡江大學學生。曾經沉迷打工於國內外企業中，也是一個自由軟體開發者，專注於嵌入式裝置、伺服器技術、網站應用程式以及桌面環境等領域，閒暇時也研究 Linux 核心、驅動程式或作業系統相關技術。熱愛自由軟體，尤其喜歡貢獻個人經驗，時而發表並公開他的開發經驗在網站上。
-Blog: http://fred-zone.blogspot.com/
-</pre>
-        </td>
-        <td><a class="popup">ingy</a>:<br />Acmeism - Hacking in all Languages at Once<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=draA5iIavVk"><span class="typcn typcn-video"></span></a>
-<pre style="display:none;width:600px;">
-The real strength of a modern programming language is its collection of
-maintained packages: RubyGems, CPAN, PyPI, NPM, PECL. A good idea for
-programming needs to be gifted to everyone: Ruby Perl Python JavaScript PHP
-Java etc.  Ingy döt Net will show you how he has been hacking and pushing his
-code (and doc and tests) to all these places at once. Ingy (the YAML guy) calls
-this style of Openness: Acmeism.
-
-Acmeism is the idea that the creators of good ideas take them past the
-formidable boundaries of their mother tongue. In programming this means that a
-great idea published as a Ruby Gem will (with perhaps a dash or two of added
-abstraction) serve the Node and Python communities equally well.
-
-Ingy (who helped create YAML, the serialization format for all languages) has
-published packages in most of the “O’Reilly Languages” and is working on a
-toolchain so that he can Hack Once, Push Everywhere (HOPE). This talk is about
-those tools and some of the first-fruit packages.
-
-These Acmeist tools and packages will be covered:
-
-* UniScript – CoffeeScript-esque syntax that compiles to many langs
-* Pegex – The easiest way to create/parse new languages/DSLs
-* TestML – Define a test suite that runs in every language
-* StarDoc – Acmeist documentation framework
-* Package – Automated Acmeist packaging and contribution
-* JSONY – A relaxed JSON that was created using Acmeist tools
-
-Ingy döt Net is a h♨cker who started out programming IBM Assembler on
-punchcards, switched over to Perl and has since become enlightened to the
-goodness of all the OSDC languages and the people who h♨ck, suppo☈t and l♥ve them. He is one of the creators of YAML, a CPAN/PyPI/NPM/RubyGems contributor,
-the Father of Acmeism and is drinking a double Americano as you read this.
-
-Ingy is a citizen of the Earth who currently lives in Seattle. He loves to make things DRY.
-</pre>
-        </td>
-      </tr>
-      <tr>
-        <td class="time">11:10-11:20</td>
-        <td colspan="3" class="center">-</td>
-      </tr>
-      <tr>
-        <td class="time">11:20-11:50</td>
-        <td><a class="popup">ihower</a>:<br />A brief introduction to Vagrant - 原來 VirtualBox 可以這樣玩<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=5hyxqeG_mt8"><span class="typcn typcn-video"></span></a><a href="http://www.slideshare.net/ihower/vagrant-osdc" target="_blank"><span class="typcn typcn-document"></span></a>
-<pre style="display:none;width:600px;">
-這是一個 Virtual Machine 的雲端時代，各種 VPS、AWS EC2、Windows Azure、Google App Engine, Heroku 等等。虛擬化讓我們很容易佈署及設定網站伺服器環境。
-Vagrant http://www.vagrantup.com/ 是一個方便在本地端操縱 VirtualBox VM 的工具，它將虛擬化的好處帶入整個網站開發過程，方便測試伺服器安裝和設定步驟，並提供團隊一致的開發和測試環境。
-它更是學習和測試 Puppet 或 Chef 等配置管理(configuration management)工具不可或缺的好物。本議程將介紹這套工具和應用情境，以及它所帶來的好處。
-
-ihower, a software developer in building web services, CTO at Faria Systems http://faria.co and the organizer of RubyConf Taiwan http://rubyconf.tw 
-I blog at http://ihower.tw/blog and tweet at http://twitter.com/ihower
-</pre>
-        </td>
-        <td><a class="popup">Mindos</a>:<br />LiveScript 漂浮冰珈琲<br /><a href="https://speakerdeck.com/mindos/livescript-compiler-intro" target="_blank"><span class="typcn typcn-document"></span></a>
-<pre style="display:none;width:600px;">
-C++ 剛推出的時候，口號是 ”a better C”，那麼我們可以說 LiveScript 是 a better JavaScript。
-不過，有趣的是，LiveScript 的 compiler 是用 LiveScript 寫的。讓我們來看看 LiveScript 如何舉起自己。
-As a "better JavaScript," LiveScript enhances the good part of JavaScript. Interesting enough, LiveScript compiler is written in LiveScript itself.  Thus, by hacking LiveScript compiler, we get better insight of both language.  Let's see it do the heavy lifting. 
-
-從小喜歡閱讀與寫作，讀得多但寫得少。寫程式也是這樣，不是個好習慣。演算法實驗室畢業，喜歡演算法、圖學與萬事萬物。常用 Perl,  C/C++，喜歡有趣的語言。
-</pre>
-        </td>
-        <td><a class="popup">gugod</a>:<br />ElasticSearch 實戰介紹<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=59Hbuca_yeE"><span class="typcn typcn-video"></span></a><a href="https://speakerdeck.com/gugod/elasticsearch-intro" target="_blank"><span class="typcn typcn-document"></span></a>
-<pre style="display:none;width:600px;">
-開源的全文捜尋引擎五花八門，而 ElasticSerach 則是獨樹一格、引領風騷。不單以 NoSQL 風格界面御繁於簡，方便開發；在營運所需的各項數據報告更是一應俱全。
-除了系統與功能的介紹以外，本人將分享實際使用的經驗，助大家更容易了解此項開源產品的面貌。
-
-gugod，本名劉康民，在 Booking.com 擔任軟體開發，亦時常時自由軟體愛好者。
-維護若干 CPAN 模組與 rubygems，一段時間沒寫 Javascript。著迷於設計出方便而簡單的軟體工具。
-</pre>
-        </td>
-      </tr>
-      <tr>
-        <td class="time">11:50-14:00</td>
-        <td colspan="3" class="center">lunch</td>
-      </tr>
-      <tr>
-        <td class="time">14:00-14:30</td>
-        <td colspan="3" class="center"><a class="popup">Audrey</a>:<br />[PgREST – Node.js in Database]<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=zW69DgaMHCk"><span class="typcn typcn-video"></span></a>
-<pre style="display:none;width:600px;">
-In this session, we'll introduce PgREST: 
-… a JSON document store
-… running inside PostgreSQL
-… working with existing relational data
-… capable of loading Node.js modules
-… compatible with MongoLab's REST API.
-We'll also discuss its underlying components: LiveScript, OneJS, plv8 & plv8x.
-
-A self-educated programmer and translator based in Taiwan, Audrey currently works at Socialtext with the job title "Untitled Page", as well as at Apple on localization and release engineering.
-</pre>
-        </td>
-      </tr>
-      <tr>
-        <td class="time">14:30-14:40</td>
-        <td colspan="3" class="center">-</td>
-      </tr>
-      <tr>
-        <td class="time">14:40-15:10</td>
-        <td colspan="3" class="center"><a class="popup">Kirby</a>:<br />g0v 黑客松 - 寫程式改造社會<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=0HURMy0l4Ck"><span class="typcn typcn-video"></span></a><a href="https://speakerdeck.com/tkirby/g0v-hei-ke-song-xie-cheng-shi-gai-zao-she-hui" target="_blank"><span class="typcn typcn-document"></span></a>
-<pre style="display:none;width:600px;">
-政府為人民所組成，理應成為人民的一部分，由人民所主導。隨著時代的演進，資訊網路的發達，百年前的民主代議制度應成為古董。
-決議政策、訂立法案、監督公僕...在 21 世紀的現代應該由更直接且透明的方式來達成；為達到這個目的，資訊的開放將和源碼的開放一樣重要。
-開放給予任何人使用資料的機會，社群則提供多樣化的資訊應用及分析。藉由 open source 與社群的力量，我們試圖開啟開放資訊的大門，並將我們的代號命為 g0v.tw - 零時政府。
-讓我們透過寫程式來改造社會。
-
-Kirby Wu / tkirby 
-現任職於聯發科技，為 g0v.tw 發起人之一。在 web 2.0 發生以前熱衷於開發 javascript library，最近則在玩 livescript，nodejs 與 d3js。愛好登山與攝影活動，個人網站 http://tkirby.org/blog/
-</pre>
-        </td>
-      </tr>
-      <tr>
-        <td class="time">15:10-15:30</td>
-        <td colspan="3" class="center">tea time</td>
-      </tr>
-      <tr>
-        <td class="time">15:30-16:00</td>
-        <td colspan="3" class="center"><a class="popup">Jserv</a>:<br />完全用開放原始碼軟體進行嵌入式系統教學<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=JSRlgUfuXaM"><span class="typcn typcn-video"></span></a>
-<pre style="display:none;width:600px;">
-二十餘年前，台灣的電腦產業大老施振榮先生喊出「科技島」的口號，在一定程度上激勵不少學子，於畢業後投入資訊科技產業，造就了多元的發展。然而，大專院校的資訊教育本該培養學生獨立思考，卻因沒有充分規劃，為數可觀的實作課程往往淪為特定商業軟體的教育訓練。為了避免國家教育資源淪為單一廠商的行銷工具，講者嘗試在國立成功大學資訊工程研究所中，大幅引進自由軟體或開放原始碼軟體，作為嵌入式系統課程的教具，不僅可自網際網路合法又免費取得，而在技術層面更較眾多版權私有的軟體有極大優勢，也就是學生能洞悉底層技術的原理，並透過豐富的開發社群而強化學習。
-本議程將分享 2012 年秋季班授課經驗，並以實際的實驗證明，多數的同學就算是首次接觸 GNU/Linux、GNU Toolchain、QEMU、Git、FreeRTOS、OpenOCD 等等廣泛使用的開放原始碼軟體，還是能在短暫的時間內學習到嵌入式開發的概念並參與實習。原本要向廠商購買所費不貲的軟體授權費用，則全數回饋給學生，使其可購買電子零件，進而動手實作出一系列電子半成品。
-
-Jim Huang (黃敬群)，慣用網路暱稱為 "jserv"，熱血工讀生，目前是國立成功大學資訊工程系的兼任教師。自 1999 年開始投入 open source 開發，涉及手機、GPS 導航、數位電視、電子廣告系統、機器人等嵌入式系統設計。
-web: http://about.me/jserv
-</pre>
-        </td>
-      </tr>
-      <tr>
-        <td class="time">16:00-16:10</td>
-        <td colspan="3" class="center">-</td>
-      </tr>
-      <tr>
-        <td class="time">16:10-17:00</td>
-        <td colspan="3" class="center">lightning talks<br /><a class="fancybox-media" href="http://www.youtube.com/watch?v=Cj1ruqWqfjU"><span class="typcn typcn-video"></span></a></td>
-      </tr>
-    </tbody>
-  </table>
+            <tr>
+                <td class="time">14:50-15:30</td>
+                <td colspan="2"><p class="keynote"><strong><a href="#intro_jserv">jserv (0xlab)</a></strong></p><p style="text-align:center;">Embedded Virtualization in Daily Life (0xlab)</p>
+                    <p style="text-align:center;">
+                        <a href="http://www.slideshare.net/jserv/virtualization-mobile/" target="_blank">簡報檔</a>
+                        <a href="http://www.youtube.com/watch?v=-_8nqlm3Uls" target="_blank">Youtube 連結</a>
+                        <a href="http://osdc2012.pixnet.net/album/video/28185544" target="_blank">PIXNET 連結</a>
+                        <a href="http://osdc-2012.pixcdn.tw/20120415-InternationalRoom-1450_1530.mp4" target="_blank">下載連結</a>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="rowspan2" class="tablesorter" style="margin-top: -20px;">
+        <thead>
+            <tr>
+                <th width="12%">&nbsp;</th>
+                <th width="88%">國際會議廳</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="time">15:40-16:40</td>
+                <td><p class="keynote"><strong>lightning talks</strong></p></td>
+            </tr>
+        </tbody>
+    </table>
   <div style="text-align:right; margin-right: 60px;">（議程更動以主辦單位公布為主）</div>
 </div>
+
+<div style="display:none;" class="speaker_intro">
+    <div id="intro_cocktails" style="width: 600px;">
+        <b>Eric Chuang</b> <br />
+        ddsakura 目前在 Yahoo! Regional Product F2E &amp; Mobile Team 服務，同時也是重度網路使用者與不太有名部落客。喜歡關注網路新技術與有趣的事物，在各大知名社群網站皆以 ddsakura 化名出沒。
+        <hr />
+        <b>Introduction:</b> <br />
+        Cocktails: a Javascript-based multi-device, hosted application platform running on Yahoo’s cloud infrastructure. This session will introduce two drink favorites in Cocktails: Mojito and Manhattan. Mojito is MVC application framework, Manhattan is a cloud-based hosting service for running server-side JavaScript applications.
+    </div>
+
+    <div id="intro_zonble" style="width: 600px;">
+        <b>zonble</b> <br />
+        工程師，任職於 KKBOX。
+    </div>
+
+    <div id="intro_robot" style="width: 600px;">
+        <b>Noritsuna Imamura</b> <br />
+        I'm a board member as OESF(<a href="http://www.oesf.biz" target="_blank">http://www.oesf.biz</a>). And I'm coordinating an OESF's Open Lab(Taiwan&amp;Japan) &amp; future system WG(<a href="http://fswg.oesf.biz/" target="_blank">http://fswg.oesf.biz/</a>).I'm a starting member of the biggest Android community in Japan(<a href="http://android-group.jp" target="_blank">http://android-group.jp</a>).
+
+        I'm a making an Android for community for embedded(for OEM/ODM venders) in Taiwan with ITRI(<a href="http://itri.org.tw/" target="_blank">http://itri.org.tw/</a>) &amp; Linaro(<a href="http://www.linaro.org" target="_blank">http://www.linaro.org</a>).
+        <hr />
+        <b>Introduction:</b> <br />
+        A product world is trying to change focusing on "Content-Centric". Like a Kindle which is designed by "E-Book Centric". Then, it is necessary to design our products by "Content-Centric". For that purpose, it is necessary to perform a trial production and a products design quickly flexibly. Therefore we created one robot based on the soul of "DIwO(Do It with Others)" used as basic concepts, such as Make:(<a href="http://makezine.com/" target="_blank">http://makezine.com/</a>), in order to realize it.
+        <br />
+        It is created by combining various products used as SoC which Pandaboard(<a href="http://pandaboard.org/" target="_blank">http://pandaboard.org/</a>) or Origenboard(<a href="http://www.origenboard.org/" target="_blank">http://www.origenboard.org/</a>).
+
+        <br />
+
+        Hardware:
+        <ul>
+
+            <li>- Brain wave sensor(<a href="http://www.neurosky.com/" target="_blank">http://www.neurosky.com/</a>)</li>
+            <li>- 2-leg Robot</li>
+            <li>- see-through display(<a href="http://www.brother.com/en/news/2011/airscouter/index.htm" target="_blank">http://www.brother.com/en/news/2011/airscouter/index.htm</a>)</li>
+            <li>- Kinect(<a href="http://www.xbox.com/kinect" target="_blank">http://www.xbox.com/kinect</a>)</li>
+        </ul>
+
+        <br />
+        Software:
+        <ul>
+            <li>- Android</li>
+            <li>- openFrameworks(<a href="http://www.openframeworks.cc/" target="_blank">http://www.openframeworks.cc/</a>)</li>
+        </ul>
+
+        <br />
+        This is an "AR(augmented reality) Treasure Hunting Game".
+        <br />
+        Such a reason, it is possible to make trial production and commercial
+        <br />
+        production quickly.
+    </div>
+
+    <div id="intro_mikimoto" style="width: 600px;">
+        <b>Mikimoto</b> <br />
+        Mikimoto，一個塵世迷途小工程師，喜歡自己動手寫軟體，軟體開發資歷剛剛越過20個年頭 <br />
+        現在最大的樂趣是研究用軟體逗兒子、女兒及惡作劇
+        <hr />
+        <b>Introduction:</b> <br />
+        市面上遙控車、遙控直升機甚至是遙控魚這類玩具已經到處都是，大家不用再羨慕別人有一擊殺蟲HoiHoi或是紙箱戰士<br />
+
+        在 open source 的加持下，稍加改造就可以享有不同的玩法，在這個 topic 中將跟大家分享透過 UBUNTU、MJPG-streamer，以及簡單的 html 實作的控制稍加改造的遙控砲車。
+    </div>
+
+
+    <div id="intro_sunny" style="width: 600px;">
+        <b>Sunny Chan</b> <br />
+        Sunny Chan is the leader of the Hong Kong Java User Group. He works in a global, top investment bank managing their Java environment. He has been a JVM developer with IBM previously and has extensive experience with OpenJDK implementation.
+        <hr />
+        <b>Introduction:</b> <br />
+        OpenJDK is mature language runtime not just for Java but also other programming languages like Ruby and Scala. Garbage Collection has been an important part of the runtime which caused a lot of discusssion amongst developer using OpenJDK as it affects runtime performance as well as latency due to garbage collection pauses. In this talk I will give a brief overview of how GC is implemented within OpenJDK, What algorithm is available and when should they be used. I would also discuss some of the hints and tips of getting the best out of the GC algorithm within OpenJDK
+    </div>
+
+
+    <div id="intro_johnson" style="width: 600px;">
+        <b>Johnson Lin</b> <br />
+        Google+ profile: <a href="http://gplus.to/jslin" target="_blank">http://gplus.to/jslin</a> 
+        <br />
+        目前推動獨立遊戲開發者分享會 <a href="http://igdshare.org" target="_blank">http://igdshare.org</a>
+        <br />
+        於 2011/02/20 獨立遊戲開發者分享會上淺談 LuaJIT 之影簡報與錄影：
+        <br />
+        <a href="http://www.slideshare.net/igd_share/igdshare-110220-in-taiwan-luajit-intro" target="_blank">http://www.slideshare.net/igd_share/igdshare-110220-in-taiwan-luajit-intro</a>
+        <br />
+        <a href="http://www.youtube.com/watch?v=Tf6Gr2Ioef4" target="_blank">http://www.youtube.com/watch?v=Tf6Gr2Ioef4</a> part1
+        <br />
+        <a href="http://www.youtube.com/watch?v=h7V7wQICKWw" target="_blank">http://www.youtube.com/watch?v=h7V7wQICKWw</a> part2
+        <hr />
+        <b>Introduction:</b> <br />
+        玩過魔獸世界和憤怒鳥嗎？那你一定要知道 Lua 和他們有什麼關係。但是 Lua 腳本程式又是怎麼跟底層系統介接的呢？LuaJIT 是 Lua 語言的一個 Just-In-Time compiler 實作，有機會讓 Lua 程式跑得和 C/C++ 程式一樣快；而且 LuaJIT 內建的 foreign function interface (FFI) 可以讓你把 Luabind 和 SWIG 那些東東通通丟掉，快快樂樂地做腳本語言和系統語言介接 (language binding)。
+        <br />
+
+        內容大綱：
+        <ul>
+            <li>1. Lua 簡介：語言特性介紹、案例快速瀏覽</li>
+            <li>2. LuaJIT 簡介：新增的能力、速度實證</li>
+            <li>3. Lua 怎麼和 C 溝通：徒手調用 Lua/C API？介接函式庫？介接碼產生器？</li>
+            <li>4. 以開源遊戲實例[1]說明 LuaJIT FFI：不，你不需要前項所講的任何一項內容。</li>
+        </ul>
+
+        [1] <a href="http://github.com/godfat/cubeat" target="_blank">http://github.com/godfat/cubeat</a> (work in progress)
+    </div>
+
+
+
+
+
+
+
+
+
+    <div id="intro_fred" style="width: 600px;">
+        <b>Fred Chien</b> <br />
+        目前是 Mandice 的 CEO，也是淡江大學學生，自命『永遠的大四生』，曾經沉迷打工於國內外企業中。也是一個自由軟體開發者，專注於嵌入式裝置、伺服器技術、網站應用程式以及桌面環境等領域，閒暇時也研究 Linux 核心、驅動程式或作業系統相關技術。熱愛自由軟體，尤其喜歡貢獻個人經驗，時而發表並公開他的開發經驗在網站上。
+        <hr />
+        <b>Introduction:</b> <br />
+        自 2009 年 NodeJS 公開發表以來，備受世界各地開發者囑目，在 2011 年 12 月更一度榮登 github 關注排行的第一位，超越了 Ruby on rails。NodeJS 的出現意味著 JavaScript 語言從前端應用走進了 Server 的殿堂，除了效能表現不俗之外，使用其開發應用也相當迅速，未來 Web 開發者可以完全使用 JavaScript 語言打造網站服務，堪稱 Web 開發者的夢想。
+        <br />
+        值得一提的是，NodeJS 其實不僅限於 Web 應用，甚至可以用於各類系統程式開發，比較廣為人知的例子是 HP WebOS（前身是 Palm WebOS）。其採用了 NodeJS ，做為系統服務的開發途徑之一。此外，NodeJS 有模組化的設計，讓開發人員可以輕易使用各類其他語言(C/C++/Python... etc)為其擴充功能，彈性相當高，更讓 NodeJS 不受限於任何開發領域。
+    </div>
+
+
+    <div id="intro_c9s" style="width: 600px;">
+        <b>林佑安</b> <br />
+        2007 起從事軟體開發，主要以 Perl 程式語言以及網頁技術為主，並於 CPAN 上維護 20 餘項 Perl 相關專案，如 App::gh, App::I18N, Plack::Middleware::OAuth 等模組。 開發 Perl 相關模組之餘，也撰寫許多 Vim Plugin 於 perlomni.vim, gsession.vim, hypergit.vim 等插件。
+        <br />
+        現在也開發 PHP 相關如 PEAR 套件與 PECL Extension 等，如 Onion PEAR 套件建置工具等。
+        <hr />
+        <b>Introduction:</b> <br />
+        The PHP ecosystem is much different from Perl, In this session, I will talk about the PHP's ecosystem PEAR and Perl's ecosystem CPAN and MetaCPAN, comparisons and package utilities for these ecosystems.
+
+        <ul>
+            <li>- Introduction to Perl's ecosystem: CPAN</li>
+            <li>- Introduction to PHP's ecosystem: PEAR</li>
+            <li>- Comparison</li>
+            <li>- Current PEAR ecosystem bottlenecks</li>
+            <li>- Current package solutions</li>
+            <li>- Introducing Onion PHP package</li>
+        </ul>
+    </div>
+
+
+    <div id="intro_jush" style="width: 600px;">
+        <b>盧育龍</b> <br />
+        Jush Lu graduated with a master’s degree in computer science from the National Taiwan University. He is a software engineer of Compiler Infrastructure Technology Department at MediaTek. Recently his project focuses on Android and LLVM, and he is also involved in the development of MCLinker.
+        <hr />
+        <b>Introduction:</b> <br />
+        MCLinker is a linker for LLVM. It leverages the LLVM machine code (MC) 
+        <br />
+        layer to link object files and bitcodes, and generate shared objects
+        <br />
+        and executable files.
+    </div>
+
+
+    <div id="intro_audrey" style="width: 600px;">
+        <b>Audrey Tang</b> <br />
+        Audrey Tang is a self-educated programmer and translator based in Taiwan.
+        <br />
+        Audrey currently works at Socialtext with the job title "Untitled Page", as well as at Apple as consultant on localization and release engineering.
+        <br />
+        Audrey previously designed and led the Pugs project, the first working Perl 6 implementation, and has also served in language design committees for Haskell, Perl 5, and Perl 6, with numerous contributions to CPAN and Hackage.
+        <hr />
+        <b>Introduction:</b> <br />
+        這次想分享去年為 Dan Bricklin 的 SocialCalc 試算表引擎添加即時協作功能時，系統設計、開發及砍掉重練的過程，並分享從 Perl5+JavaScript 專案移植到 CoffeeScript 的一些心得。
+        <br />
+        This talk covers the design, implementation and re-implementation of multi-user collaboration support for Dan Bricklin's SocialCalc engine, as well as lessons learned porting a Perl5+JavaScript project to CoffeeScript.
+    </div>
+
+
+    <div id="intro_wu" style="width: 600px;">
+        <b>吳政學</b> <br />
+        Jeng-Hsueh Wu (吳政學 – Principal Architect, Etu's Big Data Product Development) <br />
+
+        From grid to cloud computing, Jeng-Hsueh Wu has been engaging in many product and project developments for large-scale computing with concentration on infrastructure. Since joining Etu, he’s been in charge of the research and development on Big Data appliances and solutions.
+        <hr />
+        <b>Introduction:</b> <br />
+        Big Data是目前雲端運算裡面主要的議題之一，處理巨量資料的需求並非今日才有，但昔日處理這些資料的代價極高。從Google公開GFS、Big Table、及MapReduce以來，開源的巨量資料處理技術受到高度關注，但實務上真正被大量部署使用的案例仍然不多。Hadoop雖已普遍被認為能有效處理PB級資料，但欲建構一個能有效解決問題的巨量資料處理系統，僅靠Hadoop仍然有所不足。這個Session將以實際案例來介紹分享如何運用Hadoop Ecosystem的諸Open Source Projects來有效處理龐大且快速累積的資料。
+    </div>
+
+
+    <div id="intro_kito" style="width: 600px;">
+        <b>程皇嘉</b> <br />
+        Kito Cheng / 程皇嘉, NTUST Ph.D student &amp; 0xlab Developer <br />
+
+        目前是個學術奴隸同時也是個熱血工讀生, 專注於系統程式與編譯器相關領域.
+    </div>
+
+    <div id="intro_gugod" style="width: 600px;">
+        <b>劉康民</b> <br />
+        全名劉康民、暱名 gugod。[和多](<a href="http://handlino.com" target="_blank">http://handlino.com</a>) 創辨人之一，個人網站
+        <a href="http://gugod.org" target="_blank">http://gugod.org</a> ，偶有關於 Perl 的技術文章，以及其他無關緊要的文章。
+        <br />
+        常時的 Perl 愛好者、能說 Ruby、善道 Javascript、略懂 CSS、喝過 Java、不敢說自己會
+        C 語言，以前做輸入法，可是現在沒做，各方面都不得不學習的 Web Programmer。在 CPAN、
+        Rubygem、OpenJSAN 各模組庫都略有貢獻。最近較為人所知的作品是
+        [perlbrew](<a href="http://perlbrew.pl" target="_blank">http://perlbrew.pl</a>)。每年都在 ODSC.tw 與 YAPC::Asia 發表一些有的沒的。
+
+        <hr />
+        <b>Introduction:</b> <br />
+        在 Perl 程式設計的實例中，有許多以事件驅動型式為基礎的框架。這次要介紹的 AnyEvent，是十分小巧有效率，並且相容性很好的通用型事件框架。並且，從抓爬網頁機器人、資料庫連線處理、行程間通訊、到 HTTP 伺服器，都已有應用及實做，十分值得一看。
+    </div>
+
+
+
+    <div id="intro_imacat" style="width: 600px;">
+        <b>楊士青</b> <br />
+        imacat, member of the Apache OpenOffice Project Management Committee.
+        <hr />
+        <b>Introduction:</b> <br />
+        Many open source users are long waiting for OpenOffice on
+        mobile devices. While both Apache OpenOffice and LibreOffice teams are
+        porting their offices onto mobile devices, there is a simpler way to see
+        OpenOffice at work: through its UNO API. In this session I will
+        demonstrate the framework and ideas behind this, and some useful office
+        application. With UNO API, you can create your own mobile office
+        applications, too.
+    </div>
+
+    <div id="intro_trend" style="width: 600px;">
+        <b>fr3@K (Trend Micro)/lunastorm (Trend Micro)</b> <br />
+
+        Scott Wang (王士瑜 / lunastorm)
+        <br />
+        * 趨勢科技工程師
+        <br />
+        * 隸屬SPN(Smart Protection Network)部門，從事雲端服務內部架構的研究和開發。一本「科技始終來自於惰性」之精神，不斷努力做出更方便容易上手的軟體。興趣包含分散式系統、大資料處理、雲端運算等……。
+        <br />
+        * 個人網站：<a href="http://lunastorm.tw" target="_blank">http://lunastorm.tw</a>
+        <br />
+        <hr />
+        Kenneth Ho (何長興 / fr3@K)
+        <br />
+        * 趨勢科技核心技術部
+        <br />
+        * fr3@K 是 C++ 狂熱份子，白天服務於趨勢科技核心技術部擔任軟體架構師，主要負責趨勢科技後端分散式雲計算架構。編程資歷近三十年，曾參與 reSIProcate、ONTL 等 Open Source 專案。主要專長包含 C++，distributed computing，systems architecture
+        <br />
+        * 部落格：<a href="http://fsfoundry.org/codefreak/" target="_blank">http://fsfoundry.org/codefreak/</a>
+
+        <hr />
+        <b>Introduction:</b> <br />
+        Trend Message Exchange (TME) is a highly available and scalable
+
+        distributed message routing framework that took a different path from
+
+        traditional MQ middlewares.
+
+        <br />
+        TME's client toolkit, MIST, supports an elegant and intuitive
+
+        integration model, allowing writing event driven applications as easy
+
+        as "$ tail -f log | grep error &gt; error.log".
+    </div>
+
+
+
+    <div id="intro_wycc" style="width: 600px;">
+        <b>Yu-Chung Wang</b> <br />
+        從 1992 年開始使用 Linux。早期投身 Linux 中文顯示列印及文書處理系統開發，之後開始做一些和 Linux Kernel 即時作業系統相關的研究。四年前開始研究家庭自動化系統，使用無線將家中設備上網。不過最後變成水電工幫人家裝電燈和窗簾。最近開始現超小型的 Java VM 系統，希望能把 JVM 放到每一個裝置中 。現在也在研究如何不用文字編輯器就可以寫程式，讓會用電腦的人就會寫程式。
+        <hr />
+        <b>Introduction:</b> <br />
+        The NanoKong is a tiny java VM that is derived from the nanoVM. It is developed at Arduino Mega2560. However, it should work at other Arduino board as well since it requires only 8K of flash and less than 100 bytes of SRAM. The nanoKong improve the VM to support wireless sensor network. It supports both ZWave and ZIgBee in this stage. The NanoKong provide the update-over-the-wireless capability so that it can be updated after the sensor is deployed. This presentation will cover the implementation detail of the NanoKong tools, interpreter and a demo to illustrate how to develop program for the NanoKong.
+    </div>
+
+
+    <div id="intro_rails" style="width: 600px;">
+        <b>小蟹</b> <br />
+        <hr />
+        <b>Introduction:</b> <br />
+        繼 Rails 3.0 在底層架構 API 上大翻修之後，在 2011 年中推出的 Rails 3.1 版本，在前端 Asset 的架構上也有了大革命。這套 Feature 的名稱叫做：Asset Pipeline。
+        <br />
+        Asset Pipeline 是個在字面上不同容易理解的字眼。初看 Asset Pipeline，可能會覺得 Asset Pipeline 只是個能打包 Asset 的壓縮 Framework。
+        <br />
+        事實上 Rails Core Team 的野心不僅如此：Asset （ CSS / JavaScript / Image ) 在網頁開發上，一直是處於次等公民的地位。開發上不能沒有它，卻又很難以類 Rails 乾淨簡捷的方式開發整合複用。
+        <br />
+        而 Asset Pipeline 就是一套企圖解決 Asset 次等公民命運，並改變未來的 Framework。
+        <br />
+        本場 Talk 將簡介：
+        <br />
+        1. Asset Pipeline 是什麼
+        <br />
+        2. Asset Pipeline 背後的哲學
+        <br />
+        3. Better Way to Write CSS : SCSS 與 Compass
+        <br />
+        4. Better Way to Write JavaScript : CoffeeScript
+        <br />
+        5. 未來的 Asset 架構，如何複用 3rd party framework
+    </div>
+
+
+    <div id="intro_c11" style="width: 600px;">
+        <b>何長興</b> <br />
+        Kenneth Ho (何長興 / fr3@K)
+        <br />
+        * 趨勢科技核心技術部
+        <br />
+        * fr3@K 是 C++ 狂熱份子，白天服務於趨勢科技核心技術部擔任軟體架構師，主要負責趨勢科技後端分散式雲計算架構。編程資歷近三十年，曾參與 reSIProcate、ONTL 等 Open Source 專案。主要專長包含 C++，distributed computing，systems architecture
+        <br />
+        * 部落格：http://fsfoundry.org/codefreak/
+        <hr />
+        <b>Introduction:</b> <br />
+        C++11 is packed with features to boost software performance, facilities to simplify repetitive code and enhanced support for different programming paradigms.
+        <br />
+        C++ is sexier than ever, it is coming back strong.
+    </div>
+
+
+    <div id="intro_slayer" style="width: 600px;">
+        <b>莊國煜</b> <br />
+        slayer (莊國煜), 目前擔任 OESF (Open Embedded Software Foundation) 的 Test & Certification Working Group Coordinator, 以及經濟部嵌入式作業系統科專測試認證計畫的計畫主持人. 
+        <hr />
+        <b>Introduction:</b> <br />
+        The hardware specification of Android devices are quite different from smart phone to set-top-box or the big screen Android TV. Google CTS defines the basic compatibility testing framework for the developers knowing if their hardware will be working well with target Android version. However, device stability, performance (e.g. FullHD video playback, network throughputs), power consumption, and the customized feature such as DLNA or one-seg for Japan market are not that easy to be tested. This talk will quickly introduce what OESF (Open Embedded Software Foundation) is trying to achieve and how Taiwan open source community can response.
+    </div>
+
+    <div id="intro_yc" style="width: 600px;">
+        <b>大貓</b> <br />
+        大貓(aka. @miaout17)，一個愛寫程式的阿宅。喜歡研究不同類型的程式語言及技術，從低階的C到高階的Python，從imperative到Haskell這類的functional language。曾經在遊戲公司寫C++和Lua，目前以寫Ruby Web Application為生。著有開放源碼專案blogtrans，並在不同類型、語言的開源專案貢獻bugfix與issue report。
+        <hr />
+        <b>Introduction:</b> <br />
+        「相依性管理」一向是軟體開發上的難題。開發者拿到一份原始碼時，常常需要先解決語言版本、函式庫版本、環境設定…等問題，有時花上半天一天都不見得能讓程式正確運行。試想，若下載專案源碼、安裝所需的函式庫、執行單元測試等流程，只需要三、四個指令即可完成，將大幅降低開發阻力。
+        <br />
+        在本講題中，我將介紹Ruby的常用工具如何解決相依性問題。包含Ruby的安裝與管理(RVM&amp;RBENV)、函式庫的安裝管理與發布(Rubygems&amp;Gemcutter)、確保應用程式在開發及部署時使用相同版本的函式庫(Bundler)。幾乎每個動作都只需一個指令完成。另外，其他語言也有類似的機制，我將選擇一些動態語言一併討論比較。
+        <br />
+
+        本講題專注於概念，不需要Ruby程式設計基礎。
+        <br />
+
+        Agenda:
+        <br />
+
+        * Ruby version management: RVM, RBENV
+        <br />
+        * Library management: Rubygems, Gemcutter
+        <br />
+        * Library dependency management: Bundler
+        <br />
+        * Minimize development friction
+    </div>
+
+
+    <div id="intro_miyagawa" style="width: 600px;">
+        <b>Tatsuhiko Miyagawa</b> <br />
+        Tatsuhiko Miyagawa is a Perl and Polyglot hacker, who grew up in Yokohama and lives in San Francisco, CA since 2006. He's an author of ~190 modules on CPAN, a few gems on Rubygems and active hacker on GitHub at <a href="https://github.com/miyagawa" target="_blank">https://github.com/miyagawa</a>
+        <hr />
+        <b>Introduction:</b> <br />
+        Carton is a new command to manage Perl module dependencies for your applications. Like gem bundler for Ruby, Carton solves the issue of "upgrading CPAN modules broke my code" by allowing you to lock and freeze dependencies. Carton makes it easy to manage and reproduce module installations on any environments.
+    </div>
+
+
+    <div id="intro_freedom" style="width: 600px;">
+        <b>Koan-Sin Tan</b> <br />
+        Koan-Sin Tan learnt to use computer and did a bit BASIC programming on Multitech MPF-II (宏碁小教授二號, a not so compatible Apple-][ -like 6502 machine) when being at junior high school. He was fascinated by computers since then. Later on, he learnt 6502 assembly language, CP/M, Z80 assembly, etc. He is interested in system software.
+        <hr />
+        <b>Introduction:</b> <br />
+        Android WebKit is arguably most popular browser on smartphones. Though
+        it is open source, there are few public information talking about it.
+        <br />
+        We will discuss:
+        <br />
+        1. EPUB related CJK stuff I talked in last year
+        <br />
+        2. HTML5 features
+        <br />
+        3. Tuning it for SMP platform
+    </div>
+
+
+    <div id="intro_ihower" style="width: 600px;">
+        <b>張文鈿</b> <br />
+        張文鈿，網路上的代號為ihower，Ruby Taiwan 社群創辦人和 RubyConf Taiwan 大會主辦人，目前在熱情豆行動樂活科技公司擔任技術長。
+        <hr />
+        <b>Introduction:</b> <br />
+        隨著 CPU 多核和雲端時代的來臨，並行(concurrency)程式和處理巨量資料的需求日益增加，Functional Programming 開始逐漸嶄露頭角。在這場演講之中，我將介紹什麼是 Functional Programming 典範(paradigm)以及為什麼它開始變的重要，以 Scala, Erlang, Haskell, Java, Ruby, JavaScript 等程式語言為例，希望能夠讓您重新思考OO的本質，藉此拋磚引玉。
+    </div>
+
+    <div id="intro_kenichi" style="width: 600px;">
+        <b>kenichi ishigaki</b> <br />
+        Kenichi Ishigaki (aka @charsbar) is a Japanese perl monger, and maintains 40+ CPAN modules and a few websites including <a href="http://acme.cpanauthors.org/" target="_blank">http://acme.cpanauthors.org/</a>.He also translates and writes on various topics like cocktails and classical latin.
+        <hr />
+        <b>Introduction:</b> <br />
+        Perl community has been testing CPAN modules' kwalitee for years to
+        promote a series of better practices such as "use strict". However,
+        our kwalitee testing code is getting outdated a little as well as our
+        site, and we are planning to improve them this spring. I'd talk about
+        what's happening or has happened on them as well as some of the recent
+        better practices for CPAN module authors.
+    </div>
+
+    <div id="intro_mark" style="width: 600px;">
+        <b>Mu Chi Sung</b> <br />
+        Mark Sung is the founder and CEO for Zillians Inc., a startup aimed at developing GPU-based cloud computing solutions for simulating large scale virtual worlds. Mark graduated from Chiao-Tung University in Taiwan with bachelor and master's degree in computer science, specializing in MMOG development and high performance computing. In his 15 years of programming experience, Mark has played numerous leadership roles building teams and developing PC games. From 2002 to 2005, Mark was signed on a contract to serve as architect on a large military simulation project in Taiwan. In 2006, Mark joined Taiwan start-up competition "YEF" and became the finalist/delegate. Between 2007 and 2008, Mark joined IBM to work on file-system for supercomputing at the Almaden Research Center in San Jose. By the end of 2008, drawing from his past research and industry experience, Mark founded Zillians Inc. to exploit GPU computing technology applied to online gaming with the aim of building the world's most powerful app-platform for online game developers.
+        <hr />
+        <b>Introduction:</b> <br />
+        When everyone is talking about virtualization, Hadoop, Heroku, we think cloud computing differently. Supercell is designed to solve the scalability issue with real-time constraint, which can be founded many online games. So we build the entire platform from ground up and take advantage of state-of-art computing technologies, including GPU and Infiniband, to address the massive amount of computation and I/O in real-time workloads. However, most game developer knows nothing about GPU computing nor Infiniband, so we created an ECMAScript-derived language and its compiler with system framework and online game framework in higher level.
+        <br />
+        We might not have enough time to talk about everything, so I plan to focus on the compiler part.
+        <br />
+
+
+        So in this talk, I would share the architectural overview of Supercell, introduction to the language and the compiler architecture and implementation (including the Boost Spirit parser framework, our AST design, LLVM IR generation with GDB-debuggable code), algorithms that we use to implement compiler-assisted virtualization on GPU, real-time/concurrent GC implementation. I think this will be the most comprehensive/hardcore talk on compiler development. We・d like to share our thoughts and ideas on cloud computing with the community.
+        <br />
+        By the way, the entire system is implemented in C++11, no Java or .NET. (Python is exception here for some management scripting)
+    </div>
+
+    <div id="intro_othree" style="width: 600px;">
+        <b>高偉格</b> <br />
+        高偉格 (othree) 對於網路標準及各種前端技術都有高度興趣，並會在個人部落格介紹各種新技術，近期關注主題為前端的 Design Pattern 應用及各種前端 Application Framework，同時為 Moztw 及 Happydesigner 社群成員，現職為 HTC 前端工程師。
+        <hr />
+        <b>Introduction:</b> <br />
+        各種 Rich Internet Application(RIA)
+        在現今的網路世界中越來越多，以往在桌面使用的應用程式逐一的被搬移到網頁上，這也使的網頁前端用 JavaScript
+        開發的程式複雜的程度比起過往 .com 時帶來的要複雜許多，前端工程師不再只是使用 JavaScript
+        和簡單的程式碼來幫網頁加上特效、增進 User Experience 而已，而是需要設計整個網路服務程式的架構，使用適當的 Design
+        Pattern 來設計並編寫出功能強大又好維護的程式，而這些 Design Pattern 有些是存在許久，有些是因應 RIA
+        特性而生的，本場 Talk 將對三個泛用性極高的 Design Pattern 來介紹，包括：
+        <br />
+        1. Custom Event
+        <br />
+        2. PubSub
+        <br />
+        3. Promise
+    </div>
+
+    <div id="intro_allison" style="width: 600px;">
+        <b>Allison Randal</b> <br />
+        Allison Randal is a Debian and Ubuntu developer, specializing in C and dynamic languages (Perl/Python/Ruby/etc). She is on the board of directors of The Perl Foundation, co-founder of the FLOSS Foundations group for open source leaders, and founder and president of Onyx Neon Press. Her current hobby is astrophysics.
+        <hr />
+        <b>Introduction:</b> <br />
+        Thousands of open source projects are in constant development around the world. The key obstacles for these projects, and indeed for any software project, aren't technical factors but human factors. Excellent ideas, and even excellent implementations, can be derailed by issues that have nothing to do with the roadmap, specifications, or code. This talk explores some of the top best practices for healthy collaboration, touching on topics like open discussion, respect, working with upstreams and downstreams, preparing for and handling "real-life" interruptions, and the life-cycle of contributor involvement.
+    </div>
+
+    <div id="intro_ronnywang" style="width: 600px;">
+        <b>ronnywang</b> <br />
+        ronnywang，前批踢踢鄉民，曾任交通大學網路策進會會長，自 2001 年開始接觸 PHP 便一路玩至今日，現痞客邦產品維護組組長。
+        <hr />
+        <b>Introduction:</b> <br />
+        PIXNET 要 open source 他們的 ORM 了！是什麼讓 PIXNET 的 RD 不需要會使用任何 query，就可以輕鬆的從 MySQL, SQLite, PGSQL, Cassandra, Memcache 甚至最新的 Amazon DynamoDB 拉資料來用？ PIXNET 的 ORM 「Pix Table」，讓你更快的建出你要的 model ！
+    </div>
+
+    <div id="intro_hlb" style="width: 600px;">
+        <b>Liang Bin Hsueh a.k.a. hlb</b> <br />
+        Father of two. UI designer &amp; founder of [Handlino](<a href="http://handlino.com/" target="_blank">http://handlino.com/</a>). Founder of [HappyDesigner Group](<a href="http://happydesigner.org/" target="_blank">http://happydesigner.org/</a>). HTML/CSS/JavaScript engines are in his head.
+        <hr />
+        <b>Introduction:</b> <br />
+        [Fire.app](<a href="http://fireapp.handlino.com/" target="_blank">http://fireapp.handlino.com/</a>) is a menubar only app for dead easy HTML prototyping. It is written in JRuby, and works in mac, linux and pc. It can compile Sass/Compass/ERB/Haml/Markdown/CoffeeScript, and can refresh browsers for you automatically. Fire.app makes HTML prototyping dead easy.
+    </div>
+
+    <div id="intro_jserv" style="width: 600px;">
+        <b>黃敬群</b> <br />
+        Jim Huang (黃敬群) a.k.a. "jserv"
+        <br />
+        - Developer and co-founder of 0xlab
+        <br />
+        - Contributor of Android Open Source Project
+        <br />
+        - Developer of Linaro
+        <br />
+        - Developer and co-founder of LXDE
+        <hr />
+        <b>Introduction:</b> <br />
+        延續在 OSDC.tw 2007 的演講議題 "RT nanokernel for Embedded Linux" 與 COSCUP
+        <br />
+        2009 的議題 "Linux Virtualization Goes
+        <br />
+
+        Mobile"，此議程將以真實的應用，來揭示在多樣的嵌入式裝置中的虛擬化技術，並探討其設計原理及現有解決方案的特性。即使四十年前即有商業應用的虛擬化技術現身，但得以符合移動裝置需求的技術基礎，是這十年內提出、在五年內獲得商業化採納，相關的應用如火如荼展開，可謂系統設計業者新的戰場。本議程以作業系統開發者的角度，嘗試談論以下項目：
+        <br />
+        * 嵌入式虛擬化技術的應用範疇
+        <br />
+        * 典型嵌入式虛擬化的技術挑戰
+        <br />
+        * 硬體支援與衍生的系統支援
+    </div>
+
+
+
+</div>
+
+<script type="text/javascript">
+    jQuery.noConflict()(function($){
+            $(document).ready(function() {
+                $('strong a').fancybox({
+                    'autoScale': false
+                    }
+                    );
+                });
+            });
+
+</script>
