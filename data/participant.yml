@@ -40,6 +40,7 @@ speaker:
   - id: 'azhuang'
     name: 'Wei-Ning Huang (azhuang)'
     title: 'ProjectTox developer'
+    avatar: '5f818836f943ee71adfc3fdd2d5bb63e'
     profile: |
               目前就讀台灣大學資訊工程學研究所。熱愛Python及Open Source，同時也是正在水深火熱中的碩二學生。個人網站為 http://azhuang.me。
   - id: 'matthew_wilson'
