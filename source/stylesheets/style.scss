@@ -450,6 +450,22 @@ article p a {
 	}
 }
 
+#slides {
+	margin: 1em 0 2em;
+	text-align: center;
+	& > a {
+		color: #dba927;
+		font-size: larger;
+		float: right;
+		padding-right: 1em;
+		margin-bottom: 2em;
+	}
+	& > iframe {
+		margin: 0 auto;
+		border: 0;
+	}
+}
+
 #scroll {
 	position: fixed;
 	bottom: 1em;

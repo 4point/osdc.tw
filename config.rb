@@ -115,6 +115,17 @@ helpers do
   def program_link (day, talk)
     'program/' + settings.year + '-' + day + '-' + talk.time.to_s + talk.room.to_s + '.html#content'
   end
+  def slides (link)
+    case link
+      when /^\d+$/
+        slides = '<iframe src="http://www.slideshare.net/slideshow/embed_code/' + link + '" allowfullscreen seamless></iframe>'
+      when /^[a-f0-9]+$/
+        slides = '<script async class="speakerdeck-embed" data-id="' +link  + '" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>'
+      else
+        slides = link_to 'Slides', link
+      end
+      slides
+  end
 end
 
 set :css_dir, 'stylesheets'

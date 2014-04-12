@@ -1,4 +1,5 @@
 # speaker: the id of speaker in participant.yml
+# slides: slideshare embed decimal code or speakerdeck hexadecimal data-id or file link
 # intro: |
 #           HTML tag in intro is not available!
 #           (blank line)
@@ -49,6 +50,7 @@ day1:
     room: 0
     speaker: 'Wisely.Chen'
     title: 'Spark: Next generation cloud computing engine'
+    slides: '33433360'
   - time: 3
     room: 1
     speaker: 'itu_tw'
@@ -59,6 +61,7 @@ day1:
     room: 2
     speaker: 'c9s'
     title: 'Building popular open source project (tips and trick)'
+    slides: '33402940'
   - time: 5
     room: 0
     speaker: 'cloud.sung'
@@ -101,6 +104,7 @@ day1:
     room: 1
     speaker: 'johnson_lin'
     title: 'The Making of CuBeat, Programming-wise'
+    slides: 'b976fd10a3720131166f024e11a95d47'
     intro: |
             website: http://cubeat.game.tw
             github: https://github.com/godfat/cubeat
@@ -147,6 +151,7 @@ day1:
     room: 1
     speaker: 'cindylinz'
     title: 'HasPerl: The marriage of Haskell and Perl<br>一條低門檻實用 Haskell 的路'
+    slides: 'https://github.com/CindyLinz/Haskell-HasPerl'
     intro: |
             神祕的 Haskell 常引起我們一探究竟的興趣,
             而身為工程師的我們, 學東西不會只停在「看一看」的階段就滿足,

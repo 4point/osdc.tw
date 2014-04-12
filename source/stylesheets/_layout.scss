@@ -265,6 +265,12 @@
 			margin: .5em;
 		}
 	}
+	#slides {
+		& > iframe {
+			width: 600px;
+			height: 490px;
+		}
+	}
 	#scroll {
 		display: block;
 	}
