@@ -179,6 +179,7 @@ day1:
     room: 2
     speaker: 'brucehsu'
     title: '用 Go 打造程式語言執行環境：RunVM實例剖析'
+    slides: '7ab1f0f0a3ba013120051af8c79ec55f'
     intro: |
             憑藉著其易寫易讀以及效能出眾的特性（還有Google這位富爸爸的支援），Go逐漸在系統程式的領域展露頭角，這裡我們以如何實作一個Ruby執行環境為主題，透過實際的例子介紹Go的語言特性。
              
