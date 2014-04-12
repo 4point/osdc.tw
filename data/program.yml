@@ -293,6 +293,7 @@ day2:
     room: 1
     speaker: 'tpchung'
     title: 'Escape from the Callback Hell'
+    slides: '9674b630a434013120041af8c79ec55f'
     intro: |
             Asynchronised operations are good. Callbacks are not. Named callbacks clutter scopes and are disruptive. Anonymous callbacks—if they are supported at all—create deeply nested code and become totally unreadable. There is another way. Let's take a look of how efforts are taken to flatten the code structure for async operations, and how it may be relevant to you.
   - time: 3
