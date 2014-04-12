@@ -252,6 +252,7 @@ day2:
     room: 0
     speaker: 'starnight'
     title: 'The Simple Scheduler in Embedded System'
+    slides: '33436246'
     intro: |
             小時候，因為不是資工系的學生，所以只能自己去旁聽「作業系統」的課。
             長大後，因為小時候旁聽沒交作業，覺得對不起老師！所以自己又再上了「作業系統」的網路課程，實做了個Scheduler補交作業，才比較心安。
