@@ -28,6 +28,8 @@ a {
 		left: 50%;
 		margin-left: -75px;
 		pointer-events: none;
+		width: 150px;
+		height: 300px;
 	}
 	.top {
 		top: -60px;
@@ -64,6 +66,7 @@ a {
 		min-width: 150px;
 		a {
 			display: inline-block;
+			padding-bottom: 14px;
 		}
 	}
 	li.active a {
@@ -133,73 +136,46 @@ a {
 }
 
 #bricks {
+	overflow: visible;
 	position: relative;
 	left: 405px;
-	top: -570px;
+	top: -10px;
 	width: 300px;
 	.pillar, .pillar2, .tap, .drop {
 		display: none;
-		position: relative;
-		.brick {
-			position: absolute;
-		}
+		position: absolute;
+	}
+	.pillar, .pillar2, .tap {
+		overflow: visible;
+		min-height: 500px;
 	}
 	.pillar {
-		top: -60px;
-		transform: translateY(-20px);
-		svg:nth-of-type(1) {
-			top: 68px;
-		}
-		svg:nth-of-type(2) {
-			top: 19px;
-		}
-		svg:nth-of-type(3) {
-			top: -30px;
-		}
+		top: -80px;
 	}
 	.pillar2 {
-		top: 150px;
-		transform: translateY(-30px);
-		svg:nth-of-type(1) {
-			top: 19px;
-		}
-		svg:nth-of-type(2) {
-			top: -30px;
-		}
+		top: 120px;
 	}
 	.tap {
-		top: 200px;
-		transform: translateY(-12px);
-		svg:nth-of-type(1) {
-			top: 88px;
-		}
-		svg:nth-of-type(2) {
-			top: 183px;
-			left: 64px;
-		}
-		svg:nth-of-type(3) {
-			top: 135px;
-			left: 64px;
-		}
+		top: 218px;
 	}
 	.drop {
 		top: 400px;
 		z-index: -1;
-		svg {
-			display: block;
-			position: absolute;
-			margin-left: 110px;
-		}
+		height: 600px;
+		left: 110px;
 	}
 	.drop.start {
-		svg:nth-of-type(1) {
+		use:nth-of-type(1) {
 			animation: drop 3s -1s cubic-bezier(.61,.01,.93,.04) infinite;
+			-webkit-animation: drop 3s -1s cubic-bezier(.61,.01,.93,.04) infinite;
 		}
-		svg:nth-of-type(2) {
+		use:nth-of-type(2) {
 			animation: drop 3s -2s cubic-bezier(.61,.01,.93,.04) infinite;
+			-webkit-animation: drop 3s -2s cubic-bezier(.61,.01,.93,.04) infinite;
 		}
-		svg:nth-of-type(3) {
+		use:nth-of-type(3) {
 			animation: drop 3s cubic-bezier(.61,.01,.93,.04) infinite;
+			-webkit-animation: drop 3s cubic-bezier(.61,.01,.93,.04) infinite;
 		}
 	}
 }
@@ -210,6 +186,15 @@ a {
 	}
 	to {
 		transform: translateY(500px);
+	}
+}
+
+@-webkit-keyframes drop {
+	from {
+		-webkit-transform: translateY(0);
+	}
+	to {
+		-webkit-transform: translateY(500px);
 	}
 }
 
@@ -462,6 +447,22 @@ article p a {
 	}
 	.profile {
 		text-align: left;
+	}
+}
+
+#slides {
+	margin: 1em 0 2em;
+	text-align: center;
+	& > a {
+		color: #dba927;
+		font-size: larger;
+		float: right;
+		padding-right: 1em;
+		margin-bottom: 2em;
+	}
+	& > iframe {
+		margin: 0 auto;
+		border: 0;
 	}
 }
 

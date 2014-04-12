@@ -92,58 +92,16 @@ set :relative_links, true
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def program (date)
-    capture_haml do
-      day = date == settings.day1 ? 'day1' : 'day2'
-      data.schedule.send(day).each_with_index do |schedule, index|
-        haml_tag :tr do
-          haml_tag :td, schedule.time
-          case schedule.type
-          when 'lunch'
-            haml_tag :td, '午餐', :class => "lunch", :colspan => 3
-          when 'lightning'
-            haml_tag :td, 'Lightning Talks', :class => "lightning", :colspan => 3
-          when 'keynote'
-            talk = data.program.send(day).find{|talk| talk.time == index}
-            haml_tag :td, :class => "keynote", :colspan => 3 do
-              haml_tag :a, :href => url_for(program_link(day, talk)) do
-                haml_tag :span, speaker_id(talk.speaker), :class => "speaker"
-                haml_tag :span, talk.title, :class => "title"
-              end
-            end
-          when 'track'
-            [1, 0, 2].each do |room|
-              talk = data.program.send(day).find{|talk| talk.time == index and talk.room == room}
-              if talk.speaker.empty?
-                haml_tag :td, '', :class => "empty"
-              else
-                haml_tag :td, :class => "talk" do
-                  haml_tag :a, :href => url_for(program_link(day, talk)) do
-                    haml_tag :span, speaker_id(talk.speaker), :class => "speaker"
-                    haml_tag :span, talk.title, :class => "title"
-                  end
-                end
-              end
-            end
-          end
-        end
-      end
-    end
-  end
   def avatar (speaker)
     speaker.avatar = '' unless speaker.respond_to?(:avatar)
     case speaker.avatar
-    when 'twitter'
-      url = 'http://avatars.io/twitter/' + speaker.id.to_s + '?size=large'
-    when 'facebook'
-      url = 'http://avatars.io/facebook/' + speaker.id.to_s + '?size=large'
-    when 'instagram'
-      url = 'http://avatars.io/instagram/' + speaker.id.to_s + '?size=large'
-    when /^(http|\/\/)/
-      url = speaker.avatar
-    else
-      url = 'http://www.gravatar.com/avatar/' + speaker.avatar.to_s + '?s=128&d=blank'
-    end
+      when 'facebook'
+        url = '//graph.facebook.com/' + speaker.id.to_s + '/picture'
+      when /^(http|\/\/)/
+        url = speaker.avatar
+      else
+        url = 'http://www.gravatar.com/avatar/' + speaker.avatar.to_s + '?s=128&d=blank'
+      end
     image_tag(url, :alt => speaker.id, :class => 'avatar')
   end
   def speaker_id (id)
@@ -156,6 +114,17 @@ helpers do
   end
   def program_link (day, talk)
     'program/' + settings.year + '-' + day + '-' + talk.time.to_s + talk.room.to_s + '.html#content'
+  end
+  def slides (link)
+    case link
+      when /^\d+$/
+        slides = '<iframe src="http://www.slideshare.net/slideshow/embed_code/' + link + '" allowfullscreen seamless></iframe>'
+      when /^[a-f0-9]+$/
+        slides = '<script async class="speakerdeck-embed" data-id="' +link  + '" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>'
+      else
+        slides = link_to 'Slides', link
+      end
+      slides
   end
 end
 

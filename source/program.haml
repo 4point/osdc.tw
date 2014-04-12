@@ -8,6 +8,8 @@ title: Program
 		%span.room #{settings.room[program.room]}
 		%h2 #{program.title}
 	%main.intro= simple_format program.intro
+	- if program.slides
+		%footer#slides= slides(program.slides)
 	- if speaker
 		%article.speaker
 			%header
