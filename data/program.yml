@@ -197,6 +197,7 @@ day2:
     room: 1
     speaker: 'moskytw'
     title: 'Minimal MVC in JavaScript'
+    slides: 'f0c7df80a422013145073607ee153eb8'
     intro: |
             MVC、MVC、MVC，這個關鍵字你一定聽過。他是在 Front/Back-end Web 或 GUI 的應用程式中非常流行的 design pattern。你也可以輕鬆地在網路上找到各種語言的 Open Source MVC framework --- 但究竟 MVC 的本質是什麼？難道要用 MVC 就一定要用 framework 嗎？
   - time: 0
