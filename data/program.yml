@@ -121,8 +121,9 @@ day1:
     room: 2
     speaker: 'lunastorm'
     title: '你 go 了沒！？自幹 go 的 web helper'
+    slides: 'https://www.icloud.com/photostream/#A1JtdOXmAUDVt'
     intro: |
-            HTTP based API has become the de facto way for communication between frontend applications and backend servers. Go, as a relatively younger language, lacks a mature web framework to build such a service. This talk presents a homemade Go http router "Vitali" that helps you to create a web service for HTTP based APIs as well as a website easily.
+            HTTP based API has become the de facto way for communication between frontend applications and backend servers. Go, as a relatively younger language, lacks a mature web framework to build such a service. This talk presents a homemade Go http router "Vitali" https://github.com/lunastorm/vitali that helps you to create a web service for HTTP based APIs as well as a website easily.
   - time: 8
     room: 0
     speaker: 'azhuang'
