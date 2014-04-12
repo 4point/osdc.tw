@@ -204,6 +204,7 @@ day2:
     room: 2
     speaker: 'kanru'
     title: 'Rust: a safe, concurrent, practical language'
+    slides: '5b6e3d00a420013120051af8c79ec55f'
     intro: |
             Rust 是 Mozilla 計畫的一個新系統程式語言，被用來開發新一代的 Browser 引擎 Servo。Rust 具有 C 語言家族的外觀，C++ 的效能、更安全的記憶體管理、Erlang 風格的平行運算、ML 的模式批配、Lisp 的 Macro……
              
