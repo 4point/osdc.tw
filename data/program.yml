@@ -151,7 +151,7 @@ day1:
     room: 1
     speaker: 'cindylinz'
     title: 'HasPerl: The marriage of Haskell and Perl<br>一條低門檻實用 Haskell 的路'
-    slides: 'https://github.com/CindyLinz/Haskell-HasPerl'
+    slides: 'https://github.com/CindyLinz/Talk-OSDC2014-HasPerl-TheMarriageOfHaskellAndPerl'
     intro: |
             神祕的 Haskell 常引起我們一探究竟的興趣,
             而身為工程師的我們, 學東西不會只停在「看一看」的階段就滿足,
