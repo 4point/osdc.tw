@@ -80,6 +80,7 @@ day1:
     room: 0
     speaker: 'brucehsu'
     title: '用 Go 打造程式語言執行環境：RunVM實例剖析'
+    slides: '7ab1f0f0a3ba013120051af8c79ec55f'
   - time: 8
     room: 1
     speaker: 'Jesse Vincent'
