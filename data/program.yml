@@ -127,6 +127,7 @@ day1:
     room: 0
     speaker: 'azhuang'
     title: 'ProjectTox: Free as in freedom Skype replacement'
+    slides: '5d3ad280a3e6013120061af8c79ec55f'
     intro: |
             ProjectTox 是一個 Open Source 的聊天網路，其Project的存在目的在於提供一個開源且安全的P2P IM 網路。此 Talk 將會介紹並推廣 ProjectTox，並說明其設計以及底層機制如 DHT, Onion Routing等等。身為 ProjectTox 的開發者之一，另外會介紹 PyTox 和其他相關 Open source project。
   - time: 8
