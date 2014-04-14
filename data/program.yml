@@ -42,6 +42,7 @@ day1:
     room: 2
     speaker: 'penk'
     title: 'SlateKit - Open Source Tablet UX Building Kit'
+    slides: 'dab87d20a3690131166e024e11a95d47'
     intro: |
             SlateKit (slatekit.org) is the building blocks aim for people who are crazy enough to create their own embedded UX.
 
