@@ -142,6 +142,7 @@ day1:
     room: 2
     speaker: 'clsung'
     title: 'Interfacing C libraries with GO'
+    slides: '25d5d6f0a6080131c60d1ab77768d164'
   - time: 9
     room: 0
     speaker: 'freak'
