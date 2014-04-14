@@ -10,7 +10,7 @@ day1:
     speaker: 'lizbarry'
     title: 'How Public Lab collaborates to make environmental science something anyone can do'
     intro: |
-            Public Lab is a community that works together to make environmental science something anyone can do. This broad mission attracts a wide diversity of personalities with varied skills sets, ranging from coding to drawing to interviewing people to flying kites! In locations around the US and the world, self-started Public Lab groups bring people facing environmental issues together with hardware/software developers, then blurs these categories through the "give and take" of peer-to-peer learning. In this way, Public Lab is attempting to distribute the ability to conduct environmental research broadly through the civic sector. 
+            Public Lab is a community that works together to make environmental science something anyone can do. This broad mission attracts a wide diversity of personalities with varied skills sets, ranging from coding to drawing to interviewing people to flying kites! In locations around the US and the world, self-started Public Lab groups bring people facing environmental issues together with hardware/software developers, then blurs these categories through the "give and take" of peer-to-peer learning. In this way, Public Lab is attempting to distribute the ability to conduct environmental research broadly through the civic sector.
   - time: 1
     room: 0
     speaker: 'wang'
@@ -43,8 +43,8 @@ day1:
     speaker: 'penk'
     title: 'SlateKit - Open Source Tablet UX Building Kit'
     intro: |
-            SlateKit (slatekit.org) is the building blocks aim for people who are crazy enough to create their own embedded UX. 
-             
+            SlateKit (slatekit.org) is the building blocks aim for people who are crazy enough to create their own embedded UX.
+
             This project consists a set of Qt-based UI components, including launcher, web browser, virtual keyboard and handwriting/voice input method. With its hardware adaption layer (Hybris), it can also run on top of Android system and leverage existing hardware/device.
   - time: 3
     room: 0
@@ -108,12 +108,12 @@ day1:
     intro: |
             website: http://cubeat.game.tw
             github: https://github.com/godfat/cubeat
-              
+
             CuBeat 是我們從大學畢業專題就一直斷斷續續做到現在的快節奏對戰三消遊戲。除了時程實在莫名其妙地長以外，到目前為止的 codebase 皆使用 open source libraries，專案本身也是以 Apache License 2.0 公開在 github 上。這次想要來談談邊做邊學的過程中踩過的坑、用到的一些有趣的 lib，以及最後想想 Open Source 與 commercial game dev 之間的關係。
-                
-            The topic may include: 
+
+            The topic may include:
             1. LuaJIT (used in AI, UI & puzzle generation)
-            2. ManyMouse 
+            2. ManyMouse
             3. Easing Animation
             4. Cross-platform in one codebase (WinXP+, OSX, Linux, Android)
             5. Hand-made open-source toolchain or commercial toolchain
@@ -147,7 +147,7 @@ day1:
     title: '有 <del>愛</del> RAII 的 C++'
     intro: |
             Resource Acquisition Is Initialization (RAII) idiom 幾乎是 C++ 最核心的思想, 它是 C++ 之所以是今天的 C++ 的一個主要原因, 也是 C++ 與大部分主流語言最顯著不一樣的地方之一.
-             
+
               這個 talk 將會介紹 RAII 對 Resource Management, State Consistency and Exception Handling 等不同層面上, 對 C++ 帶來的正面影響.
   - time: 9
     room: 1
@@ -183,7 +183,7 @@ day1:
     slides: '7ab1f0f0a3ba013120051af8c79ec55f'
     intro: |
             憑藉著其易寫易讀以及效能出眾的特性（還有Google這位富爸爸的支援），Go逐漸在系統程式的領域展露頭角，這裡我們以如何實作一個Ruby執行環境為主題，透過實際的例子介紹Go的語言特性。
-             
+
             brucehsu，現就讀國內某大學資工所碩士班，鍵盤工程師一枚，長期關注OSS事務。
 day2:
   - time: 0
@@ -210,12 +210,13 @@ day2:
     slides: '5b6e3d00a420013120051af8c79ec55f'
     intro: |
             Rust 是 Mozilla 計畫的一個新系統程式語言，被用來開發新一代的 Browser 引擎 Servo。Rust 具有 C 語言家族的外觀，C++ 的效能、更安全的記憶體管理、Erlang 風格的平行運算、ML 的模式批配、Lisp 的 Macro……
-             
+
             Rust 還有什麼能耐？能不能超越 C++？讓我們一起來玩 Rust！
   - time: 1
     room: 0
     speaker: 'appleboy'
     title: 'Introduction to Percona XtraDB Cluster with HAproxy'
+    slides: 'http://blog.wu-boy.com/2014/04/osdc-2014-talk-introduction-to-percona-xtradb-cluster-and-haproxy/'
     intro: |
             本次會介紹 Percona XtraDB Cluster 搭配 HAproxy 實現多台 MySQL Server 負載平衡架構
   - time: 1
@@ -224,9 +225,9 @@ day2:
     title: '當黃色小鴨都可以進入基隆，Node.js 當然也可以娶 QML'
     intro: |
             QML 是一個由 Qt 所研發的使用者圖形介面描述語言，語法近似 CSS，又可以嵌入 JavaScript，對前端工程師來說，是一個非常值得關注的技術。近幾年，拜 Ubuntu Phone 和前 Nokia 團隊所開發的 Jolla 所賜，QML 已被證明了可以在桌面環境甚至是嵌入式系統中運行良好，不但可以用來製作炫麗的 UI ，也擁有極佳的效能。尤其自 Qt 5.2 版以後，更引入了 Chromium（blink）做為 HTML5 的解決方案，結合原本的 QML 的優勢，可說是一個能 Web 開發者飄飄然並大展拳腳的技術。
-             
+
             只不過， 雖然 QML 以 JavaScript 為主要支援的開發語言，但一直以來自成體系，而無法結合 Node.js 現成的龐大開發資源，令人相當遺憾。失去了當今最紅的 JavaScript 社群資源，對 JavaScript 開發者來說，QML 的開發便綁手綁腳，不這麼好用了。
-               
+
             讓 Node.js 能夠原生支援 QML 真的是不可行的嗎？在完成整併 Qt 事件引擎、 V8 JavaScript Engine 和 QML Engine 的底層工作之後，Node.js + QML 的理想便得以實現。
             remarks
             Mandice 的創辦人，是第一個在全球直播的 COSCUP 和國際舞台上發表退學宣言的人，因此再也不是淡江大學學生，成為了一個職業夢想家。曾經沉迷打工於國內外企業中，也是一個自由軟體開發者，專注於嵌入式裝置、伺服器技術、網站應用程式以及桌面環境等領域，閒暇時也研究 Linux 核心、驅動程式或作業系統相關技術。熱愛自由軟體，尤其喜歡貢獻個人經驗，時而發表並公開他的開發經驗在網站上。 Blog: http://fred-zone.blogspot.com/
@@ -236,15 +237,15 @@ day2:
     title: 'Hacking Syscalls and APIs - By Examples of Firefox OS'
     intro: |
             The first Firefox OS phone was shipped in 2013. It is an important milestone, but it is just a begin. There are still a lot of improvements waiting for. This talk shows you some interesting ideas of hacking Linux syscalls to improve the performance of Firefox OS. It would cover following topics,
-             1. Nuwa 
+             1. Nuwa
                 - the template process mechanism of Firefox OS. It reduce memory usage and launch time of apps.
                 - hacking setjmp/longjmp and pthread.
              2. zram - compress data on RAM to squeeze more space for apps.
              3. mmap - we use mmap() at various places to improve data loading and reduce RSS.
              4. more topics.
-                  
+
              就在 2013，第一支 Firefox OS phone 面市了。這是一個重要的里程杯，卻不是結束，只是旅程的開始。在那之後，我們還做了許多重要的改善。在這個主題裡，將談及一些用於 Firefox OS 效能善的 Linux syscall 和 API 的神奇使用方式。主題包括
-             1. Nuwa 
+             1. Nuwa
                 - Firefox OS 的 template process，改善 app 的開啟速度與記憶體使用量。
                 - setjmp/longjmp 和 pthread 相關 API 的 hacking.
              2. zram - 壓縮記憶體的資料，以挪出更多記憶體。
@@ -258,7 +259,7 @@ day2:
     intro: |
             小時候，因為不是資工系的學生，所以只能自己去旁聽「作業系統」的課。
             長大後，因為小時候旁聽沒交作業，覺得對不起老師！所以自己又再上了「作業系統」的網路課程，實做了個Scheduler補交作業，才比較心安。
-              
+
             這次talk將複習相關背景知識，並敘述發展這Simple Scheduler的心路歷程及其使用方法，最後再以實做在AVR上的簡單數位示波器當作說明範例。
             Because of not being in Computer Science Department, I could only attend the Operating System class as a non-credit earning student in the university.
             Because of regretting that did not hand in the assignments in the university, I attended the Operating System class on the internet again. Then, I developed the "Simple Scheduler" as my own homework which I should hand in the class.
@@ -321,7 +322,7 @@ day2:
     intro: |
             Singleton 是什麼? 可以吃嗎? 也許你不知道, 任何 non-trivial 程式，幾乎都免不了使用到 singleton. 簡單如 hello world 也用到了 singleton.
             Singleton 是程式設計裡最古老的問題之一. 典型狹義的 singleton 是用一個 class 的 static member function 封裝, 稱為 singleton pattern. The Gang of Four (GoF) 在 Design Patterns 討論並提出第一個令人滿意的 singleton 解答, 這個 pattern 幾乎是一夕之間聲名大噪, 成為最廣為人知的 pattern 之一. 在 GoF 之前與之後, 許多人 (其中不乏大師級人物) 提出了不同的 singleton 實作方法. 只是, 它們幾乎都不是完全正確 bulletproof 的.
-               
+
             What do you know about your singleton? Is it broken?
   - time: 5
     room: 2
