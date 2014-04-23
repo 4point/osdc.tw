@@ -270,6 +270,7 @@ day2:
     room: 1
     speaker: 'tkirby'
     title: 'Data Visualization in D3js - Tips and Tricks'
+    slides: '51c06ed0a1f90131cd784e085031888f'
     intro: |
             D3js is a most advanced and powerful javascript library for interactive data visualization. while d3js.org itself demonstrates lots of brilliant examples made by D3js, many people are also still exploring its possibilities in many different ways. In this talk, following topics will be discussed:
             * Essential of Data Visualization
