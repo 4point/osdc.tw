@@ -433,10 +433,9 @@ article p a {
 			margin-top: -1em;
 		}
 	}
-	& > main {
+	& > .intro {
 		padding: 1em;
 		line-height: 1.5em;
-		margin-bottom: 2em;
 	}
 	.speaker {
 		text-align: center;
@@ -448,6 +447,12 @@ article p a {
 	.profile {
 		text-align: left;
 	}
+}
+
+#video {
+	width: 100%;
+	min-height: 300px;
+	margin: 1em 0 2em;
 }
 
 #slides {

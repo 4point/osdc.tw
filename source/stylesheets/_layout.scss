@@ -265,6 +265,9 @@
 			margin: .5em;
 		}
 	}
+	#video {
+		min-height: 600px;
+	}
 	#slides {
 		& > iframe {
 			width: 600px;

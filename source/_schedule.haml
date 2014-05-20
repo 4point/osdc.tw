@@ -15,7 +15,8 @@
 				- when 'lunch'
 					%td.lunch{:colspan => 3} 午餐
 				- when 'lightning'
-					%td.lightning{:colspan => 3} Lightning Talks
+					%td.lightning{:colspan => 3}
+						= link_to 'Lightning Talks', 'https://www.youtube.com/watch?v=akS7pwcQdK8&list=PLJLePgXWJ60TTm6svmIhXvZV-7XtXMu_k'
 				- when 'keynote'
 					- talk = data.program.send(day).find{|talk| talk.time == index}
 					%td.keynote{:colspan => 3}
